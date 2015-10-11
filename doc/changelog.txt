@@ -1,171 +1,171 @@
 2012.05.28 (0.6.3.1)
-  �\�[�X�E�p�b�P�[�W���O�̂��߂Ƀr���h���Ȃ����B
+  ソース・パッケージングのためにビルドしなおし。
 
 2012.01.19 (0.6.3)
-  Apache Struts �Ή��̔�����
+  Apache Struts 対応の微調整
 
 2012.01.16 (0.6.2)
-  Apache Struts �Ή��̔�����
+  Apache Struts 対応の微調整
 
 2012.01.15 (0.6.1)
-  Java Apache Struts �Ή��Bv2
+  Java Apache Struts 対応。v2
 
 2011.11.08 (0.6.0)
-  Java Apache Struts �Ή��B
+  Java Apache Struts 対応。
 
 2011.11.08 (0.5.9)
-  Java JSF ���b�Z�[�W�ɑΉ��B
-  �u���x���v�t�B�[���h�ɑΉ��B
+  Java JSF メッセージに対応。
+  「レベル」フィールドに対応。
 
 2010.04.19 (0.5.8)
-  (Delphi)Delphi����ɑΉ��B�������A���b�Z�[�W���̉��s�ɂ͖��Ή��B
+  (Delphi)Delphi言語に対応。ただし、メッセージ中の改行には未対応。
 
 2009.10.29 (0.5.7)
-  �萔�쐬���ɃL�[�l�𖄂ߍ��񂾒萔�𐶐�����悤�ɋ@�\���ǁB(�؂���v�])
-  jar�t�@�C���ނ̍X�V�B
+  定数作成時にキー値を埋め込んだ定数を生成するように機能改良。(青木さん要望)
+  jarファイル類の更新。
 
 2009.01.19 (0.5.6)
-  jar�t�@�C���ނ̍X�V�B
+  jarファイル類の更新。
 
 2008.11.22 (0.5.5)
-  jar�t�@�C���ނ̍X�V�B
+  jarファイル類の更新。
 
 2008.11.21 (0.5.4)
-  �\�[�X�t�@�C���̕����G���R�[�f�B���O�w��@�\��ǉ��B
+  ソースファイルの文字エンコーディング指定機能を追加。
 
 2008.11.13 (0.5.3)
-  (plugin)Eclipse 3.2�œ��삵�Ȃ��Ȃ��Ă����s����C���B
+  (plugin)Eclipse 3.2で動作しなくなっていた不具合を修正。
 
 2008.11.07 (0.5.2)
-  blancoCg �X�V�B
-  jar�t�@�C���ނ̍X�V�B
+  blancoCg 更新。
+  jarファイル類の更新。
 
 2008.10.24 (0.5.1)
-  JDK 1.5 �Ή��B
+  JDK 1.5 対応。
 
-2007.12.24 (0.4.1) Eclipse 3.3 �΍�
-  ������Ɍ��� plugin�̂݃o�[�W�����ԍ��̔Ԃ̂��������[�X���܂��B
-  (plugin)�o�[�W�����ԍ����̔ԍX�V�B
-  (plugin) workbenchMonitor�𗘗p����̂��~���܂����B
-    ������́AEclipse 3.3 �� workbenchMonitor �𗘗p����� org.eclipse.swt.SWTException: Invalid thread access ���������Ă��܂��̂ŁA���������邽�߂ł��B
-  (plugin)about.html���X�V�B
-  (plugin)build.xml���X�V�B
-  (plugin)plugin.xml�̍Đ���
-  (plugin)�E�B�U�[�h�̐����f�B���N�g���Ɋւ���L�q���X�V (Blanco*WizardPage4)
-  (jar)jar�t�@�C���ނ��X�V�`�F�b�N�B
+2007.12.24 (0.4.1) Eclipse 3.3 対策
+  ※今回に限り pluginのみバージョン番号採番のうえリリースします。
+  (plugin)バージョン番号を採番更新。
+  (plugin) workbenchMonitorを利用するのを停止しました。
+    →これは、Eclipse 3.3 で workbenchMonitor を利用すると org.eclipse.swt.SWTException: Invalid thread access が発生してしまうので、これを避けるためです。
+  (plugin)about.htmlを更新。
+  (plugin)build.xmlを更新。
+  (plugin)plugin.xmlの再生成
+  (plugin)ウィザードの生成ディレクトリに関する記述を更新 (Blanco*WizardPage4)
+  (jar)jarファイル類を更新チェック。
 
 2007.12.07 (0.4.0)
-  ����łƈʒu�Â��B
-  blanco�t�H���_���Đ���
-  (�s��C��)���b�Z�[�W��`ID����N���X���ɂ���ۂɖ��O�ό`����悤�ɕύX�B
-  (plugin)about.html��ǉ��B
+  安定版と位置づけ。
+  blancoフォルダを再生成
+  (不具合修正)メッセージ定義IDからクラス名にする際に名前変形するように変更。
+  (plugin)about.htmlを追加。
 
-2007.11.26 (0.2.4) �J����
-  ID���ߍ��݋@�\�̐V�K�ǉ��B
-  blancoMessage���g�Ƀ��b�Z�[�W��`���𓱓��B
+2007.11.26 (0.2.4) 開発版
+  ID埋め込み機能の新規追加。
+  blancoMessage自身にメッセージ定義書を導入。
 
-2007.11.22 (0.2.3) �J����
-  (jar)blancoResourceBundle���X�V�B
-  �T���v���� python���������������Ă����̂ł����ǉ��B
-  {1}�̂悤�Ȕԍ�����񂾎��_�̓����� Message��ResourceBundle�ƂňقȂ�_�ɋC�����B
-  �l����������B
+2007.11.22 (0.2.3) 開発版
+  (jar)blancoResourceBundleを更新。
+  サンプルに python自動生成が抜けていたのでこれを追加。
+  {1}のような番号が飛んだ時点の動きが MessageとResourceBundleとで異なる点に気がつく。
+  様式を微調整。
 
-2007.11.16 (0.2.2) �J����
-  blancoResourceBundle�Ƃ̘A�g����������(������)�B
-  ���������AParser��V�K�쐬�B
+2007.11.16 (0.2.2) 開発版
+  blancoResourceBundleとの連携を実装着手(未完了)。
+  そもそも、Parserを新規作成。
 
-2007.11.16 (0.2.1) �J����
-  (jar)blancoAntTask���X�V�BblancoBatchProcess��ǉ��B
-  (�폜)BlancoMessageTask.java, AbstractBlancoMessageTask.java
+2007.11.16 (0.2.1) 開発版
+  (jar)blancoAntTaskを更新。blancoBatchProcessを追加。
+  (削除)BlancoMessageTask.java, AbstractBlancoMessageTask.java
 
-2007.09.21 (0.2.0) �x�[�^��
-  (��`��)�V���Ȓ�`���������J�n�B
-    ����: �V��`���́uID���ߍ��݁v���͌���ł͖����ł��B
-          TODO ID���ߍ��݋@�\�ɂ��āA�����Ή����Ă������ƁB
-            ���L�̂����ꂩ�̌`���Ŏ�������\��B
-             ���b�Z�[�W (MBMCR001)
-             MBMCR001: ���b�Z�[�W
-             ���b�Z�[�W [MBMCR001]
-    ����: �V��`���́u���x���v���͌���ł͖����ł��B
-          ���ʃv���_�N�g�ŘA���\��BblancoMessage���̂��̂͑Ή����Ȃ��\��B
-  TODO blancoLocation�v���_�N�g�̐V�K�쐬�B
-       ���\�[�X�o���h����`�� �{ ���b�Z�[�WID���ߍ���
-       ���b�Z�[�WID���ߍ��݁B��ʌn�̂݁A���O�̂ݖ��ߍ��݁B�ȂǁB
+2007.09.21 (0.2.0) ベータ版
+  (定義書)新たな定義書を検討開始。
+    注意: 新定義書の「ID埋め込み」欄は現状では無効です。
+          TODO ID埋め込み機能について、順次対応していくこと。
+            下記のいずれかの形式で実現する予定。
+             メッセージ (MBMCR001)
+             MBMCR001: メッセージ
+             メッセージ [MBMCR001]
+    注意: 新定義書の「レベル」欄は現状では無効です。
+          →別プロダクトで連動予定。blancoMessageそのものは対応しない予定。
+  TODO blancoLocationプロダクトの新規作成。
+       リソースバンドル定義書 ＋ メッセージID埋め込み
+       メッセージID埋め込み。画面系のみ、ログのみ埋め込み。など。
        location.writeLog();
-  �V��`���ŁA��`���͂P�A�����n�͕�����ڎw���\��B
-  TODO �v���O�C���̒�`���e���v���[�g���X�V���邱�ƁB
+  新定義書で、定義書は１つ、処理系は複数を目指す予定。
+  TODO プラグインの定義書テンプレートを更新すること。
 
-2007.04.10 (0.1.9) �x�[�^��
-  (Python)�Ή����J�n�B
+2007.04.10 (0.1.9) ベータ版
+  (Python)対応を開始。
 
-2007.04.05 (0.1.8) �x�[�^��
-  (Ruby)�Ή����J�n�B
+2007.04.05 (0.1.8) ベータ版
+  (Ruby)対応を開始。
 
-2007.01.24 (0.1.7) �x�[�^��
-  (jar)(blancoCg)(C#.NET)�t�B�[���h�ւ�final�C���� readonly �ƕ\������悤�ɋ@�\�����Bconst�ł͂Ȃ��Ƃ���Ƀ}�b�s���O�B
+2007.01.24 (0.1.7) ベータ版
+  (jar)(blancoCg)(C#.NET)フィールドへのfinal修飾は readonly と表現するように機能強化。constではないところにマッピング。
 
-2006.12.27 (0.1.6) �x�[�^��
-  (jar)jar�t�@�C���ނ̍X�V�B
-  build.xml�t�@�C����blancoAnt�ɂ��X�V�B
+2006.12.27 (0.1.6) ベータ版
+  (jar)jarファイル類の更新。
+  build.xmlファイルをblancoAntにより更新。
 
-2006.11.13 (0.1.5) �x�[�^��
-  (blancoCg)BlancoCgStatementUtil�̃��\�b�h���B�����BBlancoCgLineUtil�ɓǂݑւ��܂��B
+2006.11.13 (0.1.5) ベータ版
+  (blancoCg)BlancoCgStatementUtilのメソッドを隠蔽化。BlancoCgLineUtilに読み替えます。
 
-2006.11.09 (0.1.4) �J����
-  (PHP)���\�b�h�̈����`�F�b�N�@�\��ǉ����܂����B
-  (blancoCommons)(�d�v)JavaDoc�n�̃G�X�P�[�v: ���s�R�[�h�� ���̂܂܂ł͂Ȃ����H���ďo�͂���悤�ɕύX���܂����B
+2006.11.09 (0.1.4) 開発版
+  (PHP)メソッドの引数チェック機能を追加しました。
+  (blancoCommons)(重要)JavaDoc系のエスケープ: 改行コードは そのままではなく加工して出力するように変更しました。
 
-2006.11.08 (0.1.3) �J����
-  (PHP)�P�̎��������{���B
+2006.11.08 (0.1.3) 開発版
+  (PHP)単体試験を実施中。
 
-2006.11.07 (0.1.2) �J����
-  (PHP)�Ή����J�n�B
+2006.11.07 (0.1.2) 開発版
+  (PHP)対応を開始。
 
-2006.11.01 (0.1.1) �J����
-  blancoAnt�Ή��B
+2006.11.01 (0.1.1) 開発版
+  blancoAnt対応。
 
-2006.10.31 (0.1.0) �J����
-  BlancoJavaSourceUtil �ւ̒��ڎQ�Ƃ������B
-  (VB.NET)�P�̎��������{���B
+2006.10.31 (0.1.0) 開発版
+  BlancoJavaSourceUtil への直接参照を除去。
+  (VB.NET)単体試験を実施中。
 
-2006.10.30 (0.0.9) �J����
-  (VB.NET)�Ή����J�n�B
-  blancoStringGroup���s�v�ɂȂ�܂����Bblancostringgroup-0.0.?.jar ���폜�B
-  BlancoMessageSupportedLangStringGroup.xls ���폜���܂����Bblanco�t�H���_�̍č\�z���K�v�ł��B
-  �g�����X�t�H�[�}�擾�� BlancoCgTransformerFactory.getSourceTransformer �𗘗p����悤�ɕύX���܂����B
+2006.10.30 (0.0.9) 開発版
+  (VB.NET)対応を開始。
+  blancoStringGroupが不要になりました。blancostringgroup-0.0.?.jar を削除。
+  BlancoMessageSupportedLangStringGroup.xls を削除しました。blancoフォルダの再構築が必要です。
+  トランスフォーマ取得に BlancoCgTransformerFactory.getSourceTransformer を利用するように変更しました。
 
-2006.10.26 (0.0.8) �����
-  build.xml�����P�B
-  �E�T���v���\�[�X�R�[�h��jar�t�@�C���ɍ������Ă����̂����P�B
-  �EVO��junit��false�ɕύX�B
-  (plugin)build.xml�����P�B
-  �Eblanco�Ő��������\�[�X�R�[�h���A�[�J�C�u�Ɋ܂߂�悤�ɉ��P�B
-  blancoResourceBundle�� 1.0.0�ɍX�V�B
+2006.10.26 (0.0.8) 安定版
+  build.xmlを改善。
+  ・サンプルソースコードがjarファイルに混入していたのを改善。
+  ・VOのjunitをfalseに変更。
+  (plugin)build.xmlを改善。
+  ・blancoで生成したソースコードもアーカイブに含めるように改善。
+  blancoResourceBundleを 1.0.0に更新。
 
 2006.10.23 (0.0.7)
-  Apache Ant �Ńo�[�W�����ԍ���\������@�\��ǉ��B
-  (Eclipse�v���O�C�����͊��Ƀo�[�W�����ԍ��\�������ߍ��܂�Ă��܂����B)
-  blancoCodeGenerator�ւ̈ˑ������S�ɍ폜�B
-  jar�t�@�C���ނ̍X�V�B
+  Apache Ant でバージョン番号を表示する機能を追加。
+  (Eclipseプラグイン側は既にバージョン番号表示が埋め込まれていました。)
+  blancoCodeGeneratorへの依存を完全に削除。
+  jarファイル類の更新。
 
 2006.10.13 (0.0.6)
-  ���b�Z�[�W��`���̕��������C���B
+  メッセージ定義書の文言誤りを修正。
 
 2006.10.10 (0.0.5)
-  �u���b�Z�[�W�ɒu�������񂪂���ꍇ�ɂ͒萔�t�B�[���h�͐������Ȃ��v�Ƃ����d�l���������邩�ǂ����̃t���O��ǉ��B
-  ���̃t���O�́A�����I�ȃ��\�[�X�o���h���ł̎w��ɂ���������܂��B
+  「メッセージに置換文字列がある場合には定数フィールドは生成しない」という仕様を実現するかどうかのフラグを追加。
+  このフラグは、内部的なリソースバンドルでの指定により実現されます。
 
 2006.10.05 (0.0.4)
-  �������萔�Ƃ��ăN���X�ɏo�͂��邩�ǂ����̃t���O��ǉ��B
-  (plugin)���^�f�B���N�g���ɂ��ăh���b�v�_�E������e�L�X�g�ɕύX�B
-  (blancoCg)(JavaScript)static �ȃt�B�[���h (�N���X�t�B�[���h)�̕\�����@�����P�B
-              �N���X��.�t�B�[���h���̂悤�ɃC���X�^���X���𔺂킸�ɗ��p�\�ɂ���B
+  文字列を定数としてクラスに出力するかどうかのフラグを追加。
+  (plugin)メタディレクトリについてドロップダウンからテキストに変更。
+  (blancoCg)(JavaScript)static なフィールド (クラスフィールド)の表現方法を改善。
+              クラス名.フィールド名のようにインスタンス化を伴わずに利用可能にする。
 
 2006.10.04 (0.0.3)
-  (plugin)�ݒ�t�@�C�����ǂݍ��݂ɕs����������̂��C���B
+  (plugin)設定ファイル情報読み込みに不具合があったのを修正。
 
 2006.10.03 (0.0.2)
-  �萔�N���X��������(blancoConstants)�̓����B
+  定数クラス自動生成(blancoConstants)の導入。
 
 2006.10.03 (0.0.1)
-  �V�K�쐬
+  新規作成

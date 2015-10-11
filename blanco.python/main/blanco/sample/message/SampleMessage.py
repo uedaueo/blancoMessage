@@ -1,399 +1,399 @@
 # -*- coding: cp932 -*-
-"""‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚Á‚ÄŽ©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B
+"""ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã£ã¦è‡ªå‹•ç”Ÿæˆã•ã‚Œã¦ã„ã¾ã™ã€‚
 """
 class SampleMessage:
-    """ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚±‚ÌƒNƒ‰ƒX‚Í’P‚ÉƒTƒ“ƒvƒ‹‚Å‚·BŽÀÛ‚Ì“®ì‚É‚Í—˜—p‚³‚ê‚Ü‚¹‚ñB
+    """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ã“ã®ã‚¯ãƒ©ã‚¹ã¯å˜ã«ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚å®Ÿéš›ã®å‹•ä½œã«ã¯åˆ©ç”¨ã•ã‚Œã¾ã›ã‚“ã€‚
     """
 
-    """•¶Žš—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]
+    """æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]
 
     No.1:
     """
-    MESSAGE001 = 'ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB'
+    MESSAGE001 = 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE001
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE001
 
     No.1:
     """
     KEY_MESSAGE001 = 'MESSAGE001'
 
-    """•¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+    """æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
 
     No.2:
     """
-    MESSAGE002 = 'ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B'
+    MESSAGE002 = 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE002
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE002
 
     No.2:
     """
     KEY_MESSAGE002 = 'MESSAGE002'
 
-    """•¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+    """æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
 
     No.3:
     """
-    MESSAGE003 = 'ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B'
+    MESSAGE003 = 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE003
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE003
 
     No.3:
     """
     KEY_MESSAGE003 = 'MESSAGE003'
 
-    """•¶Žš—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B]
+    """æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]
 
     No.4:
     """
-    MESSAGE004 = '˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B'
+    MESSAGE004 = 'é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE004
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE004
 
     No.4:
     """
     KEY_MESSAGE004 = 'MESSAGE004'
 
-    """•¶Žš—ñ[{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB]
+    """æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]
 
     No.5:
     """
-    MESSAGE005 = '{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB'
+    MESSAGE005 = '{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE005
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE005
 
     No.5:
     """
     KEY_MESSAGE005 = 'MESSAGE005'
 
-    """•¶Žš—ñ[ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}]
+    """æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]
 
     No.6:
     """
-    MESSAGE006 = 'ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}'
+    MESSAGE006 = 'æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}'
 
-    """ƒL[’l: KEY_MESSAGE006
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE006
 
     No.6:
     """
     KEY_MESSAGE006 = 'MESSAGE006'
 
-    """•¶Žš—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}]
+    """æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]
 
     No.7:
     """
-    MESSAGE007 = '‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}'
+    MESSAGE007 = 'ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}'
 
-    """ƒL[’l: KEY_MESSAGE007
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE007
 
     No.7:
     """
     KEY_MESSAGE007 = 'MESSAGE007'
 
-    """•¶Žš—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]
+    """æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]
 
     No.8:
     """
-    MESSAGE008 = '‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB'
+    MESSAGE008 = 'ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE008
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE008
 
     No.8:
     """
     KEY_MESSAGE008 = 'MESSAGE008'
 
-    """•¶Žš—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]
+    """æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]
 
     No.9:
     """
-    MESSAGE009 = '{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B'
+    MESSAGE009 = '{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE009
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE009
 
     No.9:
     """
     KEY_MESSAGE009 = 'MESSAGE009'
 
-    """•¶Žš—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&amp;quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]
+    """æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&amp;quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\ã€‚]
 
     No.10:
     """
-    MESSAGE010 = 'ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“\'AƒGƒ“ƒ}[ƒN\\B'
+    MESSAGE010 = 'ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³"ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³\'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\\ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE010
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE010
 
     No.10:
     """
     KEY_MESSAGE010 = 'MESSAGE010'
 
-    """•¶Žš—ñ[~]
+    """æ–‡å­—åˆ—[Ã—]
 
     No.11:
     """
-    MESSAGE011 = '~'
+    MESSAGE011 = 'Ã—'
 
-    """ƒL[’l: KEY_MESSAGE011
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE011
 
     No.11:
     """
     KEY_MESSAGE011 = 'MESSAGE011'
 
-    """•¶Žš—ñ[‰üs[\n]‚ÌŽŽŒ±B]
+    """æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]
 
     No.12:
     """
-    MESSAGE012 = '‰üs[\n]‚ÌŽŽŒ±B'
+    MESSAGE012 = 'æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚'
 
-    """ƒL[’l: KEY_MESSAGE012
+    """ã‚­ãƒ¼å€¤: KEY_MESSAGE012
 
     No.12:
     """
     KEY_MESSAGE012 = 'MESSAGE012'
 
     def getMessage001(self):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE001]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE001]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.1:
-        •¶Žš—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]
+        æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
-        return 'ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB'
+        return 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚'
     #end
 
     def getMessage002(self, arg0):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE002]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE002]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.2:
-        •¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+        æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage002]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage002]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return 'ƒƒbƒZ[ƒW’uŠ·•¶Žš[' + arg0 + ']‚ª’uŠ·‚³‚ê‚Ü‚·B'
+        return 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[' + arg0 + ']ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚'
     #end
 
     def getMessage003(self, arg0, arg1):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE003]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE003]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.3:
-        •¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+        æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        arg1 -- ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        arg1 -- ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage003]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage003]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg1 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage003]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage003]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return 'ƒƒbƒZ[ƒW’uŠ·•¶Žš[' + arg0 + ']‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[' + arg1 + ']‚ª’uŠ·‚³‚ê‚Ü‚·B'
+        return 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[' + arg0 + ']ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[' + arg1 + ']ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚'
     #end
 
     def getMessage004(self, arg0, arg1):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE004]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE004]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.4:
-        •¶Žš—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B]
+        æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        arg1 -- ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        arg1 -- ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage004]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage004]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg1 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage004]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage004]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return '˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš' + arg0 + arg1 + '‚Ì—á‚Å‚·B'
+        return 'é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—' + arg0 + arg1 + 'ã®ä¾‹ã§ã™ã€‚'
     #end
 
     def getMessage005(self, arg0):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE005]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE005]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.5:
-        •¶Žš—ñ[{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB]
+        æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage005]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage005]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return arg0 + 'æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB'
+        return arg0 + 'å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚'
     #end
 
     def getMessage006(self, arg0):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE006]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE006]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.6:
-        •¶Žš—ñ[ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}]
+        æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage006]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage006]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return 'ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB' + arg0
+        return 'æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚' + arg0
     #end
 
     def getMessage007(self, arg0, arg1, arg2):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE007]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE007]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.7:
-        •¶Žš—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}]
+        æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        arg1 -- ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-        arg2 -- ’uŠ·•¶Žš—ñ{2}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        arg1 -- ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+        arg2 -- ç½®æ›æ–‡å­—åˆ—{2}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg1 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg2 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg2]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg2]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return '‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš' + arg0 + arg1 + arg0 + arg1 + arg2 + arg1 + arg0
+        return 'ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—' + arg0 + arg1 + arg0 + arg1 + arg2 + arg1 + arg0
     #end
 
     def getMessage008(self, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE008]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE008]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.8:
-        •¶Žš—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]
+        æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        arg1 -- ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-        arg2 -- ’uŠ·•¶Žš—ñ{2}‚Ì’lB
-        arg3 -- ’uŠ·•¶Žš—ñ{3}‚Ì’lB
-        arg4 -- ’uŠ·•¶Žš—ñ{4}‚Ì’lB
-        arg5 -- ’uŠ·•¶Žš—ñ{5}‚Ì’lB
-        arg6 -- ’uŠ·•¶Žš—ñ{6}‚Ì’lB
-        arg7 -- ’uŠ·•¶Žš—ñ{7}‚Ì’lB
-        arg8 -- ’uŠ·•¶Žš—ñ{8}‚Ì’lB
-        arg9 -- ’uŠ·•¶Žš—ñ{9}‚Ì’lB
-        arg10 -- ’uŠ·•¶Žš—ñ{10}‚Ì’lB
-        arg11 -- ’uŠ·•¶Žš—ñ{11}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        arg1 -- ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+        arg2 -- ç½®æ›æ–‡å­—åˆ—{2}ã®å€¤ã€‚
+        arg3 -- ç½®æ›æ–‡å­—åˆ—{3}ã®å€¤ã€‚
+        arg4 -- ç½®æ›æ–‡å­—åˆ—{4}ã®å€¤ã€‚
+        arg5 -- ç½®æ›æ–‡å­—åˆ—{5}ã®å€¤ã€‚
+        arg6 -- ç½®æ›æ–‡å­—åˆ—{6}ã®å€¤ã€‚
+        arg7 -- ç½®æ›æ–‡å­—åˆ—{7}ã®å€¤ã€‚
+        arg8 -- ç½®æ›æ–‡å­—åˆ—{8}ã®å€¤ã€‚
+        arg9 -- ç½®æ›æ–‡å­—åˆ—{9}ã®å€¤ã€‚
+        arg10 -- ç½®æ›æ–‡å­—åˆ—{10}ã®å€¤ã€‚
+        arg11 -- ç½®æ›æ–‡å­—åˆ—{11}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg1 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg2 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg2]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg2]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg3 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg3]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg3]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg4 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg4]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg4]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg5 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg5]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg5]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg6 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg6]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg6]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg7 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg7]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg7]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg8 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg8]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg8]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg9 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg9]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg9]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg10 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg10]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg10]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg11 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg11]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg11]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return '‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB' + arg11 + arg10 + arg9 + arg8 + arg7 + arg6 + arg5 + arg4 + arg3 + arg2 + arg1 + arg0 + '‚Æ12ŒÂB'
+        return 'ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚' + arg11 + arg10 + arg9 + arg8 + arg7 + arg6 + arg5 + arg4 + arg3 + arg2 + arg1 + arg0 + 'ã¨12å€‹ã€‚'
     #end
 
     def getMessage009(self, arg0, arg1):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE009]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE009]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.9:
-        •¶Žš—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]
+        æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        arg0 -- ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-        arg1 -- ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        arg0 -- ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+        arg1 -- ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
         if arg0 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage009]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage009]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
         if arg1 is None:
-            raise ValueError, "ƒƒ\ƒbƒh[getMessage009]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB"
+            raise ValueError, "ãƒ¡ã‚½ãƒƒãƒ‰[getMessage009]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚"
         #end
 
-        return arg0 + '”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B' + arg1 + 'B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B'
+        return arg0 + 'ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚' + arg1 + 'ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚'
     #end
 
     def getMessage010(self):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE010]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE010]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.10:
-        •¶Žš—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]
+        æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
-        return 'ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“\'AƒGƒ“ƒ}[ƒN\\B'
+        return 'ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³"ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³\'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\\ã€‚'
     #end
 
     def getMessage011(self):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE011]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE011]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.11:
-        •¶Žš—ñ[~]
+        æ–‡å­—åˆ—[Ã—]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
-        return '~'
+        return 'Ã—'
     #end
 
     def getMessage012(self):
-        """ƒƒbƒZ[ƒW’è‹`ID[Sample]AƒL[[MESSAGE012]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+        """ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample]ã€ã‚­ãƒ¼[MESSAGE012]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
 
         No.12:
-        •¶Žš—ñ[‰üs[\n]‚ÌŽŽŒ±B]
+        æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]
 
-        self -- ‚±‚Ìƒƒ\ƒbƒh‚ðŠÜ‚ÞƒNƒ‰ƒXŽ©gB
-        return -- ƒƒbƒZ[ƒW•¶Žš—ñB
+        self -- ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å«ã‚€ã‚¯ãƒ©ã‚¹è‡ªèº«ã€‚
+        return -- ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
         """
-        return '‰üs[' + "\n" + ']‚ÌŽŽŒ±B'
+        return 'æ”¹è¡Œ[' + "\n" + ']ã®è©¦é¨“ã€‚'
     #end
 #end

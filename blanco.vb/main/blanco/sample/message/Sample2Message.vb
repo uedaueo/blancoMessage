@@ -1,376 +1,376 @@
-' ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚Á‚ÄŽ©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B
+' ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã£ã¦è‡ªå‹•ç”Ÿæˆã•ã‚Œã¦ã„ã¾ã™ã€‚
 Imports System
 
 Namespace blanco.sample.message
-    ''' <summary>ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚±‚ÌƒNƒ‰ƒX‚Í’P‚ÉƒTƒ“ƒvƒ‹‚Å‚·BŽÀÛ‚Ì“®ì‚É‚Í—˜—p‚³‚ê‚Ü‚¹‚ñB</summary>
+    ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ã“ã®ã‚¯ãƒ©ã‚¹ã¯å˜ã«ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚å®Ÿéš›ã®å‹•ä½œã«ã¯åˆ©ç”¨ã•ã‚Œã¾ã›ã‚“ã€‚</summary>
     Public Class Sample2Message
 
-        ''' <summary>•¶Žš—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]</summary>
+        ''' <summary>æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.1: </newpara>
         ''' </remarks>
-        Public Const MESSAGE001 As String = "[MESSAGE001] ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB"
+        Public Const MESSAGE001 As String = "[MESSAGE001] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE001</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE001</summary>
         ''' <remarks>
         ''' <newpara>No.1: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE001 As String = "MESSAGE001"
 
-        ''' <summary>•¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]</summary>
+        ''' <summary>æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.2: </newpara>
         ''' </remarks>
-        Public Const MESSAGE002 As String = "[MESSAGE002] ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B"
+        Public Const MESSAGE002 As String = "[MESSAGE002] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE002</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE002</summary>
         ''' <remarks>
         ''' <newpara>No.2: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE002 As String = "MESSAGE002"
 
-        ''' <summary>•¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]</summary>
+        ''' <summary>æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.3: </newpara>
         ''' </remarks>
-        Public Const MESSAGE003 As String = "[MESSAGE003] ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B"
+        Public Const MESSAGE003 As String = "[MESSAGE003] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE003</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE003</summary>
         ''' <remarks>
         ''' <newpara>No.3: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE003 As String = "MESSAGE003"
 
-        ''' <summary>•¶Žš—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B]</summary>
+        ''' <summary>æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.4: </newpara>
         ''' </remarks>
-        Public Const MESSAGE004 As String = "[MESSAGE004] ˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B"
+        Public Const MESSAGE004 As String = "[MESSAGE004] é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE004</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE004</summary>
         ''' <remarks>
         ''' <newpara>No.4: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE004 As String = "MESSAGE004"
 
-        ''' <summary>•¶Žš—ñ[{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB]</summary>
+        ''' <summary>æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.5: </newpara>
         ''' </remarks>
-        Public Const MESSAGE005 As String = "[MESSAGE005] {0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB"
+        Public Const MESSAGE005 As String = "[MESSAGE005] {0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE005</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE005</summary>
         ''' <remarks>
         ''' <newpara>No.5: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE005 As String = "MESSAGE005"
 
-        ''' <summary>•¶Žš—ñ[ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}]</summary>
+        ''' <summary>æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]</summary>
         ''' <remarks>
         ''' <newpara>No.6: </newpara>
         ''' </remarks>
-        Public Const MESSAGE006 As String = "[MESSAGE006] ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}"
+        Public Const MESSAGE006 As String = "[MESSAGE006] æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE006</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE006</summary>
         ''' <remarks>
         ''' <newpara>No.6: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE006 As String = "MESSAGE006"
 
-        ''' <summary>•¶Žš—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}]</summary>
+        ''' <summary>æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]</summary>
         ''' <remarks>
         ''' <newpara>No.7: </newpara>
         ''' </remarks>
-        Public Const MESSAGE007 As String = "[MESSAGE007] ‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}"
+        Public Const MESSAGE007 As String = "[MESSAGE007] ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE007</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE007</summary>
         ''' <remarks>
         ''' <newpara>No.7: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE007 As String = "MESSAGE007"
 
-        ''' <summary>•¶Žš—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]</summary>
+        ''' <summary>æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.8: </newpara>
         ''' </remarks>
-        Public Const MESSAGE008 As String = "[MESSAGE008] ‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB"
+        Public Const MESSAGE008 As String = "[MESSAGE008] ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE008</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE008</summary>
         ''' <remarks>
         ''' <newpara>No.8: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE008 As String = "MESSAGE008"
 
-        ''' <summary>•¶Žš—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]</summary>
+        ''' <summary>æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.9: </newpara>
         ''' </remarks>
-        Public Const MESSAGE009 As String = "[MESSAGE009] {0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B"
+        Public Const MESSAGE009 As String = "[MESSAGE009] {0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE009</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE009</summary>
         ''' <remarks>
         ''' <newpara>No.9: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE009 As String = "MESSAGE009"
 
-        ''' <summary>•¶Žš—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&amp;quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]</summary>
+        ''' <summary>æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&amp;quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.10: </newpara>
         ''' </remarks>
-        Public Const MESSAGE010 As String = "[MESSAGE010] ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“""AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\\B"
+        Public Const MESSAGE010 As String = "[MESSAGE010] ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³""ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\\ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE010</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE010</summary>
         ''' <remarks>
         ''' <newpara>No.10: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE010 As String = "MESSAGE010"
 
-        ''' <summary>•¶Žš—ñ[~]</summary>
+        ''' <summary>æ–‡å­—åˆ—[Ã—]</summary>
         ''' <remarks>
         ''' <newpara>No.11: </newpara>
         ''' </remarks>
-        Public Const MESSAGE011 As String = "[MESSAGE011] ~"
+        Public Const MESSAGE011 As String = "[MESSAGE011] Ã—"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE011</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE011</summary>
         ''' <remarks>
         ''' <newpara>No.11: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE011 As String = "MESSAGE011"
 
-        ''' <summary>•¶Žš—ñ[‰üs[\n]‚ÌŽŽŒ±B]</summary>
+        ''' <summary>æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]</summary>
         ''' <remarks>
         ''' <newpara>No.12: </newpara>
         ''' </remarks>
-        Public Const MESSAGE012 As String = "[MESSAGE012] ‰üs[\n]‚ÌŽŽŒ±B"
+        Public Const MESSAGE012 As String = "[MESSAGE012] æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚"
 
-        ''' <summary>ƒL[’l: KEY_MESSAGE012</summary>
+        ''' <summary>ã‚­ãƒ¼å€¤: KEY_MESSAGE012</summary>
         ''' <remarks>
         ''' <newpara>No.12: </newpara>
         ''' </remarks>
         Public Const KEY_MESSAGE012 As String = "MESSAGE012"
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE001]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE001]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.1: </newpara>
-        ''' <newpara>•¶Žš—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]</newpara>
         ''' </remarks>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage001() As String
-            Return "[MESSAGE001] ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB"
+            Return "[MESSAGE001] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE002]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE002]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.2: </newpara>
-        ''' <newpara>•¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage002(arg0 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage002]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage002]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE002] ƒƒbƒZ[ƒW’uŠ·•¶Žš[" + arg0 + "]‚ª’uŠ·‚³‚ê‚Ü‚·B"
+            Return "[MESSAGE002] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[" + arg0 + "]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE003]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE003]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.3: </newpara>
-        ''' <newpara>•¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <param name="arg1">’uŠ·•¶Žš—ñ{1}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <param name="arg1">ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage003(arg0 As String, arg1 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage003]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage003]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg1 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage003]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage003]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE003] ƒƒbƒZ[ƒW’uŠ·•¶Žš[" + arg0 + "]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[" + arg1 + "]‚ª’uŠ·‚³‚ê‚Ü‚·B"
+            Return "[MESSAGE003] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[" + arg0 + "]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[" + arg1 + "]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE004]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE004]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.4: </newpara>
-        ''' <newpara>•¶Žš—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <param name="arg1">’uŠ·•¶Žš—ñ{1}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <param name="arg1">ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage004(arg0 As String, arg1 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage004]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage004]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg1 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage004]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage004]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE004] ˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš" + arg0 + arg1 + "‚Ì—á‚Å‚·B"
+            Return "[MESSAGE004] é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—" + arg0 + arg1 + "ã®ä¾‹ã§ã™ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE005]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE005]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.5: </newpara>
-        ''' <newpara>•¶Žš—ñ[{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage005(arg0 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage005]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage005]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE005] " + arg0 + "æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB"
+            Return "[MESSAGE005] " + arg0 + "å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE006]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE006]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.6: </newpara>
-        ''' <newpara>•¶Žš—ñ[ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage006(arg0 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage006]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage006]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE006] ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB" + arg0
+            Return "[MESSAGE006] æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚" + arg0
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE007]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE007]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.7: </newpara>
-        ''' <newpara>•¶Žš—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <param name="arg1">’uŠ·•¶Žš—ñ{1}‚Ì’lB</param>
-        ''' <param name="arg2">’uŠ·•¶Žš—ñ{2}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <param name="arg1">ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚</param>
+        ''' <param name="arg2">ç½®æ›æ–‡å­—åˆ—{2}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage007(arg0 As String, arg1 As String, arg2 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg1 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg2 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg2]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg2]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE007] ‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš" + arg0 + arg1 + arg0 + arg1 + arg2 + arg1 + arg0
+            Return "[MESSAGE007] ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—" + arg0 + arg1 + arg0 + arg1 + arg2 + arg1 + arg0
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE008]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE008]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.8: </newpara>
-        ''' <newpara>•¶Žš—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <param name="arg1">’uŠ·•¶Žš—ñ{1}‚Ì’lB</param>
-        ''' <param name="arg2">’uŠ·•¶Žš—ñ{2}‚Ì’lB</param>
-        ''' <param name="arg3">’uŠ·•¶Žš—ñ{3}‚Ì’lB</param>
-        ''' <param name="arg4">’uŠ·•¶Žš—ñ{4}‚Ì’lB</param>
-        ''' <param name="arg5">’uŠ·•¶Žš—ñ{5}‚Ì’lB</param>
-        ''' <param name="arg6">’uŠ·•¶Žš—ñ{6}‚Ì’lB</param>
-        ''' <param name="arg7">’uŠ·•¶Žš—ñ{7}‚Ì’lB</param>
-        ''' <param name="arg8">’uŠ·•¶Žš—ñ{8}‚Ì’lB</param>
-        ''' <param name="arg9">’uŠ·•¶Žš—ñ{9}‚Ì’lB</param>
-        ''' <param name="arg10">’uŠ·•¶Žš—ñ{10}‚Ì’lB</param>
-        ''' <param name="arg11">’uŠ·•¶Žš—ñ{11}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <param name="arg1">ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚</param>
+        ''' <param name="arg2">ç½®æ›æ–‡å­—åˆ—{2}ã®å€¤ã€‚</param>
+        ''' <param name="arg3">ç½®æ›æ–‡å­—åˆ—{3}ã®å€¤ã€‚</param>
+        ''' <param name="arg4">ç½®æ›æ–‡å­—åˆ—{4}ã®å€¤ã€‚</param>
+        ''' <param name="arg5">ç½®æ›æ–‡å­—åˆ—{5}ã®å€¤ã€‚</param>
+        ''' <param name="arg6">ç½®æ›æ–‡å­—åˆ—{6}ã®å€¤ã€‚</param>
+        ''' <param name="arg7">ç½®æ›æ–‡å­—åˆ—{7}ã®å€¤ã€‚</param>
+        ''' <param name="arg8">ç½®æ›æ–‡å­—åˆ—{8}ã®å€¤ã€‚</param>
+        ''' <param name="arg9">ç½®æ›æ–‡å­—åˆ—{9}ã®å€¤ã€‚</param>
+        ''' <param name="arg10">ç½®æ›æ–‡å­—åˆ—{10}ã®å€¤ã€‚</param>
+        ''' <param name="arg11">ç½®æ›æ–‡å­—åˆ—{11}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage008(arg0 As String, arg1 As String, arg2 As String, arg3 As String, arg4 As String, arg5 As String, arg6 As String, arg7 As String, arg8 As String, arg9 As String, arg10 As String, arg11 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg1 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg2 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg2]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg2]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg3 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg3]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg3]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg4 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg4]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg4]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg5 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg5]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg5]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg6 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg6]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg6]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg7 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg7]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg7]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg8 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg8]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg8]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg9 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg9]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg9]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg10 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg10]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg10]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg11 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg11]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg11]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE008] ‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB" + arg11 + arg10 + arg9 + arg8 + arg7 + arg6 + arg5 + arg4 + arg3 + arg2 + arg1 + arg0 + "‚Æ12ŒÂB"
+            Return "[MESSAGE008] ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚" + arg11 + arg10 + arg9 + arg8 + arg7 + arg6 + arg5 + arg4 + arg3 + arg2 + arg1 + arg0 + "ã¨12å€‹ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE009]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE009]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.9: </newpara>
-        ''' <newpara>•¶Žš—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]</newpara>
         ''' </remarks>
-        ''' <param name="arg0">’uŠ·•¶Žš—ñ{0}‚Ì’lB</param>
-        ''' <param name="arg1">’uŠ·•¶Žš—ñ{1}‚Ì’lB</param>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <param name="arg0">ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚</param>
+        ''' <param name="arg1">ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚</param>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage009(arg0 As String, arg1 As String) As String
             If (arg0 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage009]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage009]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
             If (arg1 Is Nothing) Then
-                Throw New ArgumentException("ƒƒ\ƒbƒh[GetMessage009]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB")
+                Throw New ArgumentException("ãƒ¡ã‚½ãƒƒãƒ‰[GetMessage009]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚")
             End If
 
-            Return "[MESSAGE009] " + arg0 + "”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B" + arg1 + "B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B"
+            Return "[MESSAGE009] " + arg0 + "ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚" + arg1 + "ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE010]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE010]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.10: </newpara>
-        ''' <newpara>•¶Žš—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\ã€‚]</newpara>
         ''' </remarks>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage010() As String
-            Return "[MESSAGE010] ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“""AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\\B"
+            Return "[MESSAGE010] ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³""ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\\ã€‚"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE011]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE011]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.11: </newpara>
-        ''' <newpara>•¶Žš—ñ[~]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[Ã—]</newpara>
         ''' </remarks>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage011() As String
-            Return "[MESSAGE011] ~"
+            Return "[MESSAGE011] Ã—"
         End Function
 
-        ''' <summary>ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE012]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B</summary>
+        ''' <summary>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE012]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚</summary>
         ''' <remarks>
         ''' <newpara>No.12: </newpara>
-        ''' <newpara>•¶Žš—ñ[‰üs[\n]‚ÌŽŽŒ±B]</newpara>
+        ''' <newpara>æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]</newpara>
         ''' </remarks>
-        ''' <returns>ƒƒbƒZ[ƒW•¶Žš—ñB</returns>
+        ''' <returns>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚</returns>
         Public Function GetMessage012() As String
-            Return "[MESSAGE012] ‰üs[\n]‚ÌŽŽŒ±B"
+            Return "[MESSAGE012] æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚"
         End Function
     End Class
 End Namespace

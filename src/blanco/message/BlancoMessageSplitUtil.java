@@ -12,17 +12,17 @@ package blanco.message;
 import java.util.List;
 
 /**
- * blancoMessage‚ÌƒƒbƒZ[ƒW‚ğ•ªŠ„‚·‚é‚½‚ß‚Ìƒ†[ƒeƒBƒŠƒeƒB‚Å‚·B
+ * blancoMessageã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’åˆ†å‰²ã™ã‚‹ãŸã‚ã®ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã§ã™ã€‚
  * 
  * @author ToshikiIga
  */
 class BlancoMessageSplitUtil {
     /**
-     * ƒƒbƒZ[ƒW‚ğ’uŠ·•¶š—ñ‚ğŒ³‚É•ªŠ„‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ç½®æ›æ–‡å­—åˆ—ã‚’å…ƒã«åˆ†å‰²ã—ã¾ã™ã€‚
      * 
      * @param listSourceString
-     *            “ü—Í‚Æ‚È‚é•¶š—ñBˆ—‚Ì‰ß’ö‚Å“à—e‚ª•Ï‚í‚è‚Ü‚·Bˆ—Œã‚É‚Í•ªŠ„‚³‚ê‚Ä‚¢‚Ü‚·B
-     * @return ‰½”Ô‚Ü‚Å’uŠ·•¶š—ñ‚ª‘¶İ‚µ‚½‚©B‚Ğ‚Æ‚Â‚à–³‚©‚Á‚½ê‡‚É‚Í -1‚ª–ß‚è‚Ü‚·B
+     *            å…¥åŠ›ã¨ãªã‚‹æ–‡å­—åˆ—ã€‚å‡¦ç†ã®éç¨‹ã§å†…å®¹ãŒå¤‰ã‚ã‚Šã¾ã™ã€‚å‡¦ç†å¾Œã«ã¯åˆ†å‰²ã•ã‚Œã¦ã„ã¾ã™ã€‚
+     * @return ä½•ç•ªã¾ã§ç½®æ›æ–‡å­—åˆ—ãŒå­˜åœ¨ã—ãŸã‹ã€‚ã²ã¨ã¤ã‚‚ç„¡ã‹ã£ãŸå ´åˆã«ã¯ -1ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     @SuppressWarnings("unchecked")
     public int split(final List listSourceString) {
@@ -30,31 +30,31 @@ class BlancoMessageSplitUtil {
             final boolean isFound = splitByReplaceString(listSourceString,
                     number);
             if (isFound == false) {
-                // Œ»İ‚Ìˆ—”Ô†-1‚ğ–ß‚µ‚Ü‚·B
-                // ‚PŒ‚à’uŠ·•¶š—ñ‚ª”­Œ©‚³‚ê‚Ä‚¢‚È‚¢ê‡‚É‚Í -1‚ğ–ß‚µ‚Ü‚·B
+                // ç¾åœ¨ã®å‡¦ç†ç•ªå·-1ã‚’æˆ»ã—ã¾ã™ã€‚
+                // ï¼‘ä»¶ã‚‚ç½®æ›æ–‡å­—åˆ—ãŒç™ºè¦‹ã•ã‚Œã¦ã„ãªã„å ´åˆã«ã¯ -1ã‚’æˆ»ã—ã¾ã™ã€‚
                 return number - 1;
             }
         }
     }
 
     /**
-     * w’è”Ô†‚É‚æ‚é’uŠ·•¶š—ñ‚ğ‚à‚Æ‚É•¶š—ñ‚ğ•ªŠ„‚µ‚Ü‚·B
+     * æŒ‡å®šç•ªå·ã«ã‚ˆã‚‹ç½®æ›æ–‡å­—åˆ—ã‚’ã‚‚ã¨ã«æ–‡å­—åˆ—ã‚’åˆ†å‰²ã—ã¾ã™ã€‚
      * 
-     * ˆø”listSourceString‚Ì“ü—Í•¶š—ñ‚ğA{0}, {1}‚Æ‚¢‚¤w’è”Ô†‚É‚æ‚é’uŠ·•¶š—ñ
-     * ‚ªŒ©‚Â‚©‚Á‚½ˆÊ’u‚Å•ªŠ„‚µAlistSourceString‚É–ß‚µ‚Ü‚·B
-     * ’uŠ·•¶š—ñ‚ÍIntegerŒ^‚Ì”’l‚Æ‚µ‚ÄlistSourceString‚ÉŠi”[‚³‚ê‚Ü‚·B
+     * å¼•æ•°listSourceStringã®å…¥åŠ›æ–‡å­—åˆ—ã‚’ã€{0}, {1}ã¨ã„ã†æŒ‡å®šç•ªå·ã«ã‚ˆã‚‹ç½®æ›æ–‡å­—åˆ—
+     * ãŒè¦‹ã¤ã‹ã£ãŸä½ç½®ã§åˆ†å‰²ã—ã€listSourceStringã«æˆ»ã—ã¾ã™ã€‚
+     * ç½®æ›æ–‡å­—åˆ—ã¯Integerå‹ã®æ•°å€¤ã¨ã—ã¦listSourceStringã«æ ¼ç´ã•ã‚Œã¾ã™ã€‚
      * 
-     * —á‚¦‚ÎA“ü—Í‚Æ‚µ‚ÄlistSourceString.index(0)‚Éu’uŠ·•¶š—ñ‚ª{0}‚ª‘¶İ‚µ‚Ü‚·v ‚Æ‚¢‚¤•¶š—ñ‚ªŠi”[‚³‚ê‚Ä‚¢‚½ê‡A<br>
-     * listSourceString.index(0) = "’uŠ·•¶š—ñ‚ª"<br>
+     * ä¾‹ãˆã°ã€å…¥åŠ›ã¨ã—ã¦listSourceString.index(0)ã«ã€Œç½®æ›æ–‡å­—åˆ—ãŒ{0}ãŒå­˜åœ¨ã—ã¾ã™ã€ ã¨ã„ã†æ–‡å­—åˆ—ãŒæ ¼ç´ã•ã‚Œã¦ã„ãŸå ´åˆã€<br>
+     * listSourceString.index(0) = "ç½®æ›æ–‡å­—åˆ—ãŒ"<br>
      * listSourceString.index(1) = new Integer(0)<br>
-     * listSourceString.index(2) = "‚ª‘¶İ‚µ‚Ü‚·"<br>
-     * ‚Ì‚æ‚¤‚É•ªŠ„‚³‚ê‚Ü‚·B
+     * listSourceString.index(2) = "ãŒå­˜åœ¨ã—ã¾ã™"<br>
+     * ã®ã‚ˆã†ã«åˆ†å‰²ã•ã‚Œã¾ã™ã€‚
      * 
      * @param listSourceString
-     *            “ü—Í‚Æ‚È‚é•¶š—ñB
+     *            å…¥åŠ›ã¨ãªã‚‹æ–‡å­—åˆ—ã€‚
      * @param replaceNumber
-     *            ’uŠ·•¶š—ñ‚Ì”Ô†B0ƒIƒŠƒWƒ“‚Åw’è‚µ‚Ü‚·B
-     * @return ’uŠ·‚ª”­¶‚µ‚½‚©‚Ç‚¤‚©‚Ìƒtƒ‰ƒOB’uŠ·‚³‚ê‚½ê‡‚É‚Ítrue‚ªAˆê“x‚à’uŠ·‚³‚ê‚È‚©‚Á‚½ê‡‚É‚Í false‚ª–ß‚è‚Ü‚·B
+     *            ç½®æ›æ–‡å­—åˆ—ã®ç•ªå·ã€‚0ã‚ªãƒªã‚¸ãƒ³ã§æŒ‡å®šã—ã¾ã™ã€‚
+     * @return ç½®æ›ãŒç™ºç”Ÿã—ãŸã‹ã©ã†ã‹ã®ãƒ•ãƒ©ã‚°ã€‚ç½®æ›ã•ã‚ŒãŸå ´åˆã«ã¯trueãŒã€ä¸€åº¦ã‚‚ç½®æ›ã•ã‚Œãªã‹ã£ãŸå ´åˆã«ã¯ falseãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     @SuppressWarnings("unchecked")
     private boolean splitByReplaceString(final List listSourceString,
@@ -68,7 +68,7 @@ class BlancoMessageSplitUtil {
 
             final String input = (String) listSourceString.get(index);
 
-            // ’uŠ·‚ÌÛ‚É—˜—p‚·‚é•¶š—ñB
+            // ç½®æ›ã®éš›ã«åˆ©ç”¨ã™ã‚‹æ–‡å­—åˆ—ã€‚
             final String replaceNumberString = "{" + replaceNumber + "}";
 
             final int search = input.indexOf(replaceNumberString);
@@ -82,25 +82,25 @@ class BlancoMessageSplitUtil {
             }
         }
 
-        // •s—v‚È’·‚³0‚Ì•¶š—ñ‚ğƒŠƒXƒg‚©‚çœ‹‚µ‚Ü‚·B
+        // ä¸è¦ãªé•·ã•0ã®æ–‡å­—åˆ—ã‚’ãƒªã‚¹ãƒˆã‹ã‚‰é™¤å»ã—ã¾ã™ã€‚
         removeUnnecessaryString(listSourceString);
 
         return isFound;
     }
 
     /**
-     * ‰üs‚ğ‚à‚Æ‚É•¶š—ñ‚ğ•ªŠ„‚µ‚Ü‚·B
+     * æ”¹è¡Œã‚’ã‚‚ã¨ã«æ–‡å­—åˆ—ã‚’åˆ†å‰²ã—ã¾ã™ã€‚
      * 
-     * ˆø”listSourceString‚Ì“ü—Í•¶š—ñ‚ğ‰üs(\n)‚ªŒ©‚Â‚©‚Á‚½ˆÊ’u‚Å•ªŠ„‚µ listSourceString‚É–ß‚µ‚Ü‚·B
+     * å¼•æ•°listSourceStringã®å…¥åŠ›æ–‡å­—åˆ—ã‚’æ”¹è¡Œ(\n)ãŒè¦‹ã¤ã‹ã£ãŸä½ç½®ã§åˆ†å‰²ã— listSourceStringã«æˆ»ã—ã¾ã™ã€‚
      * 
-     * —á‚¦‚ÎA“ü—Í‚Æ‚µ‚ÄlistSourceString.index(0)‚Éu‰üs‚ª\n‘¶İ‚µ‚Ü‚·v ‚Æ‚¢‚¤•¶š—ñ‚ªŠi”[‚³‚ê‚Ä‚¢‚½ê‡A<br>
-     * listSourceString.index(0) = "‰üs‚ª"<br>
+     * ä¾‹ãˆã°ã€å…¥åŠ›ã¨ã—ã¦listSourceString.index(0)ã«ã€Œæ”¹è¡ŒãŒ\nå­˜åœ¨ã—ã¾ã™ã€ ã¨ã„ã†æ–‡å­—åˆ—ãŒæ ¼ç´ã•ã‚Œã¦ã„ãŸå ´åˆã€<br>
+     * listSourceString.index(0) = "æ”¹è¡ŒãŒ"<br>
      * listSourceString.index(1) = "\n"<br>
-     * listSourceString.index(2) = "‘¶İ‚µ‚Ü‚·"<br>
-     * ‚Ì‚æ‚¤‚É•ªŠ„‚³‚ê‚Ü‚·B
+     * listSourceString.index(2) = "å­˜åœ¨ã—ã¾ã™"<br>
+     * ã®ã‚ˆã†ã«åˆ†å‰²ã•ã‚Œã¾ã™ã€‚
      * 
      * @param listSourceString
-     *            “ü—Í‚Æ‚È‚é•¶š—ñB
+     *            å…¥åŠ›ã¨ãªã‚‹æ–‡å­—åˆ—ã€‚
      */
     @SuppressWarnings("unchecked")
     public void splitByNewLineChar(final List listSourceString) {
@@ -112,7 +112,7 @@ class BlancoMessageSplitUtil {
 
             final String input = (String) listSourceString.get(index);
 
-            // ’uŠ·‚ÌÛ‚É—˜—p‚·‚é•¶š—ñB
+            // ç½®æ›ã®éš›ã«åˆ©ç”¨ã™ã‚‹æ–‡å­—åˆ—ã€‚
             final String newLine = "\n";
 
             if (newLine.equals(input)) {
@@ -129,12 +129,12 @@ class BlancoMessageSplitUtil {
             }
         }
 
-        // •s—v‚È’·‚³0‚Ì•¶š—ñ‚ğƒŠƒXƒg‚©‚çœ‹‚µ‚Ü‚·B
+        // ä¸è¦ãªé•·ã•0ã®æ–‡å­—åˆ—ã‚’ãƒªã‚¹ãƒˆã‹ã‚‰é™¤å»ã—ã¾ã™ã€‚
         removeUnnecessaryString(listSourceString);
     }
 
     /**
-     * •s—v‚È’·‚³0‚Ì•¶š—ñ‚ğƒŠƒXƒg‚©‚çœ‹‚µ‚Ü‚·B
+     * ä¸è¦ãªé•·ã•0ã®æ–‡å­—åˆ—ã‚’ãƒªã‚¹ãƒˆã‹ã‚‰é™¤å»ã—ã¾ã™ã€‚
      * 
      * @param listSourceString
      */

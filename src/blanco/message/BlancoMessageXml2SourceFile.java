@@ -38,9 +38,9 @@ import blanco.resourcebundle.valueobject.BlancoResourceBundleBundleResourceStrin
 import blanco.resourcebundle.valueobject.BlancoResourceBundleBundleStructure;
 
 /**
- * uƒƒbƒZ[ƒW’è‹`‘vExcel—l®‚©‚çƒƒbƒZ[ƒW‚ğˆ—‚·‚éƒNƒ‰ƒXEƒ\[ƒXƒR[ƒh‚ğ¶¬B
+ * ã€Œãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©æ›¸ã€Excelæ§˜å¼ã‹ã‚‰ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’å‡¦ç†ã™ã‚‹ã‚¯ãƒ©ã‚¹ãƒ»ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’ç”Ÿæˆã€‚
  * 
- * ‚±‚ÌƒNƒ‰ƒX‚ÍA’†ŠÔXMLƒtƒ@ƒCƒ‹‚©‚çƒ\[ƒXƒR[ƒh‚ğ©“®¶¬‚·‚é‹@”\‚ğ’S‚¢‚Ü‚·B
+ * ã“ã®ã‚¯ãƒ©ã‚¹ã¯ã€ä¸­é–“XMLãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹æ©Ÿèƒ½ã‚’æ‹…ã„ã¾ã™ã€‚
  * 
  * @author IGA Tosiki
  */
@@ -48,37 +48,37 @@ public class BlancoMessageXml2SourceFile {
     private final BlancoMessageMessage fMsg = new BlancoMessageMessage();
 
     /**
-     * ‚±‚Ìƒvƒƒ_ƒNƒg‚ÌƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚Ö‚ÌƒAƒNƒZƒXƒIƒuƒWƒFƒNƒgB
+     * ã“ã®ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã®ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      */
     private final BlancoMessageResourceBundle fBundle = new BlancoMessageResourceBundle();
 
     /**
-     * o—Í‘ÎÛ‚Æ‚È‚éƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾ŒêB
+     * å‡ºåŠ›å¯¾è±¡ã¨ãªã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªã€‚
      */
     private int fTargetLang = BlancoCgSupportedLang.NOT_DEFINED;
 
     /**
-     * •¶š—ñ‚ğ’è”‚Æ‚µ‚ÄƒNƒ‰ƒX‚Éo—Í‚·‚é‚©‚Ç‚¤‚©B
+     * æ–‡å­—åˆ—ã‚’å®šæ•°ã¨ã—ã¦ã‚¯ãƒ©ã‚¹ã«å‡ºåŠ›ã™ã‚‹ã‹ã©ã†ã‹ã€‚
      */
     private boolean fIsGenerateConstants = false;
 
     /**
-     * “à•”“I‚É—˜—p‚·‚éblancoCg—pƒtƒ@ƒNƒgƒŠB
+     * å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹blancoCgç”¨ãƒ•ã‚¡ã‚¯ãƒˆãƒªã€‚
      */
     private BlancoCgObjectFactory fCgFactory = null;
 
     /**
-     * “à•”“I‚É—˜—p‚·‚éblancoCg—pƒ\[ƒXƒtƒ@ƒCƒ‹î•ñB
+     * å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹blancoCgç”¨ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±ã€‚
      */
     private BlancoCgSourceFile fCgSourceFile = null;
 
     /**
-     * “à•”“I‚É—˜—p‚·‚éblancoCg—pƒNƒ‰ƒXî•ñB
+     * å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹blancoCgç”¨ã‚¯ãƒ©ã‚¹æƒ…å ±ã€‚
      */
     private BlancoCgClass fCgClass = null;
 
     /**
-     * ©“®¶¬‚·‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚Ì•¶šƒGƒ“ƒR[ƒfƒBƒ“ƒOB
+     * è‡ªå‹•ç”Ÿæˆã™ã‚‹ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã®æ–‡å­—ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã€‚
      */
     private String fEncoding = null;
 
@@ -99,18 +99,18 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * ’†ŠÔXMLƒtƒ@ƒCƒ‹‚©‚çƒ\[ƒXƒR[ƒh‚ğ©“®¶¬‚µ‚Ü‚·B
+     * ä¸­é–“XMLãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã—ã¾ã™ã€‚
      * 
      * @param argMetaXmlSourceFile
-     *            ƒƒ^î•ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚éXMLƒtƒ@ƒCƒ‹B
+     *            ãƒ¡ã‚¿æƒ…å ±ãŒå«ã¾ã‚Œã¦ã„ã‚‹XMLãƒ•ã‚¡ã‚¤ãƒ«ã€‚
      * @param argTargetLang
-     *            o—Í‘ÎÛƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾ŒêB
+     *            å‡ºåŠ›å¯¾è±¡ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªã€‚
      * @param argDirectoryTarget
-     *            ƒ\[ƒXƒR[ƒh¶¬æƒfƒBƒŒƒNƒgƒŠ (/main‚ğœ‚­•”•ª‚ğw’è‚µ‚Ü‚·)B
+     *            ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ç”Ÿæˆå…ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª (/mainã‚’é™¤ãéƒ¨åˆ†ã‚’æŒ‡å®šã—ã¾ã™)ã€‚
      * @param argIsGenerateConstants
-     *            •¶š—ñ’è”‚ğƒNƒ‰ƒX‚Éo—Í‚·‚é‚©‚Ç‚¤‚©‚Ìƒtƒ‰ƒOB
+     *            æ–‡å­—åˆ—å®šæ•°ã‚’ã‚¯ãƒ©ã‚¹ã«å‡ºåŠ›ã™ã‚‹ã‹ã©ã†ã‹ã®ãƒ•ãƒ©ã‚°ã€‚
      * @throws IOException
-     *             “üo—Í—áŠO‚ª”­¶‚µ‚½ê‡B
+     *             å…¥å‡ºåŠ›ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆã€‚
      */
     public void process(final File argMetaXmlSourceFile, final String argTargetLang,
             final boolean argIsGenerateConstants, final File argDirectoryTarget) throws IOException {
@@ -135,7 +135,7 @@ public class BlancoMessageXml2SourceFile {
         final BlancoMessageStructure[] structures = new BlancoMessageXmlParser().parse(argMetaXmlSourceFile);
 
         for (int index = 0; index < structures.length; index++) {
-            // ƒƒ^î•ñ‚Ì‰ğÍŒ‹‰Ê‚ğ‚à‚Æ‚Éƒ\[ƒXƒR[ƒh©“®¶¬‚ğÀs‚µ‚Ü‚·B
+            // ãƒ¡ã‚¿æƒ…å ±ã®è§£æçµæœã‚’ã‚‚ã¨ã«ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰è‡ªå‹•ç”Ÿæˆã‚’å®Ÿè¡Œã—ã¾ã™ã€‚
             structure2Source(structures[index], argDirectoryTarget);
 
             if (fTargetLang == BlancoCgSupportedLang.JAVA) {
@@ -145,24 +145,24 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * w’è‚ÌƒV[ƒg‚Ì‹Lq“à—e‚ğ“WŠJ‚µ‚Ü‚·B
+     * æŒ‡å®šã®ã‚·ãƒ¼ãƒˆã®è¨˜è¿°å†…å®¹ã‚’å±•é–‹ã—ã¾ã™ã€‚
      * 
      * @param argStructure
-     *            ƒ^ƒXƒN‚Ì\‘¢B
+     *            ã‚¿ã‚¹ã‚¯ã®æ§‹é€ ã€‚
      * @param argDirectoryTarget
-     *            o—ÍæƒfƒBƒŒƒNƒgƒŠ
+     *            å‡ºåŠ›å…ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
      */
     public void structure2Source(final BlancoMessageStructure argStructure, final File argDirectoryTarget) {
-        // ]—ˆ‚ÆŒİŠ·«‚ğ‚½‚¹‚é‚½‚ßA/mainƒTƒuƒtƒHƒ‹ƒ_‚Éo—Í‚µ‚Ü‚·B
+        // å¾“æ¥ã¨äº’æ›æ€§ã‚’æŒãŸã›ã‚‹ãŸã‚ã€/mainã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã«å‡ºåŠ›ã—ã¾ã™ã€‚
         final File fileBlancoMain = new File(argDirectoryTarget.getAbsolutePath() + "/main");
 
         fCgFactory = BlancoCgObjectFactory.getInstance();
         fCgSourceFile = fCgFactory.createSourceFile(argStructure.getPackage(),
-                "‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚Á‚Ä©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B");
+                "ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã£ã¦è‡ªå‹•ç”Ÿæˆã•ã‚Œã¦ã„ã¾ã™ã€‚");
         fCgSourceFile.setEncoding(fEncoding);
         switch (fTargetLang) {
         case BlancoCgSupportedLang.DELPHI:
-            // DelphiŒ¾Œê‚Å‚ÍAUnit–¼‚Æ‚Ì–¼‘OÕ“Ë‚ğ”ğ‚¯‚é‚½‚ßAŠµ—á‚É]‚¢ƒNƒ‰ƒX–¼‚É‹­§“I‚ÉT‚ğ‚Â‚¯‚Ü‚·B
+            // Delphiè¨€èªã§ã¯ã€Unitåã¨ã®åå‰è¡çªã‚’é¿ã‘ã‚‹ãŸã‚ã€æ…£ä¾‹ã«å¾“ã„ã‚¯ãƒ©ã‚¹åã«å¼·åˆ¶çš„ã«Tã‚’ã¤ã‘ã¾ã™ã€‚
             fCgSourceFile.setName(argStructure.getName() + BlancoStringUtil.null2Blank(argStructure.getSuffix()));
             fCgClass = fCgFactory.createClass("T" + BlancoNameAdjuster.toClassName(argStructure.getName())
                     + BlancoStringUtil.null2Blank(argStructure.getSuffix()),
@@ -178,13 +178,13 @@ public class BlancoMessageXml2SourceFile {
         fCgSourceFile.getClassList().add(fCgClass);
 
         if (fTargetLang == BlancoCgSupportedLang.JAVA) {
-            // Java‚Ìê‡‚É‚ÍƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğ—˜—pB
+            // Javaã®å ´åˆã«ã¯ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’åˆ©ç”¨ã€‚
             final BlancoCgField field = new BlancoCgField();
             field.setName("fBundle");
             field.setType(fCgFactory.createType(argStructure.getPackage() + "."
                     + BlancoNameAdjuster.toClassName(argStructure.getName()) + argStructure.getSuffix()
                     + "ResourceBundle"));
-            field.setDescription("ƒƒbƒZ[ƒW‚ğƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‘Î‰‚³‚¹‚é‚½‚ß‚Ì“à•”“I‚É—˜—p‚·‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒNƒ‰ƒXB");
+            field.setDescription("ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«å¯¾å¿œã•ã›ã‚‹ãŸã‚ã®å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚¯ãƒ©ã‚¹ã€‚");
             field.setDefault("new " + BlancoNameAdjuster.toClassName(argStructure.getName()) + argStructure.getSuffix()
                     + "ResourceBundle()");
             field.setFinal(true);
@@ -210,10 +210,10 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * ’è”ƒtƒB[ƒ‹ƒh‚ğ“WŠJ‚µ‚Ü‚·B
+     * å®šæ•°ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’å±•é–‹ã—ã¾ã™ã€‚
      * 
      * @param argProcessStructure
-     *            ƒƒ^ƒtƒ@ƒCƒ‹‚©‚çûW‚Å‚«‚½ˆ—\‘¢ƒf[ƒ^B
+     *            ãƒ¡ã‚¿ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰åé›†ã§ããŸå‡¦ç†æ§‹é€ ãƒ‡ãƒ¼ã‚¿ã€‚
      */
     @SuppressWarnings("unchecked")
     private void expandFieldMessage(final BlancoMessageStructure argProcessStructure) {
@@ -223,20 +223,20 @@ public class BlancoMessageXml2SourceFile {
 
             final String fieldName = fieldLook.getName().toUpperCase();
 
-            // uƒƒbƒZ[ƒW‚É’uŠ·•¶š—ñ‚ª‚ ‚éê‡‚É‚Í’è”ƒtƒB[ƒ‹ƒh‚Í¶¬‚µ‚È‚¢v‚Æ‚¢‚¤d—l‚ğÀŒ»‚·‚é‚©‚Ç‚¤‚©‚Ìƒtƒ‰ƒO‚Ö‚Ì‘Î‰B
+            // ã€Œãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã«ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹å ´åˆã«ã¯å®šæ•°ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã¯ç”Ÿæˆã—ãªã„ã€ã¨ã„ã†ä»•æ§˜ã‚’å®Ÿç¾ã™ã‚‹ã‹ã©ã†ã‹ã®ãƒ•ãƒ©ã‚°ã¸ã®å¯¾å¿œã€‚
             if ("true".equals(fBundle.getXml2sourceFileNoGenerateConstantIfFormatElementExist())) {
                 final List listSplitMessage = new ArrayList();
                 listSplitMessage.add(fieldLook.getMessage());
                 final int maxReplaceNumber = new BlancoMessageSplitUtil().split(listSplitMessage);
                 if (maxReplaceNumber >= 0) {
-                    // ’uŠ·•¶š—ñ‚ª‘¶İ‚·‚é‚Ì‚Å’è”ƒtƒB[ƒ‹ƒh‚Í¶¬‚µ‚Ü‚¹‚ñB
+                    // ç½®æ›æ–‡å­—åˆ—ãŒå­˜åœ¨ã™ã‚‹ã®ã§å®šæ•°ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã¯ç”Ÿæˆã—ã¾ã›ã‚“ã€‚
                     continue;
                 }
             }
 
             {
-                // ’è”‰»‚³‚ê‚½ƒƒbƒZ[ƒWB
-                final BlancoCgField cgField = fCgFactory.createField(fieldName, getTypeString(), "•¶š—ñ["
+                // å®šæ•°åŒ–ã•ã‚ŒãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã€‚
+                final BlancoCgField cgField = fCgFactory.createField(fieldName, getTypeString(), "æ–‡å­—åˆ—["
                         + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage()) + "]");
                 fCgClass.getFieldList().add(cgField);
                 cgField.setAccess("public");
@@ -254,8 +254,8 @@ public class BlancoMessageXml2SourceFile {
             }
 
             {
-                // ’è”‰»‚³‚ê‚½ƒƒbƒZ[ƒW IDB
-                final BlancoCgField cgField = fCgFactory.createField("KEY_" + fieldName, getTypeString(), "ƒL[’l: "
+                // å®šæ•°åŒ–ã•ã‚ŒãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ IDã€‚
+                final BlancoCgField cgField = fCgFactory.createField("KEY_" + fieldName, getTypeString(), "ã‚­ãƒ¼å€¤: "
                         + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, "KEY_" + fieldLook.getName()));
                 fCgClass.getFieldList().add(cgField);
                 cgField.setAccess("public");
@@ -273,10 +273,10 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * getƒƒbƒZ[ƒW ƒƒ\ƒbƒh‚ğ“WŠJ‚µ‚Ü‚·B
+     * getãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å±•é–‹ã—ã¾ã™ã€‚
      * 
      * @param argProcessStructure
-     *            ƒƒ^ƒtƒ@ƒCƒ‹‚©‚çûW‚Å‚«‚½ˆ—\‘¢ƒf[ƒ^B
+     *            ãƒ¡ã‚¿ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰åé›†ã§ããŸå‡¦ç†æ§‹é€ ãƒ‡ãƒ¼ã‚¿ã€‚
      */
     @SuppressWarnings("unchecked")
     private void expandMethodGetMessage(final BlancoMessageStructure argProcessStructure) {
@@ -306,14 +306,14 @@ public class BlancoMessageXml2SourceFile {
             }
             final String methodName = "get" + BlancoNameAdjuster.toClassName(fieldLook.getName());
 
-            final BlancoCgMethod cgMethod = fCgFactory.createMethod(getMethodName(methodName), "ƒƒbƒZ[ƒW’è‹`ID["
-                    + argProcessStructure.getName() + "]AƒL[[" + fieldLook.getName() + "]‚Ì•¶š—ñ‚ğæ“¾‚µ‚Ü‚·B");
+            final BlancoCgMethod cgMethod = fCgFactory.createMethod(getMethodName(methodName), "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID["
+                    + argProcessStructure.getName() + "]ã€ã‚­ãƒ¼[" + fieldLook.getName() + "]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚");
             fCgClass.getMethodList().add(cgMethod);
 
-            // System.out.println("’uŠ·•¶š—ñ”:" + maxReplaceNumber);
+            // System.out.println("ç½®æ›æ–‡å­—åˆ—æ•°:" + maxReplaceNumber);
             for (int indexArg = 0; indexArg <= maxReplaceNumber; indexArg++) {
                 cgMethod.getParameterList().add(
-                        fCgFactory.createParameter("arg" + indexArg, getTypeString(), "’uŠ·•¶š—ñ{" + indexArg + "}‚Ì’lB",
+                        fCgFactory.createParameter("arg" + indexArg, getTypeString(), "ç½®æ›æ–‡å­—åˆ—{" + indexArg + "}ã®å€¤ã€‚",
                                 true));
             }
 
@@ -321,9 +321,9 @@ public class BlancoMessageXml2SourceFile {
                 cgMethod.getLangDoc().getDescriptionList().add(fBundle.getXml2sourceFileFieldNo(fieldLook.getNo()));
             }
             cgMethod.getLangDoc().getDescriptionList()
-                    .add("•¶š—ñ[" + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage()) + "]");
+                    .add("æ–‡å­—åˆ—[" + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage()) + "]");
 
-            cgMethod.setReturn(fCgFactory.createReturn(getTypeString(), "ƒƒbƒZ[ƒW•¶š—ñB"));
+            cgMethod.setReturn(fCgFactory.createReturn(getTypeString(), "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚"));
 
             final List lineList = cgMethod.getLineList();
 
@@ -334,7 +334,7 @@ public class BlancoMessageXml2SourceFile {
                 if (true) {
                     final StringBuffer buf = new StringBuffer();
                     if (argProcessStructure.getIdEmbedding()) {
-                        // ID–„‚ß‚İ
+                        // IDåŸ‹ã‚è¾¼ã¿
                         buf.append(BlancoCgLineUtil.getStringLiteralEnclosure(fTargetLang) + "[" + fieldLook.getName()
                                 + "] " + BlancoCgLineUtil.getStringLiteralEnclosure(fTargetLang) + " + ");
                     }
@@ -360,7 +360,7 @@ public class BlancoMessageXml2SourceFile {
 
             switch (fTargetLang) {
             case BlancoCgSupportedLang.DELPHI:
-                // Delphi‚É‚Íreturn•¶‚ª‚ ‚è‚Ü‚¹‚ñB
+                // Delphiã«ã¯returnæ–‡ãŒã‚ã‚Šã¾ã›ã‚“ã€‚
                 lineList.add("result:= " + bufLine.toString() + BlancoCgLineUtil.getTerminator(fTargetLang));
                 lineList.add("exit" + BlancoCgLineUtil.getTerminator(fTargetLang));
                 break;
@@ -373,7 +373,7 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * Java Œ¾Œêê—p‚Ì JSF ƒƒbƒZ[ƒW¶¬ƒƒ\ƒbƒhB
+     * Java è¨€èªå°‚ç”¨ã® JSF ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”Ÿæˆãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      * 
      * @param argProcessStructure
      */
@@ -384,32 +384,32 @@ public class BlancoMessageXml2SourceFile {
                     .getFieldList().get(indexField);
 
             if (fTargetLang != BlancoCgSupportedLang.JAVA) {
-                // Java ˆÈŠOƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
+                // Java ä»¥å¤–ã‚µãƒãƒ¼ãƒˆã—ã¾ã›ã‚“ã€‚
                 return;
             }
 
             final String methodName = "getFaces" + BlancoNameAdjuster.toClassName(fieldLook.getName());
             final BlancoCgMethod cgMethod = fCgFactory.createMethod(
                     getMethodName(methodName),
-                    "ƒƒbƒZ[ƒW: [" + fieldLook.getMessage() + "]");
+                    "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸: [" + fieldLook.getMessage() + "]");
             fCgClass.getMethodList().add(cgMethod);
-            cgMethod.getLangDoc().getDescriptionList().add("<h3>î•ñ</h3><ul>");
+            cgMethod.getLangDoc().getDescriptionList().add("<h3>æƒ…å ±</h3><ul>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒƒbƒZ[ƒW’è‹`ID: "
+                    .add("<li>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID: "
                             + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, argProcessStructure.getName())
                             + "</li>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒL[: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getName())
+                    .add("<li>ã‚­ãƒ¼: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getName())
                             + "</li>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒŒƒxƒ‹: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getLevel())
+                    .add("<li>ãƒ¬ãƒ™ãƒ«: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getLevel())
                             + "</li>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒƒbƒZ[ƒW: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage())
+                    .add("<li>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage())
                             + "</li>");
             cgMethod.getLangDoc().getDescriptionList().add("</ul>");
 
@@ -419,11 +419,11 @@ public class BlancoMessageXml2SourceFile {
             final int maxReplaceNumber = new BlancoMessageSplitUtil().split(listSplitMessage);
             for (int indexArg = 0; indexArg <= maxReplaceNumber; indexArg++) {
                 cgMethod.getParameterList().add(
-                        fCgFactory.createParameter("arg" + indexArg, getTypeString(), "’uŠ·•¶š—ñ{" + indexArg + "}‚Ì’lB",
+                        fCgFactory.createParameter("arg" + indexArg, getTypeString(), "ç½®æ›æ–‡å­—åˆ—{" + indexArg + "}ã®å€¤ã€‚",
                                 true));
             }
 
-            cgMethod.setReturn(fCgFactory.createReturn("javax.faces.application.FacesMessage", "JSF Faces ƒƒbƒZ[ƒWB"));
+            cgMethod.setReturn(fCgFactory.createReturn("javax.faces.application.FacesMessage", "JSF Faces ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã€‚"));
 
             final StringBuffer callParam = new StringBuffer();
             for (int indexArg = 0; indexArg <= maxReplaceNumber; indexArg++) {
@@ -434,7 +434,7 @@ public class BlancoMessageXml2SourceFile {
 
             String levelFaces = "INFO";
             if (fieldLook.getLevel() == null || fieldLook.getLevel().trim().length() == 0) {
-                // ‰½‚à‚µ‚Ü‚¹‚ñB
+                // ä½•ã‚‚ã—ã¾ã›ã‚“ã€‚
                 levelFaces = "INFO";
             } else if (fieldLook.getLevel().equals("FATAL")) {
                 levelFaces = "FATAL";
@@ -445,7 +445,7 @@ public class BlancoMessageXml2SourceFile {
             } else if (fieldLook.getLevel().equals("INFO")) {
                 levelFaces = "INFO";
             } else {
-                // d•û‚ª–³‚¢‚Ì‚Å INFO ˆµ‚¢‚Æ‚µ‚Ü‚·B
+                // ä»•æ–¹ãŒç„¡ã„ã®ã§ INFO æ‰±ã„ã¨ã—ã¾ã™ã€‚
                 levelFaces = "INFO";
             }
 
@@ -456,10 +456,10 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * Java Œ¾Œêê—p‚Ì Apache Struts ƒƒbƒZ[ƒW¶¬ƒƒ\ƒbƒhB
+     * Java è¨€èªå°‚ç”¨ã® Apache Struts ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”Ÿæˆãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      * 
-     * struts-config.xml ‚É <message-resources parameter="resources.‚Ù‚°‚Ù‚°"/>
-     * ‚ğ’Ç‰Á‚·‚é‚±‚ÆB
+     * struts-config.xml ã« <message-resources parameter="resources.ã»ã’ã»ã’"/>
+     * ã‚’è¿½åŠ ã™ã‚‹ã“ã¨ã€‚
      * 
      * @param argProcessStructure
      */
@@ -470,32 +470,32 @@ public class BlancoMessageXml2SourceFile {
                     .getFieldList().get(indexField);
 
             if (fTargetLang != BlancoCgSupportedLang.JAVA) {
-                // Java ˆÈŠOƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
+                // Java ä»¥å¤–ã‚µãƒãƒ¼ãƒˆã—ã¾ã›ã‚“ã€‚
                 return;
             }
 
             final String methodName = "addStruts" + BlancoNameAdjuster.toClassName(fieldLook.getName());
             final BlancoCgMethod cgMethod = fCgFactory.createMethod(
                     getMethodName(methodName),
-                    "ƒƒbƒZ[ƒW: [" + fieldLook.getMessage() + "]");
+                    "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸: [" + fieldLook.getMessage() + "]");
             fCgClass.getMethodList().add(cgMethod);
-            cgMethod.getLangDoc().getDescriptionList().add("<h3>î•ñ</h3><ul>");
+            cgMethod.getLangDoc().getDescriptionList().add("<h3>æƒ…å ±</h3><ul>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒƒbƒZ[ƒW’è‹`ID: "
+                    .add("<li>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID: "
                             + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, argProcessStructure.getName())
                             + "</li>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒL[: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getName())
+                    .add("<li>ã‚­ãƒ¼: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getName())
                             + "</li>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒŒƒxƒ‹: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getLevel())
+                    .add("<li>ãƒ¬ãƒ™ãƒ«: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getLevel())
                             + "</li>");
             cgMethod.getLangDoc()
                     .getDescriptionList()
-                    .add("<li>ƒƒbƒZ[ƒW: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage())
+                    .add("<li>ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸: " + BlancoCgSourceUtil.escapeStringAsLangDoc(fTargetLang, fieldLook.getMessage())
                             + "</li>");
             cgMethod.getLangDoc().getDescriptionList().add("</ul>");
 
@@ -509,19 +509,19 @@ public class BlancoMessageXml2SourceFile {
             final int maxReplaceNumber = new BlancoMessageSplitUtil().split(listSplitMessage);
             for (int indexArg = 0; indexArg <= maxReplaceNumber; indexArg++) {
                 cgMethod.getParameterList().add(
-                        fCgFactory.createParameter("arg" + indexArg, getTypeString(), "’uŠ·•¶š—ñ{" + indexArg + "}‚Ì’lB",
+                        fCgFactory.createParameter("arg" + indexArg, getTypeString(), "ç½®æ›æ–‡å­—åˆ—{" + indexArg + "}ã®å€¤ã€‚",
                                 true));
             }
 
             fCgSourceFile.getImportList().add("org.apache.struts.action.ActionMessage");
 
-            final int STRUTS_MAX_ARG = 2; // 3 ŒÂ‚ğ’´‚¦‚½‚ç String ”z—ñ‰»‚µ‚Ü‚·B(Struts “I‚É‚Í 4 ŒÂ‚Ü‚Å’è‹`‚ ‚è)
+            final int STRUTS_MAX_ARG = 2; // 3 å€‹ã‚’è¶…ãˆãŸã‚‰ String é…åˆ—åŒ–ã—ã¾ã™ã€‚(Struts çš„ã«ã¯ 4 å€‹ã¾ã§å®šç¾©ã‚ã‚Š)
             final StringBuffer callParam = new StringBuffer();
             if (maxReplaceNumber > STRUTS_MAX_ARG) {
-                // Apache Struts Message ‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^[ˆø”ãŒÀ‘Î‰
+                // Apache Struts Message ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ãƒ¼å¼•æ•°ä¸Šé™å¯¾å¿œ
                 callParam.append(", new String[] {");
             } else if (maxReplaceNumber >= 0) {
-                // ƒ|ƒCƒ“ƒg: ‚Ğ‚Æ‚Â‚à‚È‚¢ê‡‚Í -1 ‚Å‚·B
+                // ãƒã‚¤ãƒ³ãƒˆ: ã²ã¨ã¤ã‚‚ãªã„å ´åˆã¯ -1 ã§ã™ã€‚
                 callParam.append(", ");
             }
             for (int indexArg = 0; indexArg <= maxReplaceNumber; indexArg++) {
@@ -546,7 +546,7 @@ public class BlancoMessageXml2SourceFile {
             } else if (fieldLook.getLevel().equals("INFO")) {
                 levelCustomMessage = "INFO";
             } else {
-                // d•û‚ª–³‚¢‚Ì‚Å INFO ˆµ‚¢‚Æ‚µ‚Ü‚·B
+                // ä»•æ–¹ãŒç„¡ã„ã®ã§ INFO æ‰±ã„ã¨ã—ã¾ã™ã€‚
                 levelCustomMessage = "INFO";
             }
 
@@ -567,7 +567,7 @@ public class BlancoMessageXml2SourceFile {
                     .getFieldList().get(indexField);
 
             if (fTargetLang != BlancoCgSupportedLang.JAVA) {
-                // Java ˆÈŠOƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
+                // Java ä»¥å¤–ã‚µãƒãƒ¼ãƒˆã—ã¾ã›ã‚“ã€‚
                 return;
             }
 
@@ -585,9 +585,9 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œêˆ—Œn‚É‡‚Á‚½ String Œ^‚Ì–¼Ì‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªå‡¦ç†ç³»ã«åˆã£ãŸ String å‹ã®åç§°ã‚’å–å¾—ã—ã¾ã™ã€‚
      * 
-     * Œ^‚Ì“Ç‚İ‘Ö‚¦B
+     * å‹ã®èª­ã¿æ›¿ãˆã€‚
      * 
      * @return
      */
@@ -608,9 +608,9 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * ƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œêˆ—Œn‚É‡‚Á‚½ ƒƒ\ƒbƒh‚Ì–¼‘O•ÏŒ`‚ğ‚¨‚±‚È‚¢‚Ü‚·B
+     * ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªå‡¦ç†ç³»ã«åˆã£ãŸ ãƒ¡ã‚½ãƒƒãƒ‰ã®åå‰å¤‰å½¢ã‚’ãŠã“ãªã„ã¾ã™ã€‚
      * 
-     * ƒƒ\ƒbƒh–¼‚Ì“Ç‚İ‘Ö‚¦B
+     * ãƒ¡ã‚½ãƒƒãƒ‰åã®èª­ã¿æ›¿ãˆã€‚
      * 
      * @return
      */
@@ -629,10 +629,10 @@ public class BlancoMessageXml2SourceFile {
 
     /**
      * 
-     * ƒƒbƒZ[ƒW•¶š—ñ‚ğ¶¬‚·‚é®‚ğæ“¾
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã‚’ç”Ÿæˆã™ã‚‹å¼ã‚’å–å¾—
      * 
      * @param listSplitMessage
-     *            –„‚ß‚İ•¶š—ñ‚Å•ªŠ„‚³‚ê‚½ƒƒbƒZ[ƒW‚ÌƒŠƒXƒg
+     *            åŸ‹ã‚è¾¼ã¿æ–‡å­—åˆ—ã§åˆ†å‰²ã•ã‚ŒãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ãƒªã‚¹ãƒˆ
      * @return
      */
     @SuppressWarnings("unchecked")
@@ -642,7 +642,7 @@ public class BlancoMessageXml2SourceFile {
         for (int index = 0; index < listSplitMessage.size(); index++) {
             final Object objLook = listSplitMessage.get(index);
             if (objLook instanceof Integer) {
-                // ’uŠ·•¶š—ñB
+                // ç½®æ›æ–‡å­—åˆ—ã€‚
                 final Integer intLook = (Integer) objLook;
                 if (isPastString) {
                     bufLine.append(BlancoCgLineUtil.getStringLiteralEnclosure(fTargetLang));
@@ -678,12 +678,12 @@ public class BlancoMessageXml2SourceFile {
 
     /**
      * 
-     * Ruby•—Œ¾Œê‚É‚¨‚¢‚ÄAƒƒbƒZ[ƒW•¶š—ñ‚ğ¶¬‚·‚é®‚ğæ“¾
+     * Rubyé¢¨è¨€èªã«ãŠã„ã¦ã€ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã‚’ç”Ÿæˆã™ã‚‹å¼ã‚’å–å¾—
      * 
-     * ‰üs•¶š‚ğŒÂ•Ê‚Ì•¶š—ñƒŠƒeƒ‰ƒ‹‚Æ‚µ‚Äæ‚èˆµ‚¢‚½‚¢ê‡‚É g—p‚µ‚Ü‚·B
+     * æ”¹è¡Œæ–‡å­—ã‚’å€‹åˆ¥ã®æ–‡å­—åˆ—ãƒªãƒ†ãƒ©ãƒ«ã¨ã—ã¦å–ã‚Šæ‰±ã„ãŸã„å ´åˆã« ä½¿ç”¨ã—ã¾ã™ã€‚
      * 
      * @param listSplitMessage
-     *            –„‚ß‚İ•¶š—ñ‚Å•ªŠ„‚³‚ê‚½ƒƒbƒZ[ƒW‚ÌƒŠƒXƒg
+     *            åŸ‹ã‚è¾¼ã¿æ–‡å­—åˆ—ã§åˆ†å‰²ã•ã‚ŒãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ãƒªã‚¹ãƒˆ
      * @return
      */
     @SuppressWarnings("unchecked")
@@ -695,7 +695,7 @@ public class BlancoMessageXml2SourceFile {
                 bufLine.append(" " + BlancoCgLineUtil.getStringConcatenationOperator(fTargetLang) + " ");
             }
             if (objLook instanceof Integer) {
-                // ’uŠ·•¶š‚Ìê‡B
+                // ç½®æ›æ–‡å­—ã®å ´åˆã€‚
                 final Integer intLook = (Integer) objLook;
 
                 if (fTargetLang == BlancoCgSupportedLang.PHP) {
@@ -703,10 +703,10 @@ public class BlancoMessageXml2SourceFile {
                 }
                 bufLine.append("arg" + intLook.intValue());
             } else {
-                // •¶š—ñƒŠƒeƒ‰ƒ‹‚Ìê‡B
+                // æ–‡å­—åˆ—ãƒªãƒ†ãƒ©ãƒ«ã®å ´åˆã€‚
                 final String strLook = (String) objLook;
 
-                // ‰üs•¶š‚Ì‚İ‚Ìê‡A•¶š—ñƒŠƒeƒ‰ƒ‹‚Í\"‚ÅˆÍ‚İ‚Ü‚·
+                // æ”¹è¡Œæ–‡å­—ã®ã¿ã®å ´åˆã€æ–‡å­—åˆ—ãƒªãƒ†ãƒ©ãƒ«ã¯\"ã§å›²ã¿ã¾ã™
                 StringBuffer literalEnclosure = new StringBuffer();
                 if ("\n".equals(strLook)) {
                     literalEnclosure.append("\"");
@@ -724,7 +724,7 @@ public class BlancoMessageXml2SourceFile {
     }
 
     /**
-     * Java‚Ìê‡‚ÉƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒNƒ‰ƒX‚ğ¶¬‚µ‚Ü‚·B
+     * Javaã®å ´åˆã«ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚¯ãƒ©ã‚¹ã‚’ç”Ÿæˆã—ã¾ã™ã€‚
      * 
      * @param argStructure
      * @param argDirectoryTarget
@@ -733,12 +733,12 @@ public class BlancoMessageXml2SourceFile {
         final BlancoResourceBundleBundleStructure bundleStructure = new BlancoResourceBundleBundleStructure();
         bundleStructure.setName(BlancoNameAdjuster.toClassName(argStructure.getName()) + argStructure.getSuffix());
         bundleStructure.setPackage(argStructure.getPackage());
-        // ƒNƒ‰ƒX‚ğƒpƒbƒP[ƒWƒAƒNƒZƒX‚É§ŒÀ‚µ‚Ü‚·B
+        // ã‚¯ãƒ©ã‚¹ã‚’ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã‚¢ã‚¯ã‚»ã‚¹ã«åˆ¶é™ã—ã¾ã™ã€‚
         bundleStructure.setAccess("");
         bundleStructure.setSuffix("ResourceBundle");
-        bundleStructure.setDescription("ƒƒbƒZ[ƒW’è‹`[" + argStructure.getName() + "]‚ª“à•”“I‚É—˜—p‚·‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒNƒ‰ƒXB");
+        bundleStructure.setDescription("ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©[" + argStructure.getName() + "]ãŒå†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚¯ãƒ©ã‚¹ã€‚");
 
-        // TODO ƒfƒtƒHƒ‹ƒgƒƒP[ƒ‹‚ğ—˜—p‚·‚é‚±‚Æ‚É‚µ‚Ä‚¢‚Ü‚·B
+        // TODO ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆãƒ­ã‚±ãƒ¼ãƒ«ã‚’åˆ©ç”¨ã™ã‚‹ã“ã¨ã«ã—ã¦ã„ã¾ã™ã€‚
         final Locale defalutLocale = Locale.getDefault();
 
         for (int index = 0; index < argStructure.getFieldList().size(); index++) {

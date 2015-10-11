@@ -1,138 +1,138 @@
 /*
- * ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚è©“®¶¬‚³‚ê‚Ü‚µ‚½B
+ * ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã‚Šè‡ªå‹•ç”Ÿæˆã•ã‚Œã¾ã—ãŸã€‚
  */
 package blanco.message.valueobject;
 
 /**
- * BlancoMessage‚Ì‚È‚©‚Å—˜—p‚³‚ê‚éValueObject‚Å‚·B
+ * BlancoMessageã®ãªã‹ã§åˆ©ç”¨ã•ã‚Œã‚‹ValueObjectã§ã™ã€‚
  */
 public class BlancoMessageFieldStructure {
     /**
-     * €–Ú”Ô†
+     * é …ç›®ç•ªå·
      *
-     * ƒtƒB[ƒ‹ƒh: [no]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [no]ã€‚
      */
     private String fNo;
 
     /**
-     * ƒL[‚ğ‚ ‚ç‚í‚µ‚Ü‚·B
+     * ã‚­ãƒ¼ã‚’ã‚ã‚‰ã‚ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [name]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [name]ã€‚
      */
     private String fName;
 
     /**
-     * ƒƒbƒZ[ƒWEƒŒƒxƒ‹B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ»ãƒ¬ãƒ™ãƒ«ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [level]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [level]ã€‚
      */
     private String fLevel;
 
     /**
-     * ƒƒbƒZ[ƒW•¶š—ñ‚ğ‚ ‚ç‚í‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã‚’ã‚ã‚‰ã‚ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [message]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [message]ã€‚
      */
     private String fMessage;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [no] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [no] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [€–Ú”Ô†]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [é …ç›®ç•ªå·]ã€‚
      *
-     * @param argNo ƒtƒB[ƒ‹ƒh[no]‚Éİ’è‚·‚é’lB
+     * @param argNo ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[no]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setNo(final String argNo) {
         fNo = argNo;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [no] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [no] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [€–Ú”Ô†]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [é …ç›®ç•ªå·]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[no]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[no]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getNo() {
         return fNo;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [name] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [name] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒL[‚ğ‚ ‚ç‚í‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚­ãƒ¼ã‚’ã‚ã‚‰ã‚ã—ã¾ã™ã€‚]ã€‚
      *
-     * @param argName ƒtƒB[ƒ‹ƒh[name]‚Éİ’è‚·‚é’lB
+     * @param argName ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[name]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setName(final String argName) {
         fName = argName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [name] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [name] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒL[‚ğ‚ ‚ç‚í‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚­ãƒ¼ã‚’ã‚ã‚‰ã‚ã—ã¾ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[name]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[name]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getName() {
         return fName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [level] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [level] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒWEƒŒƒxƒ‹B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ»ãƒ¬ãƒ™ãƒ«ã€‚]ã€‚
      *
-     * @param argLevel ƒtƒB[ƒ‹ƒh[level]‚Éİ’è‚·‚é’lB
+     * @param argLevel ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[level]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setLevel(final String argLevel) {
         fLevel = argLevel;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [level] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [level] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒWEƒŒƒxƒ‹B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ»ãƒ¬ãƒ™ãƒ«ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[level]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[level]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getLevel() {
         return fLevel;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [message] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [message] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW•¶š—ñ‚ğ‚ ‚ç‚í‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã‚’ã‚ã‚‰ã‚ã—ã¾ã™ã€‚]ã€‚
      *
-     * @param argMessage ƒtƒB[ƒ‹ƒh[message]‚Éİ’è‚·‚é’lB
+     * @param argMessage ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[message]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setMessage(final String argMessage) {
         fMessage = argMessage;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [message] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [message] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW•¶š—ñ‚ğ‚ ‚ç‚í‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã‚’ã‚ã‚‰ã‚ã—ã¾ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[message]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[message]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getMessage() {
         return fMessage;
     }
 
     /**
-     * ‚±‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»‚ğæ“¾‚µ‚Ü‚·B
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * <P>g—pã‚Ì’ˆÓ</P>
+     * <P>ä½¿ç”¨ä¸Šã®æ³¨æ„</P>
      * <UL>
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ÌƒVƒƒƒ[”ÍˆÍ‚Ì‚İ•¶š—ñ‰»‚Ìˆ—‘ÎÛ‚Æ‚È‚è‚Ü‚·B
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ªzŠÂQÆ‚µ‚Ä‚¢‚éê‡‚É‚ÍA‚±‚Ìƒƒ\ƒbƒh‚Íg‚í‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿æ–‡å­—åˆ—åŒ–ã®å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
      * </UL>
      *
-     * @return ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»B
+     * @return ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã€‚
      */
     @Override
     public String toString() {
@@ -144,5 +144,37 @@ public class BlancoMessageFieldStructure {
         buf.append(",message=" + fMessage);
         buf.append("]");
         return buf.toString();
+    }
+
+    /**
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’æŒ‡å®šã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã«è¤‡å†™ã—ã¾ã™ã€‚
+     *
+     * <P>ä½¿ç”¨ä¸Šã®æ³¨æ„</P>
+     * <UL>
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿è¤‡å†™å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
+     * </UL>
+     *
+     * @param target target value object.
+     */
+    public void copyTo(final BlancoMessageFieldStructure target) {
+        if (target == null) {
+            throw new IllegalArgumentException("Bug: BlancoMessageFieldStructure#copyTo(target): argument 'target' is null");
+        }
+
+        // No needs to copy parent class.
+
+        // Name: fNo
+        // Type: java.lang.String
+        target.fNo = this.fNo;
+        // Name: fName
+        // Type: java.lang.String
+        target.fName = this.fName;
+        // Name: fLevel
+        // Type: java.lang.String
+        target.fLevel = this.fLevel;
+        // Name: fMessage
+        // Type: java.lang.String
+        target.fMessage = this.fMessage;
     }
 }

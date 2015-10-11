@@ -1,40 +1,44 @@
-// ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚Á‚ÄŽ©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B
+// ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã£ã¦è‡ªå‹•ç”Ÿæˆã•ã‚Œã¦ã„ã¾ã™ã€‚
 unit BlancoMessageMessage;
 
 interface
 type
-    // blancoMessage‚ª“à•”“I‚É—˜—p‚·‚éƒƒbƒZ[ƒWƒNƒ‰ƒX‚Å‚·B
+    // blancoMessageãŒå†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚¯ãƒ©ã‚¹ã§ã™ã€‚
     TBlancoMessageMessage = class(TObject)
 
-        // •¶Žš—ñ[ƒƒbƒZ[ƒW’è‹`ID[{0}]‚ÌƒpƒbƒP[ƒW–¼‚ªŽw’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB]
-        const MBMSGI01: String = '[MBMSGI01] ƒƒbƒZ[ƒW’è‹`ID[{0}]‚ÌƒpƒbƒP[ƒW–¼‚ªŽw’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB';
+    public
 
-        // ƒL[’l: KEY_MBMSGI01
-        const KEY_MBMSGI01: String = 'MBMSGI01';
+        // æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[{0}]ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åãŒæŒ‡å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚]
+        const MBMSGI01: String;
 
-        // •¶Žš—ñ[ƒTƒ|[ƒg‚µ‚È‚¢o—ÍƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œêˆ—Œn[{0}]‚ªŽw’è‚³‚ê‚Ü‚µ‚½B]
-        const MBMSGI02: String = '[MBMSGI02] ƒTƒ|[ƒg‚µ‚È‚¢o—ÍƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œêˆ—Œn[{0}]‚ªŽw’è‚³‚ê‚Ü‚µ‚½B';
+        // ã‚­ãƒ¼å€¤: KEY_MBMSGI01
+        const KEY_MBMSGI01: String;
 
-        // ƒL[’l: KEY_MBMSGI02
-        const KEY_MBMSGI02: String = 'MBMSGI02';
+        // æ–‡å­—åˆ—[ã‚µãƒãƒ¼ãƒˆã—ãªã„å‡ºåŠ›ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªžå‡¦ç†ç³»[{0}]ãŒæŒ‡å®šã•ã‚Œã¾ã—ãŸã€‚]
+        const MBMSGI02: String;
 
-        // •¶Žš—ñ[ƒƒbƒZ[ƒW’è‹`ID[{0}]‚É‚¨‚¢‚ÄAƒL[[{1}]‚ª2‰ñˆÈã‚ ‚ç‚í‚ê‚Ü‚µ‚½B“¯‚¶ƒL[‚Í2‰ñˆÈãŽw’è‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB]
-        const MBMSGI03: String = '[MBMSGI03] ƒƒbƒZ[ƒW’è‹`ID[{0}]‚É‚¨‚¢‚ÄAƒL[[{1}]‚ª2‰ñˆÈã‚ ‚ç‚í‚ê‚Ü‚µ‚½B“¯‚¶ƒL[‚Í2‰ñˆÈãŽw’è‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB';
+        // ã‚­ãƒ¼å€¤: KEY_MBMSGI02
+        const KEY_MBMSGI02: String;
 
-        // ƒL[’l: KEY_MBMSGI03
-        const KEY_MBMSGI03: String = 'MBMSGI03';
+        // æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[{0}]ã«ãŠã„ã¦ã€ã‚­ãƒ¼[{1}]ãŒ2å›žä»¥ä¸Šã‚ã‚‰ã‚ã‚Œã¾ã—ãŸã€‚åŒã˜ã‚­ãƒ¼ã¯2å›žä»¥ä¸ŠæŒ‡å®šã™ã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚]
+        const MBMSGI03: String;
 
-        // •¶Žš—ñ[ƒƒbƒZ[ƒW’è‹`ID[{0}]‚É‚¨‚¢‚ÄAƒL[[{1}]‚ÌƒƒbƒZ[ƒW‚ª•s³‚Å‚·BƒƒbƒZ[ƒW’è‹`‚Æ‚µ‚Ä”»’f‚µ‚½ê‡‚Ì’uŠ·•¶Žš—ñ‚ÌŒÂ”[{2}]‚ÆƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚Æ‚µ‚Ä”»’f‚µ‚½ê‡‚Ì’uŠ·•¶Žš—ñ‚ÌŒÂ”[{3}]‚Æ‚ªˆÙ‚È‚è‚Ü‚·B’uŠ·•¶Žš—ñ‚Ì”Ô†‚Í”ò‚ñ‚Å‚µ‚Ü‚Á‚Ä‚¢‚Ü‚¹‚ñ‚©H³‚µ‚­ƒtƒH[ƒ}ƒbƒg’è‹`‚µ‚Ä‚­‚¾‚³‚¢B]
-        const MBMSGI04: String = '[MBMSGI04] ƒƒbƒZ[ƒW’è‹`ID[{0}]‚É‚¨‚¢‚ÄAƒL[[{1}]‚ÌƒƒbƒZ[ƒW‚ª•s³‚Å‚·BƒƒbƒZ[ƒW’è‹`‚Æ‚µ‚Ä”»’f‚µ‚½ê‡‚Ì’uŠ·•¶Žš—ñ‚ÌŒÂ”[{2}]‚ÆƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚Æ‚µ‚Ä”»’f‚µ‚½ê‡‚Ì’uŠ·•¶Žš—ñ‚ÌŒÂ”[{3}]‚Æ‚ªˆÙ‚È‚è‚Ü‚·B’uŠ·•¶Žš—ñ‚Ì”Ô†‚Í”ò‚ñ‚Å‚µ‚Ü‚Á‚Ä‚¢‚Ü‚¹‚ñ‚©H³‚µ‚­ƒtƒH[ƒ}ƒbƒg’è‹`‚µ‚Ä‚­‚¾‚³‚¢B';
+        // ã‚­ãƒ¼å€¤: KEY_MBMSGI03
+        const KEY_MBMSGI03: String;
 
-        // ƒL[’l: KEY_MBMSGI04
-        const KEY_MBMSGI04: String = 'MBMSGI04';
+        // æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[{0}]ã«ãŠã„ã¦ã€ã‚­ãƒ¼[{1}]ã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãŒä¸æ­£ã§ã™ã€‚ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ã¨ã—ã¦åˆ¤æ–­ã—ãŸå ´åˆã®ç½®æ›æ–‡å­—åˆ—ã®å€‹æ•°[{2}]ã¨ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã¨ã—ã¦åˆ¤æ–­ã—ãŸå ´åˆã®ç½®æ›æ–‡å­—åˆ—ã®å€‹æ•°[{3}]ã¨ãŒç•°ãªã‚Šã¾ã™ã€‚ç½®æ›æ–‡å­—åˆ—ã®ç•ªå·ã¯é£›ã‚“ã§ã—ã¾ã£ã¦ã„ã¾ã›ã‚“ã‹ï¼Ÿæ­£ã—ããƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆå®šç¾©ã—ã¦ãã ã•ã„ã€‚]
+        const MBMSGI04: String;
 
-        // •¶Žš—ñ[ƒƒ^ƒfƒBƒŒƒNƒgƒŠ[{0}]‚ª‘¶Ý‚µ‚Ü‚¹‚ñB]
-        const MBMSGA01: String = '[MBMSGA01] ƒƒ^ƒfƒBƒŒƒNƒgƒŠ[{0}]‚ª‘¶Ý‚µ‚Ü‚¹‚ñB';
+        // ã‚­ãƒ¼å€¤: KEY_MBMSGI04
+        const KEY_MBMSGI04: String;
 
-        // ƒL[’l: KEY_MBMSGA01
-        const KEY_MBMSGA01: String = 'MBMSGA01';
+        // æ–‡å­—åˆ—[ãƒ¡ã‚¿ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª[{0}]ãŒå­˜åœ¨ã—ã¾ã›ã‚“ã€‚]
+        const MBMSGA01: String;
+
+        // ã‚­ãƒ¼å€¤: KEY_MBMSGA01
+        const KEY_MBMSGA01: String;
+
+    public
 
         function getMbmsgi01(arg0: String): String;
 
@@ -50,31 +54,31 @@ implementation
 
     function TBlancoMessageMessage.getMbmsgi01(arg0: String): String;
     begin
-        result:= '[MBMSGI01] ƒƒbƒZ[ƒW’è‹`ID[' + arg0 + ']‚ÌƒpƒbƒP[ƒW–¼‚ªŽw’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB';
+        result:= '[MBMSGI01] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[' + arg0 + ']ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åãŒæŒ‡å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚';
         exit;
     end;
 
     function TBlancoMessageMessage.getMbmsgi02(arg0: String): String;
     begin
-        result:= '[MBMSGI02] ƒTƒ|[ƒg‚µ‚È‚¢o—ÍƒvƒƒOƒ‰ƒ~ƒ“ƒOŒ¾Œêˆ—Œn[' + arg0 + ']‚ªŽw’è‚³‚ê‚Ü‚µ‚½B';
+        result:= '[MBMSGI02] ã‚µãƒãƒ¼ãƒˆã—ãªã„å‡ºåŠ›ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¨€èªžå‡¦ç†ç³»[' + arg0 + ']ãŒæŒ‡å®šã•ã‚Œã¾ã—ãŸã€‚';
         exit;
     end;
 
     function TBlancoMessageMessage.getMbmsgi03(arg0: String; arg1: String): String;
     begin
-        result:= '[MBMSGI03] ƒƒbƒZ[ƒW’è‹`ID[' + arg0 + ']‚É‚¨‚¢‚ÄAƒL[[' + arg1 + ']‚ª2‰ñˆÈã‚ ‚ç‚í‚ê‚Ü‚µ‚½B“¯‚¶ƒL[‚Í2‰ñˆÈãŽw’è‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB';
+        result:= '[MBMSGI03] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[' + arg0 + ']ã«ãŠã„ã¦ã€ã‚­ãƒ¼[' + arg1 + ']ãŒ2å›žä»¥ä¸Šã‚ã‚‰ã‚ã‚Œã¾ã—ãŸã€‚åŒã˜ã‚­ãƒ¼ã¯2å›žä»¥ä¸ŠæŒ‡å®šã™ã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚';
         exit;
     end;
 
     function TBlancoMessageMessage.getMbmsgi04(arg0: String; arg1: String; arg2: String; arg3: String): String;
     begin
-        result:= '[MBMSGI04] ƒƒbƒZ[ƒW’è‹`ID[' + arg0 + ']‚É‚¨‚¢‚ÄAƒL[[' + arg1 + ']‚ÌƒƒbƒZ[ƒW‚ª•s³‚Å‚·BƒƒbƒZ[ƒW’è‹`‚Æ‚µ‚Ä”»’f‚µ‚½ê‡‚Ì’uŠ·•¶Žš—ñ‚ÌŒÂ”[' + arg2 + ']‚ÆƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚Æ‚µ‚Ä”»’f‚µ‚½ê‡‚Ì’uŠ·•¶Žš—ñ‚ÌŒÂ”[' + arg3 + ']‚Æ‚ªˆÙ‚È‚è‚Ü‚·B’uŠ·•¶Žš—ñ‚Ì”Ô†‚Í”ò‚ñ‚Å‚µ‚Ü‚Á‚Ä‚¢‚Ü‚¹‚ñ‚©H³‚µ‚­ƒtƒH[ƒ}ƒbƒg’è‹`‚µ‚Ä‚­‚¾‚³‚¢B';
+        result:= '[MBMSGI04] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[' + arg0 + ']ã«ãŠã„ã¦ã€ã‚­ãƒ¼[' + arg1 + ']ã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãŒä¸æ­£ã§ã™ã€‚ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ã¨ã—ã¦åˆ¤æ–­ã—ãŸå ´åˆã®ç½®æ›æ–‡å­—åˆ—ã®å€‹æ•°[' + arg2 + ']ã¨ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã¨ã—ã¦åˆ¤æ–­ã—ãŸå ´åˆã®ç½®æ›æ–‡å­—åˆ—ã®å€‹æ•°[' + arg3 + ']ã¨ãŒç•°ãªã‚Šã¾ã™ã€‚ç½®æ›æ–‡å­—åˆ—ã®ç•ªå·ã¯é£›ã‚“ã§ã—ã¾ã£ã¦ã„ã¾ã›ã‚“ã‹ï¼Ÿæ­£ã—ããƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆå®šç¾©ã—ã¦ãã ã•ã„ã€‚';
         exit;
     end;
 
     function TBlancoMessageMessage.getMbmsga01(arg0: String): String;
     begin
-        result:= '[MBMSGA01] ƒƒ^ƒfƒBƒŒƒNƒgƒŠ[' + arg0 + ']‚ª‘¶Ý‚µ‚Ü‚¹‚ñB';
+        result:= '[MBMSGA01] ãƒ¡ã‚¿ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª[' + arg0 + ']ãŒå­˜åœ¨ã—ã¾ã›ã‚“ã€‚';
         exit;
     end;
 end.

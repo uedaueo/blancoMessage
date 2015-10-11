@@ -1,183 +1,183 @@
 /*
- * ���̃\�[�X�R�[�h�� blanco Framework�ɂ���Ď�����������Ă��܂��B
+ * このソースコードは blanco Frameworkによって自動生成されています。
  */
 package blanco.message.message;
 
 /**
- * blancoMessage�������I�ɗ��p���郁�b�Z�[�W�N���X�ł��B
+ * blancoMessageが内部的に利用するメッセージクラスです。
  */
 public class BlancoMessageMessage {
     /**
-     * ���b�Z�[�W���v���p�e�B�t�@�C���Ή������邽�߂̓����I�ɗ��p���郊�\�[�X�o���h���N���X�B
+     * メッセージをプロパティファイル対応させるための内部的に利用するリソースバンドルクラス。
      */
     protected final BlancoMessageMessageResourceBundle fBundle = new BlancoMessageMessageResourceBundle();
 
     /**
-     * ������[���b�Z�[�W��`ID[{0}]�̃p�b�P�[�W�����w�肳��Ă��܂���B]
+     * 文字列[メッセージ定義ID[{0}]のパッケージ名が指定されていません。]
      *
      * No.2:
      */
-    public static final String MBMSGI01 = "[MBMSGI01] ���b�Z�[�W��`ID[{0}]�̃p�b�P�[�W�����w�肳��Ă��܂���B";
+    public static final String MBMSGI01 = "[MBMSGI01] メッセージ定義ID[{0}]のパッケージ名が指定されていません。";
 
     /**
-     * �L�[�l: KEY_MBMSGI01
+     * キー値: KEY_MBMSGI01
      *
      * No.2:
      */
     public static final String KEY_MBMSGI01 = "MBMSGI01";
 
     /**
-     * ������[�T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[{0}]���w�肳��܂����B]
+     * 文字列[サポートしない出力プログラミング言語処理系[{0}]が指定されました。]
      *
      * No.3:
      */
-    public static final String MBMSGI02 = "[MBMSGI02] �T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[{0}]���w�肳��܂����B";
+    public static final String MBMSGI02 = "[MBMSGI02] サポートしない出力プログラミング言語処理系[{0}]が指定されました。";
 
     /**
-     * �L�[�l: KEY_MBMSGI02
+     * キー値: KEY_MBMSGI02
      *
      * No.3:
      */
     public static final String KEY_MBMSGI02 = "MBMSGI02";
 
     /**
-     * ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B]
+     * 文字列[メッセージ定義ID[{0}]において、キー[{1}]が2回以上あらわれました。同じキーは2回以上指定することはできません。]
      *
      * No.4:
      */
-    public static final String MBMSGI03 = "[MBMSGI03] ���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B";
+    public static final String MBMSGI03 = "[MBMSGI03] メッセージ定義ID[{0}]において、キー[{1}]が2回以上あらわれました。同じキーは2回以上指定することはできません。";
 
     /**
-     * �L�[�l: KEY_MBMSGI03
+     * キー値: KEY_MBMSGI03
      *
      * No.4:
      */
     public static final String KEY_MBMSGI03 = "MBMSGI03";
 
     /**
-     * ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{2}]�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{3}]�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B]
+     * 文字列[メッセージ定義ID[{0}]において、キー[{1}]のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[{2}]とリソースバンドルとして判断した場合の置換文字列の個数[{3}]とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。]
      *
      * No.5:
      */
-    public static final String MBMSGI04 = "[MBMSGI04] ���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{2}]�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{3}]�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B";
+    public static final String MBMSGI04 = "[MBMSGI04] メッセージ定義ID[{0}]において、キー[{1}]のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[{2}]とリソースバンドルとして判断した場合の置換文字列の個数[{3}]とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。";
 
     /**
-     * �L�[�l: KEY_MBMSGI04
+     * キー値: KEY_MBMSGI04
      *
      * No.5:
      */
     public static final String KEY_MBMSGI04 = "MBMSGI04";
 
     /**
-     * ������[���^�f�B���N�g��[{0}]�����݂��܂���B]
+     * 文字列[メタディレクトリ[{0}]が存在しません。]
      *
      * No.8:
      */
-    public static final String MBMSGA01 = "[MBMSGA01] ���^�f�B���N�g��[{0}]�����݂��܂���B";
+    public static final String MBMSGA01 = "[MBMSGA01] メタディレクトリ[{0}]が存在しません。";
 
     /**
-     * �L�[�l: KEY_MBMSGA01
+     * キー値: KEY_MBMSGA01
      *
      * No.8:
      */
     public static final String KEY_MBMSGA01 = "MBMSGA01";
 
     /**
-     * ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI01]�̕�������擾���܂��B
+     * メッセージ定義ID[BlancoMessage]、キー[MBMSGI01]の文字列を取得します。
      *
      * No.2:
-     * ������[���b�Z�[�W��`ID[{0}]�̃p�b�P�[�W�����w�肳��Ă��܂���B]
+     * 文字列[メッセージ定義ID[{0}]のパッケージ名が指定されていません。]
      *
-     * @param arg0 �u��������{0}�̒l�B
-     * @return ���b�Z�[�W������B
+     * @param arg0 置換文字列{0}の値。
+     * @return メッセージ文字列。
      */
     public String getMbmsgi01(final String arg0) {
         if (arg0 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi01]�̃p�����[�^[arg0]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi01]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
 
         return "[MBMSGI01] " + fBundle.getMbmsgi01(arg0);
     }
 
     /**
-     * ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI02]�̕�������擾���܂��B
+     * メッセージ定義ID[BlancoMessage]、キー[MBMSGI02]の文字列を取得します。
      *
      * No.3:
-     * ������[�T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[{0}]���w�肳��܂����B]
+     * 文字列[サポートしない出力プログラミング言語処理系[{0}]が指定されました。]
      *
-     * @param arg0 �u��������{0}�̒l�B
-     * @return ���b�Z�[�W������B
+     * @param arg0 置換文字列{0}の値。
+     * @return メッセージ文字列。
      */
     public String getMbmsgi02(final String arg0) {
         if (arg0 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi02]�̃p�����[�^[arg0]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi02]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
 
         return "[MBMSGI02] " + fBundle.getMbmsgi02(arg0);
     }
 
     /**
-     * ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI03]�̕�������擾���܂��B
+     * メッセージ定義ID[BlancoMessage]、キー[MBMSGI03]の文字列を取得します。
      *
      * No.4:
-     * ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B]
+     * 文字列[メッセージ定義ID[{0}]において、キー[{1}]が2回以上あらわれました。同じキーは2回以上指定することはできません。]
      *
-     * @param arg0 �u��������{0}�̒l�B
-     * @param arg1 �u��������{1}�̒l�B
-     * @return ���b�Z�[�W������B
+     * @param arg0 置換文字列{0}の値。
+     * @param arg1 置換文字列{1}の値。
+     * @return メッセージ文字列。
      */
     public String getMbmsgi03(final String arg0, final String arg1) {
         if (arg0 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi03]�̃p�����[�^[arg0]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi03]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
         if (arg1 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi03]�̃p�����[�^[arg1]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi03]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
 
         return "[MBMSGI03] " + fBundle.getMbmsgi03(arg0, arg1);
     }
 
     /**
-     * ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI04]�̕�������擾���܂��B
+     * メッセージ定義ID[BlancoMessage]、キー[MBMSGI04]の文字列を取得します。
      *
      * No.5:
-     * ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{2}]�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{3}]�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B]
+     * 文字列[メッセージ定義ID[{0}]において、キー[{1}]のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[{2}]とリソースバンドルとして判断した場合の置換文字列の個数[{3}]とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。]
      *
-     * @param arg0 �u��������{0}�̒l�B
-     * @param arg1 �u��������{1}�̒l�B
-     * @param arg2 �u��������{2}�̒l�B
-     * @param arg3 �u��������{3}�̒l�B
-     * @return ���b�Z�[�W������B
+     * @param arg0 置換文字列{0}の値。
+     * @param arg1 置換文字列{1}の値。
+     * @param arg2 置換文字列{2}の値。
+     * @param arg3 置換文字列{3}の値。
+     * @return メッセージ文字列。
      */
     public String getMbmsgi04(final String arg0, final String arg1, final String arg2, final String arg3) {
         if (arg0 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi04]�̃p�����[�^[arg0]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi04]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
         if (arg1 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi04]�̃p�����[�^[arg1]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi04]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
         if (arg2 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi04]�̃p�����[�^[arg2]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi04]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
         if (arg3 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsgi04]�̃p�����[�^[arg3]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsgi04]のパラメータ[arg3]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
 
         return "[MBMSGI04] " + fBundle.getMbmsgi04(arg0, arg1, arg2, arg3);
     }
 
     /**
-     * ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGA01]�̕�������擾���܂��B
+     * メッセージ定義ID[BlancoMessage]、キー[MBMSGA01]の文字列を取得します。
      *
      * No.8:
-     * ������[���^�f�B���N�g��[{0}]�����݂��܂���B]
+     * 文字列[メタディレクトリ[{0}]が存在しません。]
      *
-     * @param arg0 �u��������{0}�̒l�B
-     * @return ���b�Z�[�W������B
+     * @param arg0 置換文字列{0}の値。
+     * @return メッセージ文字列。
      */
     public String getMbmsga01(final String arg0) {
         if (arg0 == null) {
-            throw new IllegalArgumentException("���\�b�h[getMbmsga01]�̃p�����[�^[arg0]��null���^�����܂����B�������A���̃p�����[�^��null��^���邱�Ƃ͂ł��܂���B");
+            throw new IllegalArgumentException("メソッド[getMbmsga01]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。");
         }
 
         return "[MBMSGA01] " + fBundle.getMbmsga01(arg0);

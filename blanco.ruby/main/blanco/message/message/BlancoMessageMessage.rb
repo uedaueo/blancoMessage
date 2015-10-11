@@ -1,180 +1,180 @@
 #
-# ���̃\�[�X�R�[�h�� blanco Framework�ɂ���Ď�����������Ă��܂��B
+# このソースコードは blanco Frameworkによって自動生成されています。
 #
 
 #
-# blancoMessage�������I�ɗ��p���郁�b�Z�[�W�N���X�ł��B
+# blancoMessageが内部的に利用するメッセージクラスです。
 #
 class BlancoMessageMessage
 
     #
-    # ������[���b�Z�[�W��`ID[{0}]�̃p�b�P�[�W�����w�肳��Ă��܂���B]
+    # 文字列[メッセージ定義ID[{0}]のパッケージ名が指定されていません。]
     #
     # No.2:
     #
-    MBMSGI01 = '[MBMSGI01] ���b�Z�[�W��`ID[{0}]�̃p�b�P�[�W�����w�肳��Ă��܂���B'
+    MBMSGI01 = '[MBMSGI01] メッセージ定義ID[{0}]のパッケージ名が指定されていません。'
 
     #
-    # �L�[�l: KEY_MBMSGI01
+    # キー値: KEY_MBMSGI01
     #
     # No.2:
     #
     KEY_MBMSGI01 = 'MBMSGI01'
 
     #
-    # ������[�T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[{0}]���w�肳��܂����B]
+    # 文字列[サポートしない出力プログラミング言語処理系[{0}]が指定されました。]
     #
     # No.3:
     #
-    MBMSGI02 = '[MBMSGI02] �T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[{0}]���w�肳��܂����B'
+    MBMSGI02 = '[MBMSGI02] サポートしない出力プログラミング言語処理系[{0}]が指定されました。'
 
     #
-    # �L�[�l: KEY_MBMSGI02
+    # キー値: KEY_MBMSGI02
     #
     # No.3:
     #
     KEY_MBMSGI02 = 'MBMSGI02'
 
     #
-    # ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B]
+    # 文字列[メッセージ定義ID[{0}]において、キー[{1}]が2回以上あらわれました。同じキーは2回以上指定することはできません。]
     #
     # No.4:
     #
-    MBMSGI03 = '[MBMSGI03] ���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B'
+    MBMSGI03 = '[MBMSGI03] メッセージ定義ID[{0}]において、キー[{1}]が2回以上あらわれました。同じキーは2回以上指定することはできません。'
 
     #
-    # �L�[�l: KEY_MBMSGI03
+    # キー値: KEY_MBMSGI03
     #
     # No.4:
     #
     KEY_MBMSGI03 = 'MBMSGI03'
 
     #
-    # ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{2}]�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{3}]�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B]
+    # 文字列[メッセージ定義ID[{0}]において、キー[{1}]のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[{2}]とリソースバンドルとして判断した場合の置換文字列の個数[{3}]とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。]
     #
     # No.5:
     #
-    MBMSGI04 = '[MBMSGI04] ���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{2}]�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{3}]�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B'
+    MBMSGI04 = '[MBMSGI04] メッセージ定義ID[{0}]において、キー[{1}]のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[{2}]とリソースバンドルとして判断した場合の置換文字列の個数[{3}]とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。'
 
     #
-    # �L�[�l: KEY_MBMSGI04
+    # キー値: KEY_MBMSGI04
     #
     # No.5:
     #
     KEY_MBMSGI04 = 'MBMSGI04'
 
     #
-    # ������[���^�f�B���N�g��[{0}]�����݂��܂���B]
+    # 文字列[メタディレクトリ[{0}]が存在しません。]
     #
     # No.8:
     #
-    MBMSGA01 = '[MBMSGA01] ���^�f�B���N�g��[{0}]�����݂��܂���B'
+    MBMSGA01 = '[MBMSGA01] メタディレクトリ[{0}]が存在しません。'
 
     #
-    # �L�[�l: KEY_MBMSGA01
+    # キー値: KEY_MBMSGA01
     #
     # No.8:
     #
     KEY_MBMSGA01 = 'MBMSGA01'
 
     #
-    # ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI01]�̕�������擾���܂��B
+    # メッセージ定義ID[BlancoMessage]、キー[MBMSGI01]の文字列を取得します。
     #
     # No.2:
-    # ������[���b�Z�[�W��`ID[{0}]�̃p�b�P�[�W�����w�肳��Ă��܂���B]
+    # 文字列[メッセージ定義ID[{0}]のパッケージ名が指定されていません。]
     #
-    # param arg0 �u��������{0}�̒l�B
-    # return ���b�Z�[�W������B
+    # param arg0 置換文字列{0}の値。
+    # return メッセージ文字列。
     #
     def getMbmsgi01(arg0)
         if arg0.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi01]�̃p�����[�^[arg0]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi01]のパラメータ[arg0]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
 
-        return '[MBMSGI01] ���b�Z�[�W��`ID[' + arg0 + ']�̃p�b�P�[�W�����w�肳��Ă��܂���B'
+        return '[MBMSGI01] メッセージ定義ID[' + arg0 + ']のパッケージ名が指定されていません。'
     end
 
     #
-    # ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI02]�̕�������擾���܂��B
+    # メッセージ定義ID[BlancoMessage]、キー[MBMSGI02]の文字列を取得します。
     #
     # No.3:
-    # ������[�T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[{0}]���w�肳��܂����B]
+    # 文字列[サポートしない出力プログラミング言語処理系[{0}]が指定されました。]
     #
-    # param arg0 �u��������{0}�̒l�B
-    # return ���b�Z�[�W������B
+    # param arg0 置換文字列{0}の値。
+    # return メッセージ文字列。
     #
     def getMbmsgi02(arg0)
         if arg0.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi02]�̃p�����[�^[arg0]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi02]のパラメータ[arg0]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
 
-        return '[MBMSGI02] �T�|�[�g���Ȃ��o�̓v���O���~���O���ꏈ���n[' + arg0 + ']���w�肳��܂����B'
+        return '[MBMSGI02] サポートしない出力プログラミング言語処理系[' + arg0 + ']が指定されました。'
     end
 
     #
-    # ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI03]�̕�������擾���܂��B
+    # メッセージ定義ID[BlancoMessage]、キー[MBMSGI03]の文字列を取得します。
     #
     # No.4:
-    # ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B]
+    # 文字列[メッセージ定義ID[{0}]において、キー[{1}]が2回以上あらわれました。同じキーは2回以上指定することはできません。]
     #
-    # param arg0 �u��������{0}�̒l�B
-    # param arg1 �u��������{1}�̒l�B
-    # return ���b�Z�[�W������B
+    # param arg0 置換文字列{0}の値。
+    # param arg1 置換文字列{1}の値。
+    # return メッセージ文字列。
     #
     def getMbmsgi03(arg0, arg1)
         if arg0.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi03]�̃p�����[�^[arg0]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi03]のパラメータ[arg0]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
         if arg1.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi03]�̃p�����[�^[arg1]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi03]のパラメータ[arg1]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
 
-        return '[MBMSGI03] ���b�Z�[�W��`ID[' + arg0 + ']�ɂ����āA�L�[[' + arg1 + ']��2��ȏ゠����܂����B�����L�[��2��ȏ�w�肷�邱�Ƃ͂ł��܂���B'
+        return '[MBMSGI03] メッセージ定義ID[' + arg0 + ']において、キー[' + arg1 + ']が2回以上あらわれました。同じキーは2回以上指定することはできません。'
     end
 
     #
-    # ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGI04]�̕�������擾���܂��B
+    # メッセージ定義ID[BlancoMessage]、キー[MBMSGI04]の文字列を取得します。
     #
     # No.5:
-    # ������[���b�Z�[�W��`ID[{0}]�ɂ����āA�L�[[{1}]�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{2}]�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[{3}]�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B]
+    # 文字列[メッセージ定義ID[{0}]において、キー[{1}]のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[{2}]とリソースバンドルとして判断した場合の置換文字列の個数[{3}]とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。]
     #
-    # param arg0 �u��������{0}�̒l�B
-    # param arg1 �u��������{1}�̒l�B
-    # param arg2 �u��������{2}�̒l�B
-    # param arg3 �u��������{3}�̒l�B
-    # return ���b�Z�[�W������B
+    # param arg0 置換文字列{0}の値。
+    # param arg1 置換文字列{1}の値。
+    # param arg2 置換文字列{2}の値。
+    # param arg3 置換文字列{3}の値。
+    # return メッセージ文字列。
     #
     def getMbmsgi04(arg0, arg1, arg2, arg3)
         if arg0.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi04]�̃p�����[�^[arg0]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi04]のパラメータ[arg0]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
         if arg1.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi04]�̃p�����[�^[arg1]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi04]のパラメータ[arg1]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
         if arg2.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi04]�̃p�����[�^[arg2]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi04]のパラメータ[arg2]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
         if arg3.nil?
-            raise ArgumentError, "���\�b�h[getMbmsgi04]�̃p�����[�^[arg3]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsgi04]のパラメータ[arg3]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
 
-        return '[MBMSGI04] ���b�Z�[�W��`ID[' + arg0 + ']�ɂ����āA�L�[[' + arg1 + ']�̃��b�Z�[�W���s���ł��B���b�Z�[�W��`�Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[' + arg2 + ']�ƃ��\�[�X�o���h���Ƃ��Ĕ��f�����ꍇ�̒u��������̌�[' + arg3 + ']�Ƃ��قȂ�܂��B�u��������̔ԍ��͔��ł��܂��Ă��܂��񂩁H�������t�H�[�}�b�g��`���Ă��������B'
+        return '[MBMSGI04] メッセージ定義ID[' + arg0 + ']において、キー[' + arg1 + ']のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[' + arg2 + ']とリソースバンドルとして判断した場合の置換文字列の個数[' + arg3 + ']とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。'
     end
 
     #
-    # ���b�Z�[�W��`ID[BlancoMessage]�A�L�[[MBMSGA01]�̕�������擾���܂��B
+    # メッセージ定義ID[BlancoMessage]、キー[MBMSGA01]の文字列を取得します。
     #
     # No.8:
-    # ������[���^�f�B���N�g��[{0}]�����݂��܂���B]
+    # 文字列[メタディレクトリ[{0}]が存在しません。]
     #
-    # param arg0 �u��������{0}�̒l�B
-    # return ���b�Z�[�W������B
+    # param arg0 置換文字列{0}の値。
+    # return メッセージ文字列。
     #
     def getMbmsga01(arg0)
         if arg0.nil?
-            raise ArgumentError, "���\�b�h[getMbmsga01]�̃p�����[�^[arg0]��nil���^�����܂����B�������A���̃p�����[�^��nil��^���邱�Ƃ͂ł��܂���"
+            raise ArgumentError, "メソッド[getMbmsga01]のパラメータ[arg0]にnilが与えられました。しかし、このパラメータにnilを与えることはできません"
         end
 
-        return '[MBMSGA01] ���^�f�B���N�g��[' + arg0 + ']�����݂��܂���B'
+        return '[MBMSGA01] メタディレクトリ[' + arg0 + ']が存在しません。'
     end
 end

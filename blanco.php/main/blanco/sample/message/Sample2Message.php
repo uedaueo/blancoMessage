@@ -1,561 +1,561 @@
 <?php
 /*
- * ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚Á‚ÄŽ©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B
+ * ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã£ã¦è‡ªå‹•ç”Ÿæˆã•ã‚Œã¦ã„ã¾ã™ã€‚
  */
 /*. DOC <@package blanco.sample.message;>.*/
 
 /*. require_module 'standard'; .*/;
 
 /**
- * ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚±‚ÌƒNƒ‰ƒX‚Í’P‚ÉƒTƒ“ƒvƒ‹‚Å‚·BŽÀÛ‚Ì“®ì‚É‚Í—˜—p‚³‚ê‚Ü‚¹‚ñB
+ * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ã“ã®ã‚¯ãƒ©ã‚¹ã¯å˜ã«ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚å®Ÿéš›ã®å‹•ä½œã«ã¯åˆ©ç”¨ã•ã‚Œã¾ã›ã‚“ã€‚
  */
 class Sample2Message {
     /**
-     * •¶Žš—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]
+     * æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]
      *
      * No.1:
      */
-    const MESSAGE001 = '[MESSAGE001] ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB';
+    const MESSAGE001 = '[MESSAGE001] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE001
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE001
      *
      * No.1:
      */
     const KEY_MESSAGE001 = 'MESSAGE001';
 
     /**
-     * •¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+     * æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
      *
      * No.2:
      */
-    const MESSAGE002 = '[MESSAGE002] ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B';
+    const MESSAGE002 = '[MESSAGE002] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE002
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE002
      *
      * No.2:
      */
     const KEY_MESSAGE002 = 'MESSAGE002';
 
     /**
-     * •¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+     * æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
      *
      * No.3:
      */
-    const MESSAGE003 = '[MESSAGE003] ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B';
+    const MESSAGE003 = '[MESSAGE003] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE003
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE003
      *
      * No.3:
      */
     const KEY_MESSAGE003 = 'MESSAGE003';
 
     /**
-     * •¶Žš—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B]
+     * æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]
      *
      * No.4:
      */
-    const MESSAGE004 = '[MESSAGE004] ˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B';
+    const MESSAGE004 = '[MESSAGE004] é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE004
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE004
      *
      * No.4:
      */
     const KEY_MESSAGE004 = 'MESSAGE004';
 
     /**
-     * •¶Žš—ñ[{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB]
+     * æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]
      *
      * No.5:
      */
-    const MESSAGE005 = '[MESSAGE005] {0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB';
+    const MESSAGE005 = '[MESSAGE005] {0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE005
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE005
      *
      * No.5:
      */
     const KEY_MESSAGE005 = 'MESSAGE005';
 
     /**
-     * •¶Žš—ñ[ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}]
+     * æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]
      *
      * No.6:
      */
-    const MESSAGE006 = '[MESSAGE006] ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}';
+    const MESSAGE006 = '[MESSAGE006] æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}';
 
     /**
-     * ƒL[’l: KEY_MESSAGE006
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE006
      *
      * No.6:
      */
     const KEY_MESSAGE006 = 'MESSAGE006';
 
     /**
-     * •¶Žš—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}]
+     * æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]
      *
      * No.7:
      */
-    const MESSAGE007 = '[MESSAGE007] ‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}';
+    const MESSAGE007 = '[MESSAGE007] ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}';
 
     /**
-     * ƒL[’l: KEY_MESSAGE007
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE007
      *
      * No.7:
      */
     const KEY_MESSAGE007 = 'MESSAGE007';
 
     /**
-     * •¶Žš—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]
+     * æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]
      *
      * No.8:
      */
-    const MESSAGE008 = '[MESSAGE008] ‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB';
+    const MESSAGE008 = '[MESSAGE008] ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE008
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE008
      *
      * No.8:
      */
     const KEY_MESSAGE008 = 'MESSAGE008';
 
     /**
-     * •¶Žš—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]
+     * æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]
      *
      * No.9:
      */
-    const MESSAGE009 = '[MESSAGE009] {0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B';
+    const MESSAGE009 = '[MESSAGE009] {0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE009
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE009
      *
      * No.9:
      */
     const KEY_MESSAGE009 = 'MESSAGE009';
 
     /**
-     * •¶Žš—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&amp;quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]
+     * æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&amp;quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\ã€‚]
      *
      * No.10:
      */
-    const MESSAGE010 = '[MESSAGE010] ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“\'AƒGƒ“ƒ}[ƒN\\B';
+    const MESSAGE010 = '[MESSAGE010] ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³"ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³\'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\\ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE010
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE010
      *
      * No.10:
      */
     const KEY_MESSAGE010 = 'MESSAGE010';
 
     /**
-     * •¶Žš—ñ[~]
+     * æ–‡å­—åˆ—[Ã—]
      *
      * No.11:
      */
-    const MESSAGE011 = '[MESSAGE011] ~';
+    const MESSAGE011 = '[MESSAGE011] Ã—';
 
     /**
-     * ƒL[’l: KEY_MESSAGE011
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE011
      *
      * No.11:
      */
     const KEY_MESSAGE011 = 'MESSAGE011';
 
     /**
-     * •¶Žš—ñ[‰üs[\n]‚ÌŽŽŒ±B]
+     * æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]
      *
      * No.12:
      */
-    const MESSAGE012 = '[MESSAGE012] ‰üs[\n]‚ÌŽŽŒ±B';
+    const MESSAGE012 = '[MESSAGE012] æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚';
 
     /**
-     * ƒL[’l: KEY_MESSAGE012
+     * ã‚­ãƒ¼å€¤: KEY_MESSAGE012
      *
      * No.12:
      */
     const KEY_MESSAGE012 = 'MESSAGE012';
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE001]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE001]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.1:
-     * •¶Žš—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]
+     * æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]
      *
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage001() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage001 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage001 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[0]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
 
-        return '[MESSAGE001] ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB';
+        return '[MESSAGE001] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE002]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE002]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.2:
-     * •¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+     * æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage002(/*.string.*/ $arg0) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage002 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage002 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[1]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage002 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage002 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage002]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage002]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE002] ƒƒbƒZ[ƒW’uŠ·•¶Žš[' . $arg0 . ']‚ª’uŠ·‚³‚ê‚Ü‚·B';
+        return '[MESSAGE002] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[' . $arg0 . ']ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE003]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE003]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.3:
-     * •¶Žš—ñ[ƒƒbƒZ[ƒW’uŠ·•¶Žš[{0}]‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
+     * æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @param string $arg1 ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @param string $arg1 ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage003(/*.string.*/ $arg0, /*.string.*/ $arg1) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[2]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[2]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 ‚Ì2”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg1) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 ã®2ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg1) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage003]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage003]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg1 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage003]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage003]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE003] ƒƒbƒZ[ƒW’uŠ·•¶Žš[' . $arg0 . ']‚É‰Á‚¦A‚à‚¤‚Ð‚Æ‚Â[' . $arg1 . ']‚ª’uŠ·‚³‚ê‚Ü‚·B';
+        return '[MESSAGE003] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[' . $arg0 . ']ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[' . $arg1 . ']ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE004]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE004]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.4:
-     * •¶Žš—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš{0}{1}‚Ì—á‚Å‚·B]
+     * æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @param string $arg1 ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @param string $arg1 ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage004(/*.string.*/ $arg0, /*.string.*/ $arg1) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[2]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[2]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 ‚Ì2”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg1) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 ã®2ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg1) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage004]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage004]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg1 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage004]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage004]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE004] ˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶Žš' . $arg0 . $arg1 . '‚Ì—á‚Å‚·B';
+        return '[MESSAGE004] é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—' . $arg0 . $arg1 . 'ã®ä¾‹ã§ã™ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE005]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE005]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.5:
-     * •¶Žš—ñ[{0}æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB]
+     * æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage005(/*.string.*/ $arg0) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage005 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage005 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[1]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage005 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage005 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage005]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage005]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE005] ' . $arg0 . 'æ“ª‚©‚ç’uŠ·•¶Žš—ñ‚ª‚ ‚é—áB';
+        return '[MESSAGE005] ' . $arg0 . 'å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE006]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE006]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.6:
-     * •¶Žš—ñ[ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB{0}]
+     * æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage006(/*.string.*/ $arg0) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage006 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[1]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage006 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[1]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage006 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage006 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage006]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage006]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE006] ÅŒã‚ª’uŠ·•¶Žš—ñ‚Ì—áB' . $arg0;
+        return '[MESSAGE006] æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚' . $arg0;
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE007]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE007]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.7:
-     * •¶Žš—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš{0}{1}{0}{1}{2}{1}{0}]
+     * æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @param string $arg1 ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-     * @param string $arg2 ’uŠ·•¶Žš—ñ{2}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @param string $arg1 ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+     * @param string $arg2 ç½®æ›æ–‡å­—åˆ—{2}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage007(/*.string.*/ $arg0, /*.string.*/ $arg1, /*.string.*/ $arg2) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 3) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[3]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[3]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ‚Ì2”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg1) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ã®2ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg1) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg2) !== 'string' && gettype($arg2) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ‚Ì3”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg2) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 ã®3ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg2) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg1 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg2 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage007]‚Ìƒpƒ‰ƒ[ƒ^[arg2]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage007]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg2]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE007] ‰½“x‚àŒ»‚ê‚é’uŠ·•¶Žš' . $arg0 . $arg1 . $arg0 . $arg1 . $arg2 . $arg1 . $arg0;
+        return '[MESSAGE007] ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—' . $arg0 . $arg1 . $arg0 . $arg1 . $arg2 . $arg1 . $arg0;
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE008]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE008]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.8:
-     * •¶Žš—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]
+     * æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @param string $arg1 ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-     * @param string $arg2 ’uŠ·•¶Žš—ñ{2}‚Ì’lB
-     * @param string $arg3 ’uŠ·•¶Žš—ñ{3}‚Ì’lB
-     * @param string $arg4 ’uŠ·•¶Žš—ñ{4}‚Ì’lB
-     * @param string $arg5 ’uŠ·•¶Žš—ñ{5}‚Ì’lB
-     * @param string $arg6 ’uŠ·•¶Žš—ñ{6}‚Ì’lB
-     * @param string $arg7 ’uŠ·•¶Žš—ñ{7}‚Ì’lB
-     * @param string $arg8 ’uŠ·•¶Žš—ñ{8}‚Ì’lB
-     * @param string $arg9 ’uŠ·•¶Žš—ñ{9}‚Ì’lB
-     * @param string $arg10 ’uŠ·•¶Žš—ñ{10}‚Ì’lB
-     * @param string $arg11 ’uŠ·•¶Žš—ñ{11}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @param string $arg1 ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+     * @param string $arg2 ç½®æ›æ–‡å­—åˆ—{2}ã®å€¤ã€‚
+     * @param string $arg3 ç½®æ›æ–‡å­—åˆ—{3}ã®å€¤ã€‚
+     * @param string $arg4 ç½®æ›æ–‡å­—åˆ—{4}ã®å€¤ã€‚
+     * @param string $arg5 ç½®æ›æ–‡å­—åˆ—{5}ã®å€¤ã€‚
+     * @param string $arg6 ç½®æ›æ–‡å­—åˆ—{6}ã®å€¤ã€‚
+     * @param string $arg7 ç½®æ›æ–‡å­—åˆ—{7}ã®å€¤ã€‚
+     * @param string $arg8 ç½®æ›æ–‡å­—åˆ—{8}ã®å€¤ã€‚
+     * @param string $arg9 ç½®æ›æ–‡å­—åˆ—{9}ã®å€¤ã€‚
+     * @param string $arg10 ç½®æ›æ–‡å­—åˆ—{10}ã®å€¤ã€‚
+     * @param string $arg11 ç½®æ›æ–‡å­—åˆ—{11}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage008(/*.string.*/ $arg0, /*.string.*/ $arg1, /*.string.*/ $arg2, /*.string.*/ $arg3, /*.string.*/ $arg4, /*.string.*/ $arg5, /*.string.*/ $arg6, /*.string.*/ $arg7, /*.string.*/ $arg8, /*.string.*/ $arg9, /*.string.*/ $arg10, /*.string.*/ $arg11) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 12) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[12]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[12]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì2”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg1) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®2ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg1) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg2) !== 'string' && gettype($arg2) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì3”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg2) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®3ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg2) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg3) !== 'string' && gettype($arg3) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì4”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg3) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®4ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg3) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg4) !== 'string' && gettype($arg4) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì5”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg4) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®5ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg4) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg5) !== 'string' && gettype($arg5) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì6”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg5) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®6ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg5) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg6) !== 'string' && gettype($arg6) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì7”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg6) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®7ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg6) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg7) !== 'string' && gettype($arg7) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì8”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg7) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®8ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg7) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg8) !== 'string' && gettype($arg8) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì9”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg8) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®9ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg8) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg9) !== 'string' && gettype($arg9) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì10”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg9) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®10ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg9) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg10) !== 'string' && gettype($arg10) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì11”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg10) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®11ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg10) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg11) !== 'string' && gettype($arg11) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ‚Ì12”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg11) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 ã®12ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg11) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg1 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg2 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg2]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg2]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg3 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg3]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg3]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg4 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg4]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg4]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg5 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg5]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg5]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg6 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg6]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg6]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg7 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg7]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg7]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg8 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg8]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg8]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg9 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg9]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg9]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg10 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg10]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg10]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg11 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage008]‚Ìƒpƒ‰ƒ[ƒ^[arg11]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage008]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg11]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE008] ‚½‚­‚³‚ñ‚Ì’uŠ·•¶ŽšB' . $arg11 . $arg10 . $arg9 . $arg8 . $arg7 . $arg6 . $arg5 . $arg4 . $arg3 . $arg2 . $arg1 . $arg0 . '‚Æ12ŒÂB';
+        return '[MESSAGE008] ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚' . $arg11 . $arg10 . $arg9 . $arg8 . $arg7 . $arg6 . $arg5 . $arg4 . $arg3 . $arg2 . $arg1 . $arg0 . 'ã¨12å€‹ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE009]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE009]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.9:
-     * •¶Žš—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]
+     * æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]
      *
-     * @param string $arg0 ’uŠ·•¶Žš—ñ{0}‚Ì’lB
-     * @param string $arg1 ’uŠ·•¶Žš—ñ{1}‚Ì’lB
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @param string $arg0 ç½®æ›æ–‡å­—åˆ—{0}ã®å€¤ã€‚
+     * @param string $arg1 ç½®æ›æ–‡å­—åˆ—{1}ã®å€¤ã€‚
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage009(/*.string.*/ $arg0, /*.string.*/ $arg1) {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[2]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[2]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 ‚Ì1”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg0) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 ã®1ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg0) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 ‚Ì2”Ô–Ú‚Ìƒpƒ‰ƒ[ƒ^‚Í[string]Œ^‚Å‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB‚µ‚©‚µŽÀÛ‚É‚Í[' . gettype($arg1) . ']Œ^‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 ã®2ç•ªç›®ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[string]åž‹ã§ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . gettype($arg1) . ']åž‹ãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚');
         }
 
         if ($arg0 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage009]‚Ìƒpƒ‰ƒ[ƒ^[arg0]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage009]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg0]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
         if ($arg1 === null) {
-            throw new Exception('ƒƒ\ƒbƒh[getMessage009]‚Ìƒpƒ‰ƒ[ƒ^[arg1]‚Énull‚ª—^‚¦‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚±‚Ìƒpƒ‰ƒ[ƒ^‚Énull‚ð—^‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB');
+            throw new Exception('ãƒ¡ã‚½ãƒƒãƒ‰[getMessage009]ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿[arg1]ã«nullãŒä¸Žãˆã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã“ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«nullã‚’ä¸Žãˆã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚');
         }
 
-        return '[MESSAGE009] ' . $arg0 . '”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶Žš—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B' . $arg1 . 'B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B';
+        return '[MESSAGE009] ' . $arg0 . 'ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚' . $arg1 . 'ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE010]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE010]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.10:
-     * •¶Žš—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]
+     * æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\ã€‚]
      *
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage010() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage010 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage010 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[0]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
 
-        return '[MESSAGE010] ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“\'AƒGƒ“ƒ}[ƒN\\B';
+        return '[MESSAGE010] ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³"ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³\'ã€ã‚¨ãƒ³ãƒžãƒ¼ã‚¯\\ã€‚';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE011]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE011]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.11:
-     * •¶Žš—ñ[~]
+     * æ–‡å­—åˆ—[Ã—]
      *
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage011() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage011 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage011 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[0]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
 
-        return '[MESSAGE011] ~';
+        return '[MESSAGE011] Ã—';
     }
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID[Sample2]AƒL[[MESSAGE012]‚Ì•¶Žš—ñ‚ðŽæ“¾‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ID[Sample2]ã€ã‚­ãƒ¼[MESSAGE012]ã®æ–‡å­—åˆ—ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
      * No.12:
-     * •¶Žš—ñ[‰üs[\n]‚ÌŽŽŒ±B]
+     * æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]
      *
-     * @return string ƒƒbƒZ[ƒW•¶Žš—ñB
+     * @return string ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã€‚
      */
     public /*.string.*/ function getMessage012() {
-        /* ƒpƒ‰ƒ[ƒ^‚Ì”AŒ^ƒ`ƒFƒbƒN‚ðs‚¢‚Ü‚·B */
+        /* ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®æ•°ã€åž‹ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚ */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage012 ‚Ìƒpƒ‰ƒ[ƒ^‚Í[0]ŒÂ‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B‚µ‚©‚µŽÀÛ‚É‚Í[' . func_num_args() .  ']ŒÂ‚Ìƒpƒ‰ƒ[ƒ^‚ð”º‚Á‚ÄŒÄ‚Ño‚³‚ê‚Ü‚µ‚½B');
+            throw new Exception('[ArgumentException]: Sample2Message.getMessage012 ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯[0]å€‹ã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ã—ã‹ã—å®Ÿéš›ã«ã¯[' . func_num_args() .  ']å€‹ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã‚’ä¼´ã£ã¦å‘¼ã³å‡ºã•ã‚Œã¾ã—ãŸã€‚');
         }
 
-        return '[MESSAGE012] ‰üs[\n]‚ÌŽŽŒ±B';
+        return '[MESSAGE012] æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚';
     }
 }
 ?>

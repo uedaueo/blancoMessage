@@ -1,82 +1,86 @@
-// ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚Á‚Ä©“®¶¬‚³‚ê‚Ä‚¢‚Ü‚·B
+// ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã£ã¦è‡ªå‹•ç”Ÿæˆã•ã‚Œã¦ã„ã¾ã™ã€‚
 unit Sample2Message;
 
 interface
 type
-    // ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚±‚ÌƒNƒ‰ƒX‚Í’P‚ÉƒTƒ“ƒvƒ‹‚Å‚·BÀÛ‚Ì“®ì‚É‚Í—˜—p‚³‚ê‚Ü‚¹‚ñB
+    // ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ã“ã®ã‚¯ãƒ©ã‚¹ã¯å˜ã«ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚å®Ÿéš›ã®å‹•ä½œã«ã¯åˆ©ç”¨ã•ã‚Œã¾ã›ã‚“ã€‚
     TSample2Message = class(TObject)
 
-        // •¶š—ñ[ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB]
-        const MESSAGE001: String = '[MESSAGE001] ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB';
+    public
 
-        // ƒL[’l: KEY_MESSAGE001
-        const KEY_MESSAGE001: String = 'MESSAGE001';
+        // æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚]
+        const MESSAGE001: String;
 
-        // •¶š—ñ[ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
-        const MESSAGE002: String = '[MESSAGE002] ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE001
+        const KEY_MESSAGE001: String;
 
-        // ƒL[’l: KEY_MESSAGE002
-        const KEY_MESSAGE002: String = 'MESSAGE002';
+        // æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
+        const MESSAGE002: String;
 
-        // •¶š—ñ[ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚É‰Á‚¦A‚à‚¤‚Ğ‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B]
-        const MESSAGE003: String = '[MESSAGE003] ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚É‰Á‚¦A‚à‚¤‚Ğ‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE002
+        const KEY_MESSAGE002: String;
 
-        // ƒL[’l: KEY_MESSAGE003
-        const KEY_MESSAGE003: String = 'MESSAGE003';
+        // æ–‡å­—åˆ—[ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚]
+        const MESSAGE003: String;
 
-        // •¶š—ñ[˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶š{0}{1}‚Ì—á‚Å‚·B]
-        const MESSAGE004: String = '[MESSAGE004] ˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶š{0}{1}‚Ì—á‚Å‚·B';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE003
+        const KEY_MESSAGE003: String;
 
-        // ƒL[’l: KEY_MESSAGE004
-        const KEY_MESSAGE004: String = 'MESSAGE004';
+        // æ–‡å­—åˆ—[é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚]
+        const MESSAGE004: String;
 
-        // •¶š—ñ[{0}æ“ª‚©‚ç’uŠ·•¶š—ñ‚ª‚ ‚é—áB]
-        const MESSAGE005: String = '[MESSAGE005] {0}æ“ª‚©‚ç’uŠ·•¶š—ñ‚ª‚ ‚é—áB';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE004
+        const KEY_MESSAGE004: String;
 
-        // ƒL[’l: KEY_MESSAGE005
-        const KEY_MESSAGE005: String = 'MESSAGE005';
+        // æ–‡å­—åˆ—[{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚]
+        const MESSAGE005: String;
 
-        // •¶š—ñ[ÅŒã‚ª’uŠ·•¶š—ñ‚Ì—áB{0}]
-        const MESSAGE006: String = '[MESSAGE006] ÅŒã‚ª’uŠ·•¶š—ñ‚Ì—áB{0}';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE005
+        const KEY_MESSAGE005: String;
 
-        // ƒL[’l: KEY_MESSAGE006
-        const KEY_MESSAGE006: String = 'MESSAGE006';
+        // æ–‡å­—åˆ—[æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}]
+        const MESSAGE006: String;
 
-        // •¶š—ñ[‰½“x‚àŒ»‚ê‚é’uŠ·•¶š{0}{1}{0}{1}{2}{1}{0}]
-        const MESSAGE007: String = '[MESSAGE007] ‰½“x‚àŒ»‚ê‚é’uŠ·•¶š{0}{1}{0}{1}{2}{1}{0}';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE006
+        const KEY_MESSAGE006: String;
 
-        // ƒL[’l: KEY_MESSAGE007
-        const KEY_MESSAGE007: String = 'MESSAGE007';
+        // æ–‡å­—åˆ—[ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}]
+        const MESSAGE007: String;
 
-        // •¶š—ñ[‚½‚­‚³‚ñ‚Ì’uŠ·•¶šB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB]
-        const MESSAGE008: String = '[MESSAGE008] ‚½‚­‚³‚ñ‚Ì’uŠ·•¶šB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE007
+        const KEY_MESSAGE007: String;
 
-        // ƒL[’l: KEY_MESSAGE008
-        const KEY_MESSAGE008: String = 'MESSAGE008';
+        // æ–‡å­—åˆ—[ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚]
+        const MESSAGE008: String;
 
-        // •¶š—ñ[{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶š—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B]
-        const MESSAGE009: String = '[MESSAGE009] {0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶š—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE008
+        const KEY_MESSAGE008: String;
 
-        // ƒL[’l: KEY_MESSAGE009
-        const KEY_MESSAGE009: String = 'MESSAGE009';
+        // æ–‡å­—åˆ—[{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚]
+        const MESSAGE009: String;
 
-        // •¶š—ñ[ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&amp;quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B]
-        const MESSAGE010: String = '[MESSAGE010] ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“''AƒGƒ“ƒ}[ƒN\B';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE009
+        const KEY_MESSAGE009: String;
 
-        // ƒL[’l: KEY_MESSAGE010
-        const KEY_MESSAGE010: String = 'MESSAGE010';
+        // æ–‡å­—åˆ—[ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&amp;quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒãƒ¼ã‚¯\ã€‚]
+        const MESSAGE010: String;
 
-        // •¶š—ñ[~]
-        const MESSAGE011: String = '[MESSAGE011] ~';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE010
+        const KEY_MESSAGE010: String;
 
-        // ƒL[’l: KEY_MESSAGE011
-        const KEY_MESSAGE011: String = 'MESSAGE011';
+        // æ–‡å­—åˆ—[Ã—]
+        const MESSAGE011: String;
 
-        // •¶š—ñ[‰üs[\n]‚ÌŒ±B]
-        const MESSAGE012: String = '[MESSAGE012] ‰üs[\n]‚ÌŒ±B';
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE011
+        const KEY_MESSAGE011: String;
 
-        // ƒL[’l: KEY_MESSAGE012
-        const KEY_MESSAGE012: String = 'MESSAGE012';
+        // æ–‡å­—åˆ—[æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚]
+        const MESSAGE012: String;
+
+        // ã‚­ãƒ¼å€¤: KEY_MESSAGE012
+        const KEY_MESSAGE012: String;
+
+    public
 
         function getMessage001: String;
 
@@ -106,73 +110,73 @@ implementation
 
     function TSample2Message.getMessage001: String;
     begin
-        result:= '[MESSAGE001] ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB';
+        result:= '[MESSAGE001] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage002(arg0: String): String;
     begin
-        result:= '[MESSAGE002] ƒƒbƒZ[ƒW’uŠ·•¶š[' + arg0 + ']‚ª’uŠ·‚³‚ê‚Ü‚·B';
+        result:= '[MESSAGE002] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[' + arg0 + ']ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage003(arg0: String; arg1: String): String;
     begin
-        result:= '[MESSAGE003] ƒƒbƒZ[ƒW’uŠ·•¶š[' + arg0 + ']‚É‰Á‚¦A‚à‚¤‚Ğ‚Æ‚Â[' + arg1 + ']‚ª’uŠ·‚³‚ê‚Ü‚·B';
+        result:= '[MESSAGE003] ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[' + arg0 + ']ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[' + arg1 + ']ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage004(arg0: String; arg1: String): String;
     begin
-        result:= '[MESSAGE004] ˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶š' + arg0 + arg1 + '‚Ì—á‚Å‚·B';
+        result:= '[MESSAGE004] é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—' + arg0 + arg1 + 'ã®ä¾‹ã§ã™ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage005(arg0: String): String;
     begin
-        result:= '[MESSAGE005] ' + arg0 + 'æ“ª‚©‚ç’uŠ·•¶š—ñ‚ª‚ ‚é—áB';
+        result:= '[MESSAGE005] ' + arg0 + 'å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage006(arg0: String): String;
     begin
-        result:= '[MESSAGE006] ÅŒã‚ª’uŠ·•¶š—ñ‚Ì—áB' + arg0;
+        result:= '[MESSAGE006] æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚' + arg0;
         exit;
     end;
 
     function TSample2Message.getMessage007(arg0: String; arg1: String; arg2: String): String;
     begin
-        result:= '[MESSAGE007] ‰½“x‚àŒ»‚ê‚é’uŠ·•¶š' + arg0 + arg1 + arg0 + arg1 + arg2 + arg1 + arg0;
+        result:= '[MESSAGE007] ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—' + arg0 + arg1 + arg0 + arg1 + arg2 + arg1 + arg0;
         exit;
     end;
 
     function TSample2Message.getMessage008(arg0: String; arg1: String; arg2: String; arg3: String; arg4: String; arg5: String; arg6: String; arg7: String; arg8: String; arg9: String; arg10: String; arg11: String): String;
     begin
-        result:= '[MESSAGE008] ‚½‚­‚³‚ñ‚Ì’uŠ·•¶šB' + arg11 + arg10 + arg9 + arg8 + arg7 + arg6 + arg5 + arg4 + arg3 + arg2 + arg1 + arg0 + '‚Æ12ŒÂB';
+        result:= '[MESSAGE008] ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚' + arg11 + arg10 + arg9 + arg8 + arg7 + arg6 + arg5 + arg4 + arg3 + arg2 + arg1 + arg0 + 'ã¨12å€‹ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage009(arg0: String; arg1: String): String;
     begin
-        result:= '[MESSAGE009] ' + arg0 + '”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶š—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B' + arg1 + 'B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B';
+        result:= '[MESSAGE009] ' + arg0 + 'ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚' + arg1 + 'ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage010: String;
     begin
-        result:= '[MESSAGE010] ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“''AƒGƒ“ƒ}[ƒN\B';
+        result:= '[MESSAGE010] ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³"ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³''ã€ã‚¨ãƒ³ãƒãƒ¼ã‚¯\ã€‚';
         exit;
     end;
 
     function TSample2Message.getMessage011: String;
     begin
-        result:= '[MESSAGE011] ~';
+        result:= '[MESSAGE011] Ã—';
         exit;
     end;
 
     function TSample2Message.getMessage012: String;
     begin
-        result:= '[MESSAGE012] ‰üs[\n]‚ÌŒ±B';
+        result:= '[MESSAGE012] æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚';
         exit;
     end;
 end.

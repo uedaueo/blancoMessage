@@ -1,202 +1,202 @@
 /*
- * ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚è©“®¶¬‚³‚ê‚Ü‚µ‚½B
+ * ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã‚Šè‡ªå‹•ç”Ÿæˆã•ã‚Œã¾ã—ãŸã€‚
  */
 package blanco.message.valueobject;
 
 import java.util.List;
 
 /**
- * BlancoMessage‚Ì‚È‚©‚Å—˜—p‚³‚ê‚éValueObject‚Å‚·B
+ * BlancoMessageã®ãªã‹ã§åˆ©ç”¨ã•ã‚Œã‚‹ValueObjectã§ã™ã€‚
  */
 public class BlancoMessageStructure {
     /**
-     * ƒƒbƒZ[ƒW’è‹`ID‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©IDã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [name]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [name]ã€‚
      */
     private String fName;
 
     /**
-     * ƒpƒbƒP[ƒW–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B
+     * ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [package]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [package]ã€‚
      */
     private String fPackage;
 
     /**
-     * ƒƒbƒZ[ƒW’è‹`‚Ìà–¾‚ğ‹LÚ‚µ‚Ü‚·B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ã®èª¬æ˜ã‚’è¨˜è¼‰ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [description]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [description]ã€‚
      */
     private String fDescription;
 
     /**
-     * ƒNƒ‰ƒX–¼‚ÌŒã•û‚É•t—^‚³‚ê‚éƒTƒtƒBƒbƒNƒXB
+     * ã‚¯ãƒ©ã‚¹åã®å¾Œæ–¹ã«ä»˜ä¸ã•ã‚Œã‚‹ã‚µãƒ•ã‚£ãƒƒã‚¯ã‚¹ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [suffix]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [suffix]ã€‚
      */
     private String fSuffix;
 
     /**
-     * ƒƒbƒZ[ƒW•¶š—ñ‚ÉID–„‚ß‚İ‚ğs‚¤‚©‚Ç‚¤‚©B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã«IDåŸ‹ã‚è¾¼ã¿ã‚’è¡Œã†ã‹ã©ã†ã‹ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [idEmbedding]B
-     * ƒfƒtƒHƒ‹ƒg: [false]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [idEmbedding]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [false]ã€‚
      */
     private boolean fIdEmbedding = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh‚ğ•Û‚·‚éƒŠƒXƒgB
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’ä¿æŒã™ã‚‹ãƒªã‚¹ãƒˆã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [fieldList]B
-     * ƒfƒtƒHƒ‹ƒg: [new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>()]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [fieldList]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>()]ã€‚
      */
     private List<blanco.message.valueobject.BlancoMessageFieldStructure> fFieldList = new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>();
 
     /**
-     * ƒtƒB[ƒ‹ƒh [name] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [name] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW’è‹`ID‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©IDã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @param argName ƒtƒB[ƒ‹ƒh[name]‚Éİ’è‚·‚é’lB
+     * @param argName ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[name]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setName(final String argName) {
         fName = argName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [name] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [name] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW’è‹`ID‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©IDã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[name]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[name]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getName() {
         return fName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [package] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [package] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒpƒbƒP[ƒW–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @param argPackage ƒtƒB[ƒ‹ƒh[package]‚Éİ’è‚·‚é’lB
+     * @param argPackage ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[package]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setPackage(final String argPackage) {
         fPackage = argPackage;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [package] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [package] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒpƒbƒP[ƒW–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[package]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[package]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getPackage() {
         return fPackage;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [description] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [description] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW’è‹`‚Ìà–¾‚ğ‹LÚ‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ã®èª¬æ˜ã‚’è¨˜è¼‰ã—ã¾ã™ã€‚]ã€‚
      *
-     * @param argDescription ƒtƒB[ƒ‹ƒh[description]‚Éİ’è‚·‚é’lB
+     * @param argDescription ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[description]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setDescription(final String argDescription) {
         fDescription = argDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [description] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [description] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW’è‹`‚Ìà–¾‚ğ‹LÚ‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ã®èª¬æ˜ã‚’è¨˜è¼‰ã—ã¾ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[description]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[description]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getDescription() {
         return fDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [suffix] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [suffix] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒNƒ‰ƒX–¼‚ÌŒã•û‚É•t—^‚³‚ê‚éƒTƒtƒBƒbƒNƒXB]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¯ãƒ©ã‚¹åã®å¾Œæ–¹ã«ä»˜ä¸ã•ã‚Œã‚‹ã‚µãƒ•ã‚£ãƒƒã‚¯ã‚¹ã€‚]ã€‚
      *
-     * @param argSuffix ƒtƒB[ƒ‹ƒh[suffix]‚Éİ’è‚·‚é’lB
+     * @param argSuffix ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[suffix]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setSuffix(final String argSuffix) {
         fSuffix = argSuffix;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [suffix] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [suffix] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒNƒ‰ƒX–¼‚ÌŒã•û‚É•t—^‚³‚ê‚éƒTƒtƒBƒbƒNƒXB]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¯ãƒ©ã‚¹åã®å¾Œæ–¹ã«ä»˜ä¸ã•ã‚Œã‚‹ã‚µãƒ•ã‚£ãƒƒã‚¯ã‚¹ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[suffix]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[suffix]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getSuffix() {
         return fSuffix;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [idEmbedding] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [idEmbedding] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW•¶š—ñ‚ÉID–„‚ß‚İ‚ğs‚¤‚©‚Ç‚¤‚©B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã«IDåŸ‹ã‚è¾¼ã¿ã‚’è¡Œã†ã‹ã©ã†ã‹ã€‚]ã€‚
      *
-     * @param argIdEmbedding ƒtƒB[ƒ‹ƒh[idEmbedding]‚Éİ’è‚·‚é’lB
+     * @param argIdEmbedding ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[idEmbedding]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setIdEmbedding(final boolean argIdEmbedding) {
         fIdEmbedding = argIdEmbedding;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [idEmbedding] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [idEmbedding] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒƒbƒZ[ƒW•¶š—ñ‚ÉID–„‚ß‚İ‚ğs‚¤‚©‚Ç‚¤‚©B]B
-     * ƒfƒtƒHƒ‹ƒg: [false]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æ–‡å­—åˆ—ã«IDåŸ‹ã‚è¾¼ã¿ã‚’è¡Œã†ã‹ã©ã†ã‹ã€‚]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [false]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[idEmbedding]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[idEmbedding]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public boolean getIdEmbedding() {
         return fIdEmbedding;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [fieldList] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [fieldList] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒtƒB[ƒ‹ƒh‚ğ•Û‚·‚éƒŠƒXƒgB]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’ä¿æŒã™ã‚‹ãƒªã‚¹ãƒˆã€‚]ã€‚
      *
-     * @param argFieldList ƒtƒB[ƒ‹ƒh[fieldList]‚Éİ’è‚·‚é’lB
+     * @param argFieldList ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[fieldList]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setFieldList(final List<blanco.message.valueobject.BlancoMessageFieldStructure> argFieldList) {
         fFieldList = argFieldList;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [fieldList] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [fieldList] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒtƒB[ƒ‹ƒh‚ğ•Û‚·‚éƒŠƒXƒgB]B
-     * ƒfƒtƒHƒ‹ƒg: [new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>()]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’ä¿æŒã™ã‚‹ãƒªã‚¹ãƒˆã€‚]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>()]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[fieldList]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[fieldList]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public List<blanco.message.valueobject.BlancoMessageFieldStructure> getFieldList() {
         return fFieldList;
     }
 
     /**
-     * ‚±‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»‚ğæ“¾‚µ‚Ü‚·B
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * <P>g—pã‚Ì’ˆÓ</P>
+     * <P>ä½¿ç”¨ä¸Šã®æ³¨æ„</P>
      * <UL>
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ÌƒVƒƒƒ[”ÍˆÍ‚Ì‚İ•¶š—ñ‰»‚Ìˆ—‘ÎÛ‚Æ‚È‚è‚Ü‚·B
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ªzŠÂQÆ‚µ‚Ä‚¢‚éê‡‚É‚ÍA‚±‚Ìƒƒ\ƒbƒh‚Íg‚í‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿æ–‡å­—åˆ—åŒ–ã®å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
      * </UL>
      *
-     * @return ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»B
+     * @return ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã€‚
      */
     @Override
     public String toString() {
@@ -210,5 +210,43 @@ public class BlancoMessageStructure {
         buf.append(",fieldList=" + fFieldList);
         buf.append("]");
         return buf.toString();
+    }
+
+    /**
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’æŒ‡å®šã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã«è¤‡å†™ã—ã¾ã™ã€‚
+     *
+     * <P>ä½¿ç”¨ä¸Šã®æ³¨æ„</P>
+     * <UL>
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿è¤‡å†™å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
+     * </UL>
+     *
+     * @param target target value object.
+     */
+    public void copyTo(final BlancoMessageStructure target) {
+        if (target == null) {
+            throw new IllegalArgumentException("Bug: BlancoMessageStructure#copyTo(target): argument 'target' is null");
+        }
+
+        // No needs to copy parent class.
+
+        // Name: fName
+        // Type: java.lang.String
+        target.fName = this.fName;
+        // Name: fPackage
+        // Type: java.lang.String
+        target.fPackage = this.fPackage;
+        // Name: fDescription
+        // Type: java.lang.String
+        target.fDescription = this.fDescription;
+        // Name: fSuffix
+        // Type: java.lang.String
+        target.fSuffix = this.fSuffix;
+        // Name: fIdEmbedding
+        // Type: boolean
+        target.fIdEmbedding = this.fIdEmbedding;
+        // Name: fFieldList
+        // Type: java.util.List
+        // ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[fFieldList]ã¯ã‚µãƒãƒ¼ãƒˆå¤–ã®å‹[java.util.List]ã§ã™ã€‚
     }
 }

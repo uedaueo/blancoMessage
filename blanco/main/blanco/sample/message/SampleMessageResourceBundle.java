@@ -1,5 +1,5 @@
 /*
- * ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í blanco Framework‚É‚æ‚è©“®¶¬‚³‚ê‚Ü‚µ‚½B
+ * ã“ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ blanco Frameworkã«ã‚ˆã‚Šè‡ªå‹•ç”Ÿæˆã•ã‚Œã¾ã—ãŸã€‚
  */
 package blanco.sample.message;
 
@@ -9,23 +9,23 @@ import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 /**
- * ƒƒbƒZ[ƒW’è‹`[Sample]‚ª“à•”“I‚É—˜—p‚·‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒNƒ‰ƒXB
+ * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©[Sample]ãŒå†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚¯ãƒ©ã‚¹ã€‚
  *
- * ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`: [SampleMessage]B<BR>
- * ‚±‚ÌƒNƒ‰ƒX‚ÍƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`‘‚©‚ç©“®¶¬‚³‚ê‚½ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒNƒ‰ƒX‚Å‚·B<BR>
+ * ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«å®šç¾©: [SampleMessage]ã€‚<BR>
+ * ã“ã®ã‚¯ãƒ©ã‚¹ã¯ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«å®šç¾©æ›¸ã‹ã‚‰è‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚¯ãƒ©ã‚¹ã§ã™ã€‚<BR>
  */
 class SampleMessageResourceBundle {
     /**
-     * ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒIƒuƒWƒFƒNƒgB
+     * ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      *
-     * “à•”“I‚ÉÀÛ‚É“ü—Í‚ğs‚¤ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğ‹L‰¯‚µ‚Ü‚·B
+     * å†…éƒ¨çš„ã«å®Ÿéš›ã«å…¥åŠ›ã‚’è¡Œã†ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’è¨˜æ†¶ã—ã¾ã™ã€‚
      */
     private ResourceBundle fResourceBundle;
 
     /**
-     * SampleMessageResourceBundleƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^B
+     * SampleMessageResourceBundleã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€‚
      *
-     * Šî’ê–¼[SampleMessage]AƒfƒtƒHƒ‹ƒg‚ÌƒƒP[ƒ‹AŒÄ‚Ño‚µ‘¤‚ÌƒNƒ‰ƒXƒ[ƒ_‚ğg—p‚µ‚ÄAƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğæ“¾‚µ‚Ü‚·B
+     * åŸºåº•å[SampleMessage]ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ­ã‚±ãƒ¼ãƒ«ã€å‘¼ã³å‡ºã—å´ã®ã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã‚’ä½¿ç”¨ã—ã¦ã€ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’å–å¾—ã—ã¾ã™ã€‚
      */
     public SampleMessageResourceBundle() {
         try {
@@ -35,11 +35,11 @@ class SampleMessageResourceBundle {
     }
 
     /**
-     * SampleMessageResourceBundleƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^B
+     * SampleMessageResourceBundleã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€‚
      *
-     * Šî’ê–¼[SampleMessage]Aw’è‚³‚ê‚½ƒƒP[ƒ‹AŒÄ‚Ño‚µ‘¤‚ÌƒNƒ‰ƒXƒ[ƒ_‚ğg—p‚µ‚ÄAƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğæ“¾‚µ‚Ü‚·B
+     * åŸºåº•å[SampleMessage]ã€æŒ‡å®šã•ã‚ŒãŸãƒ­ã‚±ãƒ¼ãƒ«ã€å‘¼ã³å‡ºã—å´ã®ã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã‚’ä½¿ç”¨ã—ã¦ã€ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * @param locale ƒƒP[ƒ‹‚Ìw’è
+     * @param locale ãƒ­ã‚±ãƒ¼ãƒ«ã®æŒ‡å®š
      */
     public SampleMessageResourceBundle(final Locale locale) {
         try {
@@ -49,12 +49,12 @@ class SampleMessageResourceBundle {
     }
 
     /**
-     * SampleMessageResourceBundleƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^B
+     * SampleMessageResourceBundleã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€‚
      *
-     * Šî’ê–¼[SampleMessage]Aw’è‚³‚ê‚½ƒƒP[ƒ‹Aw’è‚³‚ê‚½ƒNƒ‰ƒXƒ[ƒ_‚ğg—p‚µ‚ÄAƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğæ“¾‚µ‚Ü‚·B
+     * åŸºåº•å[SampleMessage]ã€æŒ‡å®šã•ã‚ŒãŸãƒ­ã‚±ãƒ¼ãƒ«ã€æŒ‡å®šã•ã‚ŒãŸã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã‚’ä½¿ç”¨ã—ã¦ã€ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * @param locale ƒƒP[ƒ‹‚Ìw’è
-     * @param loader ƒNƒ‰ƒXƒ[ƒ_‚Ìw’è
+     * @param locale ãƒ­ã‚±ãƒ¼ãƒ«ã®æŒ‡å®š
+     * @param loader ã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã®æŒ‡å®š
      */
     public SampleMessageResourceBundle(final Locale locale, final ClassLoader loader) {
         try {
@@ -64,9 +64,9 @@ class SampleMessageResourceBundle {
     }
 
     /**
-     * “à•”“I‚É•Û‚µ‚Ä‚¢‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒIƒuƒWƒFƒNƒg‚ğæ“¾‚µ‚Ü‚·B
+     * å†…éƒ¨çš„ã«ä¿æŒã—ã¦ã„ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * @return “à•”“I‚É•Û‚µ‚Ä‚¢‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒIƒuƒWƒFƒNƒgB
+     * @return å†…éƒ¨çš„ã«ä¿æŒã—ã¦ã„ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      */
     public ResourceBundle getResourceBundle() {
         return fResourceBundle;
@@ -75,34 +75,34 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE001]
      *
-     * [ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB] (ja)<br>
+     * [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚] (ja)<br>
      *
-     * @return key[MESSAGE001]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[MESSAGE001]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage001() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒƒbƒZ[ƒW‚ÌƒTƒ“ƒvƒ‹B‚»‚Ì‚PB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚µãƒ³ãƒ—ãƒ«ã€‚ãã®ï¼‘ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE001");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[SampleMessage], key[MESSAGE002]
      *
-     * [ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B] (ja)<br>
+     * [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE002]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE002]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage002(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚ª’uŠ·‚³‚ê‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE002");
@@ -111,7 +111,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -119,15 +119,15 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE003]
      *
-     * [ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚É‰Á‚¦A‚à‚¤‚Ğ‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B] (ja)<br>
+     * [ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE003]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE003]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage003(final String arg0, final String arg1) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒƒbƒZ[ƒW’uŠ·•¶š[{0}]‚É‰Á‚¦A‚à‚¤‚Ğ‚Æ‚Â[{1}]‚ª’uŠ·‚³‚ê‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—[{0}]ã«åŠ ãˆã€ã‚‚ã†ã²ã¨ã¤[{1}]ãŒç½®æ›ã•ã‚Œã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE003");
@@ -136,7 +136,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1}, strbuf, null);
         return strbuf.toString();
     }
@@ -144,15 +144,15 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE004]
      *
-     * [˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶š{0}{1}‚Ì—á‚Å‚·B] (ja)<br>
+     * [é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE004]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE004]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage004(final String arg0, final String arg1) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "˜A‘±‚µ‚½ƒƒbƒZ[ƒW’uŠ·•¶š{0}{1}‚Ì—á‚Å‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "é€£ç¶šã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç½®æ›æ–‡å­—{0}{1}ã®ä¾‹ã§ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE004");
@@ -161,7 +161,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1}, strbuf, null);
         return strbuf.toString();
     }
@@ -169,14 +169,14 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE005]
      *
-     * [{0}æ“ª‚©‚ç’uŠ·•¶š—ñ‚ª‚ ‚é—áB] (ja)<br>
+     * [{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE005]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE005]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage005(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "{0}æ“ª‚©‚ç’uŠ·•¶š—ñ‚ª‚ ‚é—áB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "{0}å…ˆé ­ã‹ã‚‰ç½®æ›æ–‡å­—åˆ—ãŒã‚ã‚‹ä¾‹ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE005");
@@ -185,7 +185,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -193,14 +193,14 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE006]
      *
-     * [ÅŒã‚ª’uŠ·•¶š—ñ‚Ì—áB{0}] (ja)<br>
+     * [æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE006]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE006]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage006(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ÅŒã‚ª’uŠ·•¶š—ñ‚Ì—áB{0}";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "æœ€å¾ŒãŒç½®æ›æ–‡å­—åˆ—ã®ä¾‹ã€‚{0}";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE006");
@@ -209,7 +209,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -217,16 +217,16 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE007]
      *
-     * [‰½“x‚àŒ»‚ê‚é’uŠ·•¶š{0}{1}{0}{1}{2}{1}{0}] (ja)<br>
+     * [ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg2 ’uŠ·•¶š—ñ{2}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE007]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg2 ç½®æ›æ–‡å­—åˆ—{2}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE007]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage007(final String arg0, final String arg1, final String arg2) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "‰½“x‚àŒ»‚ê‚é’uŠ·•¶š{0}{1}{0}{1}{2}{1}{0}";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ä½•åº¦ã‚‚ç¾ã‚Œã‚‹ç½®æ›æ–‡å­—{0}{1}{0}{1}{2}{1}{0}";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE007");
@@ -235,7 +235,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1, arg2}, strbuf, null);
         return strbuf.toString();
     }
@@ -243,25 +243,25 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE008]
      *
-     * [‚½‚­‚³‚ñ‚Ì’uŠ·•¶šB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB] (ja)<br>
+     * [ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg2 ’uŠ·•¶š—ñ{2}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg3 ’uŠ·•¶š—ñ{3}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg4 ’uŠ·•¶š—ñ{4}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg5 ’uŠ·•¶š—ñ{5}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg6 ’uŠ·•¶š—ñ{6}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg7 ’uŠ·•¶š—ñ{7}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg8 ’uŠ·•¶š—ñ{8}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg9 ’uŠ·•¶š—ñ{9}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg10 ’uŠ·•¶š—ñ{10}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg11 ’uŠ·•¶š—ñ{11}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE008]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg2 ç½®æ›æ–‡å­—åˆ—{2}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg3 ç½®æ›æ–‡å­—åˆ—{3}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg4 ç½®æ›æ–‡å­—åˆ—{4}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg5 ç½®æ›æ–‡å­—åˆ—{5}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg6 ç½®æ›æ–‡å­—åˆ—{6}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg7 ç½®æ›æ–‡å­—åˆ—{7}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg8 ç½®æ›æ–‡å­—åˆ—{8}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg9 ç½®æ›æ–‡å­—åˆ—{9}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg10 ç½®æ›æ–‡å­—åˆ—{10}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg11 ç½®æ›æ–‡å­—åˆ—{11}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE008]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage008(final String arg0, final String arg1, final String arg2, final String arg3, final String arg4, final String arg5, final String arg6, final String arg7, final String arg8, final String arg9, final String arg10, final String arg11) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "‚½‚­‚³‚ñ‚Ì’uŠ·•¶šB{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}‚Æ12ŒÂB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ãŸãã•ã‚“ã®ç½®æ›æ–‡å­—ã€‚{11}{10}{9}{8}{7}{6}{5}{4}{3}{2}{1}{0}ã¨12å€‹ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE008");
@@ -270,7 +270,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11}, strbuf, null);
         return strbuf.toString();
     }
@@ -278,15 +278,15 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE009]
      *
-     * [{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶š—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B] (ja)<br>
+     * [{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[MESSAGE009]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[MESSAGE009]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage009(final String arg0, final String arg1) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "{0}”Ô†‚ª”ò‚Ô‚Æ’uŠ·•¶š—ñ‚Í•s³‚Æ‚µ‚Ä”»’f‚³‚ê‚Ü‚·B{1}B‚±‚Ì’è‹`‘‚Í0ƒIƒŠƒWƒ“‚Å‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "{0}ç•ªå·ãŒé£›ã¶ã¨ç½®æ›æ–‡å­—åˆ—ã¯ä¸æ­£ã¨ã—ã¦åˆ¤æ–­ã•ã‚Œã¾ã™ã€‚{1}ã€‚ã“ã®å®šç¾©æ›¸ã¯0ã‚ªãƒªã‚¸ãƒ³ã§ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE009");
@@ -295,7 +295,7 @@ class SampleMessageResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1}, strbuf, null);
         return strbuf.toString();
     }
@@ -303,60 +303,60 @@ class SampleMessageResourceBundle {
     /**
      * bundle[SampleMessage], key[MESSAGE010]
      *
-     * [ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“&quot;AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\B] (ja)<br>
+     * [ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³&quot;ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒãƒ¼ã‚¯\ã€‚] (ja)<br>
      *
-     * @return key[MESSAGE010]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[MESSAGE010]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage010() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒGƒXƒP[ƒvˆ—‚ÌŠm”FBƒ_ƒuƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“\"AƒVƒ“ƒOƒ‹ƒNƒI[ƒe[ƒVƒ‡ƒ“'AƒGƒ“ƒ}[ƒN\\B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—å‡¦ç†ã®ç¢ºèªã€‚ãƒ€ãƒ–ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³\"ã€ã‚·ãƒ³ã‚°ãƒ«ã‚¯ã‚ªãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³'ã€ã‚¨ãƒ³ãƒãƒ¼ã‚¯\\ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE010");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[SampleMessage], key[MESSAGE011]
      *
-     * [~] (ja)<br>
+     * [Ã—] (ja)<br>
      *
-     * @return key[MESSAGE011]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[MESSAGE011]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage011() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "~";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Ã—";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE011");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[SampleMessage], key[MESSAGE012]
      *
-     * [‰üs[\n]‚ÌŒ±B] (ja)<br>
+     * [æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚] (ja)<br>
      *
-     * @return key[MESSAGE012]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[MESSAGE012]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMessage012() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "‰üs[\n]‚ÌŒ±B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "æ”¹è¡Œ[\n]ã®è©¦é¨“ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("MESSAGE012");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 }

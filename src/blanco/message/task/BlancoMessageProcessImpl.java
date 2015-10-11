@@ -23,12 +23,12 @@ import blanco.message.task.valueobject.BlancoMessageProcessInput;
 
 public class BlancoMessageProcessImpl implements BlancoMessageProcess {
     /**
-     * ƒƒbƒZ[ƒWB
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã€‚
      */
     private final BlancoMessageMessage fMsg = new BlancoMessageMessage();
 
     /**
-     * ‚±‚Ìƒvƒƒ_ƒNƒg‚ÌƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚Ö‚ÌƒAƒNƒZƒXƒIƒuƒWƒFƒNƒgB
+     * ã“ã®ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã®ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      */
     private final BlancoMessageResourceBundle fBundle = new BlancoMessageResourceBundle();
 
@@ -51,16 +51,16 @@ public class BlancoMessageProcessImpl implements BlancoMessageProcess {
                                 .getXml2sourceFileNoGenerateConstantIfFormatElementExistMsg());
             }
 
-            // ƒeƒ“ƒ|ƒ‰ƒŠƒfƒBƒŒƒNƒgƒŠ‚ğì¬B
+            // ãƒ†ãƒ³ãƒãƒ©ãƒªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ä½œæˆã€‚
             new File(input.getTmpdir()
                     + BlancoMessageConstants.TARGET_SUBDIRECTORY).mkdirs();
 
-            // w’è‚³‚ê‚½ƒƒ^ƒfƒBƒŒƒNƒgƒŠ‚ğˆ—‚µ‚Ü‚·B
+            // æŒ‡å®šã•ã‚ŒãŸãƒ¡ã‚¿ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’å‡¦ç†ã—ã¾ã™ã€‚
             new BlancoMessageMeta2Xml().processDirectory(fileMetadir, input
                     .getTmpdir()
                     + BlancoMessageConstants.TARGET_SUBDIRECTORY);
 
-            // XML‰»‚³‚ê‚½’†ŠÔƒtƒ@ƒCƒ‹‚©‚çƒ\[ƒXƒR[ƒh‚ğ¶¬
+            // XMLåŒ–ã•ã‚ŒãŸä¸­é–“ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’ç”Ÿæˆ
             final File[] fileMeta2 = new File(input.getTmpdir()
                     + BlancoMessageConstants.TARGET_SUBDIRECTORY).listFiles();
             for (int index = 0; index < fileMeta2.length; index++) {
@@ -78,7 +78,7 @@ public class BlancoMessageProcessImpl implements BlancoMessageProcess {
 
             return BlancoMessageBatchProcess.END_SUCCESS;
         } catch (TransformerException ex) {
-            throw new IOException("XML•ÏŠ·‚Ì‰ß’ö‚Å—áŠO‚ª”­¶‚µ‚Ü‚µ‚½: " + ex.toString());
+            throw new IOException("XMLå¤‰æ›ã®éç¨‹ã§ä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸ: " + ex.toString());
         }
     }
 
