@@ -247,6 +247,14 @@ public class BlancoMessageStructure {
         target.fIdEmbedding = this.fIdEmbedding;
         // Name: fFieldList
         // Type: java.util.List
-        // フィールド[fFieldList]はサポート外の型[java.util.List]です。
+        if (this.fFieldList != null) {
+            final java.util.Iterator<blanco.message.valueobject.BlancoMessageFieldStructure> iterator = this.fFieldList.iterator();
+            for (; iterator.hasNext();) {
+                blanco.message.valueobject.BlancoMessageFieldStructure loopSource = iterator.next();
+                blanco.message.valueobject.BlancoMessageFieldStructure loopTarget = null;
+                // フィールド[generics]はサポート外の型[blanco.message.valueobject.BlancoMessageFieldStructure]です。
+                target.fFieldList.add(loopTarget);
+            }
+        }
     }
 }

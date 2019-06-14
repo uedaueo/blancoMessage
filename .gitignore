@@ -1,3 +1,6 @@
 /bin/
 /blancoMessage-*-src.zip
 /target/
+.idea/
+tmp/
+*.iml
