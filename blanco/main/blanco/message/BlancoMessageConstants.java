@@ -1,6 +1,3 @@
-/*
- * このソースコードは blanco Frameworkにより自動生成されました。
- */
 package blanco.message;
 
 /**
@@ -23,7 +20,7 @@ public class BlancoMessageConstants {
      * 項目番号:3<br>
      * バージョン番号。
      */
-    public static final String VERSION = "0.6.3";
+    public static final String VERSION = "2.1.1";
 
     /**
      * 項目番号:4<br>

@@ -1,6 +1,3 @@
-/*
- * このソースコードは blanco Frameworkにより自動生成されました。
- */
 package blanco.message.valueobject;
 
 import java.util.List;
@@ -49,7 +46,7 @@ public class BlancoMessageStructure {
      * フィールドを保持するリスト。
      *
      * フィールド: [fieldList]。
-     * デフォルト: [new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>()]。
+     * デフォルト: [new java.util.ArrayList&lt;blanco.message.valueobject.BlancoMessageFieldStructure&gt;()]。
      */
     private List<blanco.message.valueobject.BlancoMessageFieldStructure> fFieldList = new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>();
 
@@ -179,7 +176,7 @@ public class BlancoMessageStructure {
      * フィールド [fieldList] の値を取得します。
      *
      * フィールドの説明: [フィールドを保持するリスト。]。
-     * デフォルト: [new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>()]。
+     * デフォルト: [new java.util.ArrayList&lt;blanco.message.valueobject.BlancoMessageFieldStructure&gt;()]。
      *
      * @return フィールド[fieldList]から取得した値。
      */

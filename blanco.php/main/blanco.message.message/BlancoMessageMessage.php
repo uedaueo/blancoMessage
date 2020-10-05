@@ -2,7 +2,7 @@
 /*
  * このソースコードは blanco Frameworkによって自動生成されています。
  */
-/*. DOC <@package blanco.message.message;>.*/
+namespace blanco.message.message;
 
 /*. require_module 'standard'; .*/;
 
@@ -92,14 +92,14 @@ class BlancoMessageMessage {
     public /*.string.*/ function getMbmsgi01(/*.string.*/ $arg0) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi01 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi01 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi01 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi01 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMbmsgi01]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi01]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MBMSGI01] メッセージ定義ID[' . $arg0 . ']のパッケージ名が指定されていません。';
@@ -117,14 +117,14 @@ class BlancoMessageMessage {
     public /*.string.*/ function getMbmsgi02(/*.string.*/ $arg0) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi02 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi02 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi02 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi02 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMbmsgi02]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi02]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MBMSGI02] サポートしない出力プログラミング言語処理系[' . $arg0 . ']が指定されました。';
@@ -143,20 +143,20 @@ class BlancoMessageMessage {
     public /*.string.*/ function getMbmsgi03(/*.string.*/ $arg0, /*.string.*/ $arg1) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi03 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi03 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi03 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi03 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi03 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi03 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMbmsgi03]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi03]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMbmsgi03]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi03]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MBMSGI03] メッセージ定義ID[' . $arg0 . ']において、キー[' . $arg1 . ']が2回以上あらわれました。同じキーは2回以上指定することはできません。';
@@ -177,32 +177,32 @@ class BlancoMessageMessage {
     public /*.string.*/ function getMbmsgi04(/*.string.*/ $arg0, /*.string.*/ $arg1, /*.string.*/ $arg2, /*.string.*/ $arg3) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 4) {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 のパラメータは[4]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 のパラメータは[4]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
         if (gettype($arg2) !== 'string' && gettype($arg2) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の3番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg2) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の3番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg2) . ']型が与えられました。');
         }
         if (gettype($arg3) !== 'string' && gettype($arg3) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の4番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg3) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsgi04 の4番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg3) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMbmsgi04]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi04]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMbmsgi04]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi04]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg2 === null) {
-            throw new Exception('メソッド[getMbmsgi04]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi04]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg3 === null) {
-            throw new Exception('メソッド[getMbmsgi04]のパラメータ[arg3]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsgi04]のパラメータ[arg3]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MBMSGI04] メッセージ定義ID[' . $arg0 . ']において、キー[' . $arg1 . ']のメッセージが不正です。メッセージ定義として判断した場合の置換文字列の個数[' . $arg2 . ']とリソースバンドルとして判断した場合の置換文字列の個数[' . $arg3 . ']とが異なります。置換文字列の番号は飛んでしまっていませんか？正しくフォーマット定義してください。';
@@ -220,14 +220,14 @@ class BlancoMessageMessage {
     public /*.string.*/ function getMbmsga01(/*.string.*/ $arg0) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsga01 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsga01 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: BlancoMessageMessage.getMbmsga01 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: BlancoMessageMessage.getMbmsga01 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMbmsga01]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMbmsga01]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MBMSGA01] メタディレクトリ[' . $arg0 . ']が存在しません。';

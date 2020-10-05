@@ -2,7 +2,7 @@
 /*
  * このソースコードは blanco Frameworkによって自動生成されています。
  */
-/*. DOC <@package blanco.sample.message;>.*/
+namespace blanco.sample.message;
 
 /*. require_module 'standard'; .*/;
 
@@ -189,7 +189,7 @@ class Sample2Message {
     public /*.string.*/ function getMessage001() {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage001 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage001 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
 
         return '[MESSAGE001] メッセージのサンプル。その１。';
@@ -207,14 +207,14 @@ class Sample2Message {
     public /*.string.*/ function getMessage002(/*.string.*/ $arg0) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage002 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage002 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage002 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage002 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage002]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage002]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE002] メッセージ置換文字[' . $arg0 . ']が置換されます。';
@@ -233,20 +233,20 @@ class Sample2Message {
     public /*.string.*/ function getMessage003(/*.string.*/ $arg0, /*.string.*/ $arg1) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage003 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage003 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage003 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage003 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage003]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage003]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMessage003]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage003]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE003] メッセージ置換文字[' . $arg0 . ']に加え、もうひとつ[' . $arg1 . ']が置換されます。';
@@ -265,20 +265,20 @@ class Sample2Message {
     public /*.string.*/ function getMessage004(/*.string.*/ $arg0, /*.string.*/ $arg1) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage004 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage004 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage004 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage004 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage004]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage004]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMessage004]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage004]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE004] 連続したメッセージ置換文字' . $arg0 . $arg1 . 'の例です。';
@@ -296,14 +296,14 @@ class Sample2Message {
     public /*.string.*/ function getMessage005(/*.string.*/ $arg0) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage005 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage005 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage005 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage005 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage005]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage005]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE005] ' . $arg0 . '先頭から置換文字列がある例。';
@@ -321,14 +321,14 @@ class Sample2Message {
     public /*.string.*/ function getMessage006(/*.string.*/ $arg0) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 1) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage006 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage006 のパラメータは[1]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage006 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage006 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage006]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage006]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE006] 最後が置換文字列の例。' . $arg0;
@@ -348,26 +348,26 @@ class Sample2Message {
     public /*.string.*/ function getMessage007(/*.string.*/ $arg0, /*.string.*/ $arg1, /*.string.*/ $arg2) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 3) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 のパラメータは[3]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage007 のパラメータは[3]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage007 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage007 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
         if (gettype($arg2) !== 'string' && gettype($arg2) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage007 の3番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg2) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage007 の3番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg2) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage007]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage007]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMessage007]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage007]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg2 === null) {
-            throw new Exception('メソッド[getMessage007]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage007]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE007] 何度も現れる置換文字' . $arg0 . $arg1 . $arg0 . $arg1 . $arg2 . $arg1 . $arg0;
@@ -396,80 +396,80 @@ class Sample2Message {
     public /*.string.*/ function getMessage008(/*.string.*/ $arg0, /*.string.*/ $arg1, /*.string.*/ $arg2, /*.string.*/ $arg3, /*.string.*/ $arg4, /*.string.*/ $arg5, /*.string.*/ $arg6, /*.string.*/ $arg7, /*.string.*/ $arg8, /*.string.*/ $arg9, /*.string.*/ $arg10, /*.string.*/ $arg11) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 12) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 のパラメータは[12]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 のパラメータは[12]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
         if (gettype($arg2) !== 'string' && gettype($arg2) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の3番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg2) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の3番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg2) . ']型が与えられました。');
         }
         if (gettype($arg3) !== 'string' && gettype($arg3) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の4番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg3) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の4番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg3) . ']型が与えられました。');
         }
         if (gettype($arg4) !== 'string' && gettype($arg4) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の5番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg4) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の5番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg4) . ']型が与えられました。');
         }
         if (gettype($arg5) !== 'string' && gettype($arg5) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の6番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg5) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の6番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg5) . ']型が与えられました。');
         }
         if (gettype($arg6) !== 'string' && gettype($arg6) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の7番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg6) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の7番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg6) . ']型が与えられました。');
         }
         if (gettype($arg7) !== 'string' && gettype($arg7) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の8番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg7) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の8番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg7) . ']型が与えられました。');
         }
         if (gettype($arg8) !== 'string' && gettype($arg8) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の9番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg8) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の9番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg8) . ']型が与えられました。');
         }
         if (gettype($arg9) !== 'string' && gettype($arg9) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の10番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg9) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の10番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg9) . ']型が与えられました。');
         }
         if (gettype($arg10) !== 'string' && gettype($arg10) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の11番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg10) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の11番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg10) . ']型が与えられました。');
         }
         if (gettype($arg11) !== 'string' && gettype($arg11) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage008 の12番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg11) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage008 の12番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg11) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg2 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg2]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg3 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg3]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg3]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg4 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg4]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg4]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg5 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg5]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg5]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg6 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg6]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg6]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg7 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg7]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg7]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg8 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg8]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg8]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg9 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg9]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg9]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg10 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg10]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg10]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg11 === null) {
-            throw new Exception('メソッド[getMessage008]のパラメータ[arg11]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage008]のパラメータ[arg11]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE008] たくさんの置換文字。' . $arg11 . $arg10 . $arg9 . $arg8 . $arg7 . $arg6 . $arg5 . $arg4 . $arg3 . $arg2 . $arg1 . $arg0 . 'と12個。';
@@ -488,20 +488,20 @@ class Sample2Message {
     public /*.string.*/ function getMessage009(/*.string.*/ $arg0, /*.string.*/ $arg1) {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 2) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage009 のパラメータは[2]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
         if (gettype($arg0) !== 'string' && gettype($arg0) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage009 の1番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg0) . ']型が与えられました。');
         }
         if (gettype($arg1) !== 'string' && gettype($arg1) !== 'NULL') {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage009 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage009 の2番目のパラメータは[string]型でなくてはなりません。しかし実際には[' . gettype($arg1) . ']型が与えられました。');
         }
 
         if ($arg0 === null) {
-            throw new Exception('メソッド[getMessage009]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage009]のパラメータ[arg0]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
         if ($arg1 === null) {
-            throw new Exception('メソッド[getMessage009]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
+            throw new \Exception('メソッド[getMessage009]のパラメータ[arg1]にnullが与えられました。しかし、このパラメータにnullを与えることはできません。');
         }
 
         return '[MESSAGE009] ' . $arg0 . '番号が飛ぶと置換文字列は不正として判断されます。' . $arg1 . '。この定義書は0オリジンです。';
@@ -518,7 +518,7 @@ class Sample2Message {
     public /*.string.*/ function getMessage010() {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage010 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage010 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
 
         return '[MESSAGE010] エスケープ処理の確認。ダブルクオーテーション"、シングルクオーテーション\'、エンマーク\\。';
@@ -535,7 +535,7 @@ class Sample2Message {
     public /*.string.*/ function getMessage011() {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage011 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage011 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
 
         return '[MESSAGE011] ×';
@@ -552,7 +552,7 @@ class Sample2Message {
     public /*.string.*/ function getMessage012() {
         /* パラメータの数、型チェックを行います。 */
         if (func_num_args() !== 0) {
-            throw new Exception('[ArgumentException]: Sample2Message.getMessage012 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
+            throw new \Exception('[ArgumentException]: Sample2Message.getMessage012 のパラメータは[0]個である必要があります。しかし実際には[' . func_num_args() .  ']個のパラメータを伴って呼び出されました。');
         }
 
         return '[MESSAGE012] 改行[\n]の試験。';
