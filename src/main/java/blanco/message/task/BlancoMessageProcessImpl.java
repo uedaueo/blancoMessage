@@ -1,7 +1,7 @@
 /*
  * blanco Framework
  * Copyright (C) 2004-2006 IGA Tosiki
- * 
+ *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -54,6 +54,38 @@ public class BlancoMessageProcessImpl implements BlancoMessageProcess {
             // テンポラリディレクトリを作成。
             new File(input.getTmpdir()
                     + BlancoMessageConstants.TARGET_SUBDIRECTORY).mkdirs();
+
+            /*
+             * 改行コードを決定します。
+             */
+            String LF = "\n";
+            String CR = "\r";
+            String CRLF = CR + LF;
+            String lineSeparatorMark = input.getLineSeparator();
+            String lineSeparator = "";
+            if ("LF".equals(lineSeparatorMark)) {
+                lineSeparator = LF;
+            } else if ("CR".equals(lineSeparatorMark)) {
+                lineSeparator = CR;
+            } else if ("CRLF".equals(lineSeparatorMark)) {
+                lineSeparator = CRLF;
+            }
+            if (lineSeparator.length() != 0) {
+                System.setProperty("line.separator", lineSeparator);
+                if (input.getVerbose()) {
+                    System.out.println("lineSeparator try to change to " + lineSeparatorMark);
+                    String newProp = System.getProperty("line.separator");
+                    String newMark = "other";
+                    if (LF.equals(newProp)) {
+                        newMark = "LF";
+                    } else if (CR.equals(newProp)) {
+                        newMark = "CR";
+                    } else if (CRLF.equals(newProp)) {
+                        newMark = "CRLF";
+                    }
+                    System.out.println("New System Props = " + newMark);
+                }
+            }
 
             // 指定されたメタディレクトリを処理します。
             new BlancoMessageMeta2Xml().processDirectory(fileMetadir, input

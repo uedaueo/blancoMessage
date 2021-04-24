@@ -69,6 +69,8 @@ public class BlancoMessageBatchProcess {
                 input.setIsJavaJsf(Boolean.valueOf(arg.substring(11)).booleanValue());
             } else if (arg.startsWith("-isJavaStruts=")) {
                 input.setIsJavaStruts(Boolean.valueOf(arg.substring(14)).booleanValue());
+            } else if (arg.startsWith("-lineSeparator=")) {
+                input.setLineSeparator(arg.substring(15));
             } else if (arg.equals("-?") || arg.equals("-help")) {
                 usage();
                 System.exit(END_SUCCESS);
@@ -162,7 +164,7 @@ public class BlancoMessageBatchProcess {
      */
     public static final void usage() {
         System.out.println("BlancoMessageBatchProcess: Usage:");
-        System.out.println("  java blanco.message.task.BlancoMessageBatchProcess -verbose=値1 -metadir=値2 -targetdir=値3 -tmpdir=値4 -encoding=値5 -targetlang=値6 -constants=値7 -isJavaJsf=値8 -isJavaStruts=値9");
+        System.out.println("  java blanco.message.task.BlancoMessageBatchProcess -verbose=値1 -metadir=値2 -targetdir=値3 -tmpdir=値4 -encoding=値5 -targetlang=値6 -constants=値7 -isJavaJsf=値8 -isJavaStruts=値9 -lineSeparator=値10");
         System.out.println("    -verbose");
         System.out.println("      説明[verboseモードで動作させるかどうか。]");
         System.out.println("      型[真偽]");
@@ -198,6 +200,10 @@ public class BlancoMessageBatchProcess {
         System.out.println("      説明[Java Apache Struts のメッセージを出力するかどうか。Java 言語のみ対応。]");
         System.out.println("      型[真偽]");
         System.out.println("      デフォルト値[false]");
+        System.out.println("    -lineSeparator");
+        System.out.println("      説明[自動生成するソースコードの改行コードを、LF, CR, CRLFで指定します。]");
+        System.out.println("      型[文字列]");
+        System.out.println("      デフォルト値[LF]");
         System.out.println("    -? , -help");
         System.out.println("      説明[使い方を表示します。]");
     }

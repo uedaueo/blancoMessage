@@ -48,7 +48,7 @@ public class BlancoMessageStructure {
      * フィールド: [fieldList]。
      * デフォルト: [new java.util.ArrayList&lt;blanco.message.valueobject.BlancoMessageFieldStructure&gt;()]。
      */
-    private List<blanco.message.valueobject.BlancoMessageFieldStructure> fFieldList = new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>();
+    private List<BlancoMessageFieldStructure> fFieldList = new java.util.ArrayList<blanco.message.valueobject.BlancoMessageFieldStructure>();
 
     /**
      * フィールド [name] の値を設定します。
@@ -168,7 +168,7 @@ public class BlancoMessageStructure {
      *
      * @param argFieldList フィールド[fieldList]に設定する値。
      */
-    public void setFieldList(final List<blanco.message.valueobject.BlancoMessageFieldStructure> argFieldList) {
+    public void setFieldList(final List<BlancoMessageFieldStructure> argFieldList) {
         fFieldList = argFieldList;
     }
 
@@ -180,7 +180,7 @@ public class BlancoMessageStructure {
      *
      * @return フィールド[fieldList]から取得した値。
      */
-    public List<blanco.message.valueobject.BlancoMessageFieldStructure> getFieldList() {
+    public List<BlancoMessageFieldStructure> getFieldList() {
         return fFieldList;
     }
 
@@ -244,14 +244,6 @@ public class BlancoMessageStructure {
         target.fIdEmbedding = this.fIdEmbedding;
         // Name: fFieldList
         // Type: java.util.List
-        if (this.fFieldList != null) {
-            final java.util.Iterator<blanco.message.valueobject.BlancoMessageFieldStructure> iterator = this.fFieldList.iterator();
-            for (; iterator.hasNext();) {
-                blanco.message.valueobject.BlancoMessageFieldStructure loopSource = iterator.next();
-                blanco.message.valueobject.BlancoMessageFieldStructure loopTarget = null;
-                // フィールド[generics]はサポート外の型[blanco.message.valueobject.BlancoMessageFieldStructure]です。
-                target.fFieldList.add(loopTarget);
-            }
-        }
+        // フィールド[fFieldList]はサポート外の型[java.util.Listblanco.message.valueobject.BlancoMessageFieldStructure]です。
     }
 }
